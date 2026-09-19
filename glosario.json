@@ -1,0 +1,14 @@
+{
+  "qa": {
+    "term": "QA",
+    "definition": "Quality Assurance: conjunto de actividades para verificar y mejorar la calidad de un producto o proceso.",
+    "source": "Glosario interno de QA",
+    "source_url": ""
+  },
+  "language tool": {
+    "term": "LanguageTool",
+    "definition": "Herramienta de análisis lingüístico basada en reglas para detectar errores de escritura.",
+    "source": "Glosario interno de QA",
+    "source_url": ""
+  }
+}

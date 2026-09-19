@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QA Text Auditor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">Q</span><span>QA Text Auditor</span></div>
+    <span class="status"><i></i> Motor determinista</span>
+  </header>
+
+  <main class="shell">
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Revisión lingüística asistida</p>
+        <h1>Haz que cada palabra pase QA.</h1>
+        <p class="lede">Detecta errores y consulta términos técnicos con fuentes verificables, sin modelos generativos.</p>
+      </div>
+      <div class="source-note"><span>01</span><strong>Fuentes en cascada</strong><small>Glosario local · RAE · Wikipedia</small></div>
+    </section>
+
+    <section class="workspace">
+      <div class="input-panel panel">
+        <div class="panel-head"><div><span class="step">01</span><h2>Texto a revisar</h2></div><span id="char-count">0 caracteres</span></div>
+        <textarea id="text-input" placeholder="Pega aquí el texto que quieres auditar...">El team tendrá un meeting online para revisar el backlog.</textarea>
+        <div class="input-foot"><span>El análisis respeta el texto original.</span><button id="analyze-btn" class="primary-btn"><span>Analizar texto</span><span class="arrow">→</span></button></div>
+      </div>
+
+      <div class="results-panel panel">
+        <div class="panel-head"><div><span class="step">02</span><h2>Resultado de revisión</h2></div><span id="result-state">Esperando texto</span></div>
+        <div id="empty-state" class="empty-state"><div class="empty-icon">✦</div><p>Tu revisión aparecerá aquí</p><small>Los hallazgos y términos consultables se mostrarán al analizar.</small></div>
+        <div id="review-view" class="review-view hidden">
+          <div class="review-toolbar"><span id="review-summary"></span><span class="legend"><i class="legend-error"></i> Hallazgo <i class="legend-term"></i> Término</span></div>
+          <div id="highlighted-text" class="highlighted-text"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboard" class="dashboard hidden">
+      <div class="dashboard-head"><div><p class="eyebrow">Resumen de auditoría</p><h2>Hallazgos que requieren atención</h2></div><button id="copy-report" class="secondary-btn">▣ <span>Copiar reporte para Jira/Slack</span></button></div>
+      <div id="counters" class="counters"></div>
+      <div class="details-layout"><div id="error-list" class="error-list"></div><aside id="term-detail" class="term-detail"><span class="aside-label">CONSULTA FACTUAL</span><h3>Selecciona un término</h3><p>Haz clic en una palabra resaltada para ver su definición y fuente.</p></aside></div>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
