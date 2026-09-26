@@ -1,0 +1,182 @@
+{
+  "consitente": {
+    "status": "not_found",
+    "term": "consitente",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "consitente",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376833.920562
+  },
+  "analisis": {
+    "status": "not_found",
+    "term": "analisis",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "analisis",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376834.0561824
+  },
+  "dawn": {
+    "status": "not_found",
+    "term": "Dawn",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "Dawn",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376881.7844024
+  },
+  "horizon": {
+    "status": "not_found",
+    "term": "Horizon",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "Horizon",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376881.9810047
+  },
+  "nier": {
+    "status": "not_found",
+    "term": "NieR",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "NieR",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376882.0304492
+  },
+  "zero": {
+    "status": "not_found",
+    "term": "Zero",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "Zero",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376882.0679536
+  },
+  "crafteo": {
+    "status": "not_found",
+    "term": "crafteo",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "crafteo",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376882.921169
+  },
+  "ganon": {
+    "status": "not_found",
+    "term": "Ganon",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "Ganon",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376883.1694732
+  },
+  "hyrule": {
+    "status": "not_found",
+    "term": "Hyrule",
+    "found": false,
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "classification": "sin_confirmar",
+    "confidence": "baja",
+    "meaning": "",
+    "suggested_form": "Hyrule",
+    "formatting": {
+      "style": "Redonda",
+      "capitalization": "Altas y bajas",
+      "label": "Altas y bajas",
+      "reason": "No se encontró evidencia suficiente para aplicar cursivas."
+    },
+    "evidence": [],
+    "source": "Búsqueda web HTML (sin API)",
+    "_timestamp": 1790376883.1718426
+  }
+}

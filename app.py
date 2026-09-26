@@ -1,58 +1,35 @@
-"""Aplicacion Flask para auditoria determinista de textos."""
+"""Aplicación Flask para auditoría de textos y narrativa con Google Gemini."""
 
 from __future__ import annotations
 
-import re
+import os
 from collections import Counter
-from pathlib import Path
 from typing import Any
+
+from dotenv import load_dotenv  # <--- 1. IMPORTAR ESTO
+load_dotenv()  
 
 from flask import Flask, jsonify, render_template, request
 
-from services.dictionary_lookup import lookup_term
-from services.spellcheck import FOREIGN_TERMS, audit_text
+from services.gemini_auditor import auditar_con_gemini
 
 app = Flask(__name__)
 
-TECHNICAL_TERMS = {
-    "API",
-    "algoritmo",
-    "base de datos",
-    "ciberseguridad",
-    "depuración",
-    "frontend",
-    "inteligencia artificial",
-    "software",
-    "servidor",
-}
 
-
-def _candidate_terms(text: str, errors: list[dict[str, Any]]) -> list[str]:
-    terms = {error["text"] for error in errors if error["category"] == "Extranjerismo no adaptado"}
-    terms.update(TECHNICAL_TERMS)
-    terms.update(FOREIGN_TERMS)
-    glossary_path = Path(__file__).with_name("glosario.json")
-    if glossary_path.exists():
-        import json
-        with glossary_path.open(encoding="utf-8") as glossary_file:
-            terms.update(entry.get("term", key) for key, entry in json.load(glossary_file).items())
-    # Solo palabras marcadas por reglas o glosario se consultan externamente.
-    return sorted(term for term in terms if term and re.search(r"\w", term))
-
-
-def _annotations(text: str, errors: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def _annotations(errors: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Extrae las anotaciones y fichas de los errores detectados."""
     annotations: list[dict[str, Any]] = []
-    for term in _candidate_terms(text, errors):
-        result = lookup_term(term)
-        for match in re.finditer(re.escape(term), text, flags=re.IGNORECASE):
+    for error in errors:
+        if error.get("lookup"):
             annotations.append({
                 "type": "term",
-                "text": match.group(0),
-                "offset": match.start(),
-                "length": len(match.group(0)),
-                "lookup": result,
+                "text": error["text"],
+                "offset": error["offset"],
+                "length": error["length"],
+                "category": error["category"],
+                "lookup": error["lookup"],
             })
-    return annotations
+    return sorted(annotations, key=lambda item: item["offset"])
 
 
 @app.get("/")
@@ -67,22 +44,27 @@ def analyze():
     if not isinstance(text, str):
         return jsonify({"error": "El campo 'text' debe ser una cadena."}), 400
     if len(text) > 100_000:
-        return jsonify({"error": "El texto supera el limite de 100.000 caracteres."}), 413
+        return jsonify({"error": "El texto supera el límite de 100.000 caracteres."}), 413
 
     try:
-        errors = audit_text(text)
+        errors = auditar_con_gemini(text)
     except RuntimeError as exc:
-        return jsonify({"error": str(exc)}), 503
+        return jsonify({"error": str(exc)}), 500
+    except Exception as exc:
+        return jsonify({"error": f"Error inesperado al auditar: {exc}"}), 500
 
     counts = Counter(error["category"] for error in errors)
     return jsonify({
         "text": text,
         "errors": errors,
-        "annotations": _annotations(text, errors),
+        "annotations": _annotations(errors),
         "counts": {
+            "Videojuegos": counts.get("Título de videojuego", 0),
+            "Personajes / Ficción": counts.get("Personaje / Entidad de ficción", 0) + counts.get("Lugar / Universo de ficción", 0),
+            "Jerga gaming": counts.get("Jerga de videojuegos", 0),
             "Ortografia": counts.get("Ortografia", 0),
             "Gramatica / Puntuacion": counts.get("Gramatica / Puntuacion", 0),
-            "Extranjerismo no adaptado": counts.get("Extranjerismo no adaptado", 0),
+            "Extranjerismos": counts.get("Extranjerismo no adaptado", 0),
             "total": len(errors),
         },
     })

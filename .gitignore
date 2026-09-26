@@ -1,5 +1,88 @@
+# =====================================================================
+# SEGURIDAD Y CREDENCIALES (¡Nunca subir claves de API a GitHub!)
+# =====================================================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# =====================================================================
+# ENTORNOS VIRTUALES DE PYTHON
+# =====================================================================
 venv/
 .venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =====================================================================
+# ARCHIVOS COMPILADOS Y CACHÉ DE PYTHON
+# =====================================================================
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =====================================================================
+# ARCHIVOS DE DATOS TEMPORALES / CACHÉ LOCAL DEL AUDITOR
+# =====================================================================
+# Si deseas que las definiciones cacheadas localmente no se compartan:
+cache_definiciones.json
+*.log
+instance/
+.pytest_cache/
+
+# Documentos PDF generados en pruebas locales
+*.pdf
+
+# =====================================================================
+# SISTEMA OPERATIVO Y SERVICIOS EN LA NUBE (Windows, OneDrive, macOS)
+# =====================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# OneDrive y archivos de sincronización
+~$*
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =====================================================================
+# EDITORES DE CÓDIGO (VS Code, PyCharm, etc.)
+# =====================================================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace

@@ -3,51 +3,111 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QA Text Auditor</title>
+  <title>QA Text Auditor - Videojuegos y Narrativa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <!-- Librerías para generación de PDF profesional -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><span class="brand-mark">Q</span><span>QA Text Auditor</span></div>
-    <span class="status"><i></i> Motor determinista</span>
+    <span class="status"><i></i> Motor Gemini 3.8 Flash</span>
   </header>
 
   <main class="shell">
     <section class="intro">
       <div>
-        <p class="eyebrow">Revisión lingüística asistida</p>
+        <p class="eyebrow">Auditoría Lingüística & Narrativa de Videojuegos</p>
         <h1>Haz que cada palabra pase QA.</h1>
-        <p class="lede">Detecta errores y consulta términos técnicos con fuentes verificables, sin modelos generativos.</p>
+        <p class="lede">Identifica obras, personajes, jerga lúdica y errores ortográficos con normas RAE y fuentes enciclopédicas.</p>
       </div>
-      <div class="source-note"><span>01</span><strong>Fuentes en cascada</strong><small>Glosario local · RAE · Wikipedia</small></div>
+      <div class="source-note">
+        <span>01</span>
+        <strong>Normas RAE & Gemini</strong>
+        <small>Ortografía académica · Wikipedia · Fichas técnicas</small>
+      </div>
+    </section>
+
+    <!-- GUÍA VISUAL / LEYENDA SUPERIOR (Reubicada aquí para no robar espacio al texto) -->
+    <section class="top-legend-bar">
+      <span class="legend-title">Guía de colores:</span>
+      <div class="legend-chips">
+        <span class="chip chip-videojuego"><i class="dot dot-videojuego"></i> Título de videojuego</span>
+        <span class="chip chip-personaje"><i class="dot dot-personaje"></i> Personaje de ficción</span>
+        <span class="chip chip-lugar"><i class="dot dot-lugar"></i> Lugar / Reino</span>
+        <span class="chip chip-jerga"><i class="dot dot-jerga"></i> Jerga / Mecánica</span>
+        <span class="chip chip-ortografia"><i class="dot dot-ortografia"></i> Falta ortográfica</span>
+        <span class="chip chip-gramatica"><i class="dot dot-gramatica"></i> Gramática</span>
+        <span class="chip chip-extranjerismo"><i class="dot dot-extranjerismo"></i> Extranjerismo</span>
+      </div>
     </section>
 
     <section class="workspace">
       <div class="input-panel panel">
-        <div class="panel-head"><div><span class="step">01</span><h2>Texto a revisar</h2></div><span id="char-count">0 caracteres</span></div>
-        <textarea id="text-input" placeholder="Pega aquí el texto que quieres auditar...">El team tendrá un meeting online para revisar el backlog.</textarea>
-        <div class="input-foot"><span>El análisis respeta el texto original.</span><button id="analyze-btn" class="primary-btn"><span>Analizar texto</span><span class="arrow">→</span></button></div>
+        <div class="panel-head">
+          <div><span class="step">01</span><h2>Texto a revisar</h2></div>
+          <span id="char-count">0 caracteres</span>
+        </div>
+        <textarea id="text-input" placeholder="Pega aquí el texto que quieres auditar...">Considera el inicio de Horizon Zero Dawn donde Aloy debe derrotar a Ganon para salvar Hyrule. El crafteo de armas es importante en The Legend of Zelda: Breath of the Wild.</textarea>
+        <div class="input-foot">
+          <span>El análisis respeta el texto original.</span>
+          <button id="analyze-btn" class="primary-btn">
+            <span>Analizar texto</span><span class="arrow">→</span>
+          </button>
+        </div>
       </div>
 
       <div class="results-panel panel">
-        <div class="panel-head"><div><span class="step">02</span><h2>Resultado de revisión</h2></div><span id="result-state">Esperando texto</span></div>
-        <div id="empty-state" class="empty-state"><div class="empty-icon">✦</div><p>Tu revisión aparecerá aquí</p><small>Los hallazgos y términos consultables se mostrarán al analizar.</small></div>
+        <div class="panel-head">
+          <div><span class="step">02</span><h2>Resultado de revisión</h2></div>
+          <span id="result-state">Esperando texto</span>
+        </div>
+        
+        <div id="empty-state" class="empty-state">
+          <div class="empty-icon">✦</div>
+          <p>Tu revisión aparecerá aquí</p>
+          <small>Los títulos, personajes y sugerencias se resaltarán al analizar.</small>
+        </div>
+
         <div id="review-view" class="review-view hidden">
-          <div class="review-toolbar"><span id="review-summary"></span><span class="legend"><i class="legend-error"></i> Hallazgo <i class="legend-term"></i> Término</span></div>
+          <div class="review-meta">
+            <span id="review-summary"></span>
+            <span class="hint-click">💡 Haz clic en cualquier palabra resaltada para ver su ficha</span>
+          </div>
           <div id="highlighted-text" class="highlighted-text"></div>
         </div>
       </div>
     </section>
 
     <section id="dashboard" class="dashboard hidden">
-      <div class="dashboard-head"><div><p class="eyebrow">Resumen de auditoría</p><h2>Hallazgos que requieren atención</h2></div><button id="copy-report" class="secondary-btn">▣ <span>Copiar reporte para Jira/Slack</span></button></div>
+      <div class="dashboard-head">
+        <div>
+          <p class="eyebrow">Resumen de auditoría</p>
+          <h2>Hallazgos que requieren atención</h2>
+        </div>
+        <!-- BOTÓN ACTUALIZADO PARA DESCARGAR PDF -->
+        <button id="download-pdf" class="secondary-btn btn-pdf">
+          <span>📄 Descargar reporte en PDF</span>
+        </button>
+      </div>
+
       <div id="counters" class="counters"></div>
-      <div class="details-layout"><div id="error-list" class="error-list"></div><aside id="term-detail" class="term-detail"><span class="aside-label">CONSULTA FACTUAL</span><h3>Selecciona un término</h3><p>Haz clic en una palabra resaltada para ver su definición y fuente.</p></aside></div>
+
+      <div class="details-layout">
+        <div id="error-list" class="error-list"></div>
+        <aside id="term-detail" class="term-detail">
+          <span class="aside-label">FICHA FACTUAL</span>
+          <h3>Selecciona un término</h3>
+          <p>Haz clic en cualquier término del texto o de la lista para consultar su definición, rol narrativo y forma de escritura RAE.</p>
+        </aside>
+      </div>
     </section>
   </main>
+  
   <div id="toast" class="toast" role="status"></div>
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>

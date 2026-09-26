@@ -1,0 +1,155 @@
+{
+  "analisis": {
+    "found": false,
+    "term": "analisis",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "analisis",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375865.7565289
+  },
+  "consitente": {
+    "found": false,
+    "term": "consitente",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "consitente",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375866.07224
+  },
+  "zero": {
+    "found": false,
+    "term": "zero",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "zero",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375963.055005
+  },
+  "dawn": {
+    "found": false,
+    "term": "dawn",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "dawn",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375963.1068797
+  },
+  "crafteo": {
+    "found": false,
+    "term": "crafteo",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "crafteo",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375963.1531332
+  },
+  "nier": {
+    "found": false,
+    "term": "nier",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "nier",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375963.337209
+  },
+  "ganon": {
+    "found": false,
+    "term": "ganon",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "ganon",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375963.3600695
+  },
+  "horizon": {
+    "found": false,
+    "term": "horizon",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "horizon",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375963.4923706
+  },
+  "hyrule": {
+    "found": false,
+    "term": "hyrule",
+    "possible_proper_name": false,
+    "possible_video_game": false,
+    "confidence": "baja",
+    "suggested_form": "hyrule",
+    "formatting": {
+      "italicas": false,
+      "capitalizacion": "Altas y bajas",
+      "recomendacion": "Altas y bajas",
+      "motivo": "No hay evidencia web suficiente para cambiar automáticamente la ortografía."
+    },
+    "evidence": [],
+    "source": "Google (búsqueda web HTML, sin API)",
+    "_ts": 1790375964.1428335
+  }
+}
