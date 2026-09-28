@@ -8,6 +8,8 @@ const dashboard = document.querySelector('#dashboard');
 const resultState = document.querySelector('#result-state');
 const toast = document.querySelector('#toast');
 const downloadPdfButton = document.querySelector('#download-pdf');
+const overloadedState = document.querySelector('#overloaded-state');
+const retryBtn = document.querySelector('#retry-btn');
 
 let latestReport = null;
 let lookupIndex = {};
@@ -266,17 +268,35 @@ function generarPDF(report) {
 analyzeButton.addEventListener('click', async () => {
   analyzeButton.disabled = true;
   resultState.textContent = 'Auditando con Gemini 3.8...';
+  
+  // Ocultar estados previos al comenzar
+  emptyState.classList.add('hidden');
+  if (overloadedState) overloadedState.classList.add('hidden');
+  reviewView.classList.add('hidden');
+
   try {
     const response = await fetch('/analyze', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: input.value })
     });
+    
     const data = await response.json();
-    if (!response.ok) throw new Error(data.error || 'No se pudo analizar el texto.');
+    
+    // Si el backend indica que Gemini está saturado
+    if (!response.ok) {
+      if (data.is_overloaded || response.status === 503) {
+        resultState.textContent = 'Servicio saturado';
+        overloadedState.classList.remove('hidden');
+        showToast('Google Gemini está temporalmente saturado. Reintenta en 1 o 2 minutos.');
+        return;
+      }
+      throw new Error(data.error || 'No se pudo analizar el texto.');
+    }
+
+    // Si todo salió bien, mostrar el resultado normal
     latestReport = data;
     indexarLookups(data);
-    emptyState.classList.add('hidden');
     reviewView.classList.remove('hidden');
     dashboard.classList.remove('hidden');
     resultState.textContent = `${data.counts.total} elemento${data.counts.total === 1 ? '' : 's'} identificado${data.counts.total === 1 ? '' : 's'}`;
@@ -285,11 +305,19 @@ analyzeButton.addEventListener('click', async () => {
     renderDashboard(data);
   } catch (error) {
     resultState.textContent = 'Error de análisis';
+    emptyState.classList.remove('hidden');
     showToast(error.message);
   } finally {
     analyzeButton.disabled = false;
   }
 });
+
+// Botón interactivo para reintentar con 1 clic desde el aviso
+if (retryBtn) {
+  retryBtn.addEventListener('click', () => {
+    analyzeButton.click();
+  });
+}
 
 downloadPdfButton.addEventListener('click', () => {
   if (!latestReport || !latestReport.errors || latestReport.errors.length === 0) {

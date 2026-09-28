@@ -1,17 +1,21 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>QA Text Auditor - Videojuegos y Narrativa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
   <!-- Librerías para generación de PDF profesional -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
 </head>
+
 <body>
   <header class="topbar">
     <div class="brand"><span class="brand-mark">Q</span><span>QA Text Auditor</span></div>
@@ -23,7 +27,8 @@
       <div>
         <p class="eyebrow">Auditoría Lingüística & Narrativa de Videojuegos</p>
         <h1>Haz que cada palabra pase QA.</h1>
-        <p class="lede">Identifica obras, personajes, jerga lúdica y errores ortográficos con normas RAE y fuentes enciclopédicas.</p>
+        <p class="lede">Identifica obras, personajes, jerga lúdica y errores ortográficos con normas RAE y fuentes
+          enciclopédicas.</p>
       </div>
       <div class="source-note">
         <span>01</span>
@@ -49,10 +54,13 @@
     <section class="workspace">
       <div class="input-panel panel">
         <div class="panel-head">
-          <div><span class="step">01</span><h2>Texto a revisar</h2></div>
+          <div><span class="step">01</span>
+            <h2>Texto a revisar</h2>
+          </div>
           <span id="char-count">0 caracteres</span>
         </div>
-        <textarea id="text-input" placeholder="Pega aquí el texto que quieres auditar...">Considera el inicio de Horizon Zero Dawn donde Aloy debe derrotar a Ganon para salvar Hyrule. El crafteo de armas es importante en The Legend of Zelda: Breath of the Wild.</textarea>
+        <textarea id="text-input"
+          placeholder="Pega aquí el texto que quieres auditar...">Considera el inicio de Horizon Zero Dawn donde Aloy debe derrotar a Ganon para salvar Hyrule. El crafteo de armas es importante en The Legend of Zelda: Breath of the Wild.</textarea>
         <div class="input-foot">
           <span>El análisis respeta el texto original.</span>
           <button id="analyze-btn" class="primary-btn">
@@ -63,10 +71,12 @@
 
       <div class="results-panel panel">
         <div class="panel-head">
-          <div><span class="step">02</span><h2>Resultado de revisión</h2></div>
+          <div><span class="step">02</span>
+            <h2>Resultado de revisión</h2>
+          </div>
           <span id="result-state">Esperando texto</span>
         </div>
-        
+
         <div id="empty-state" class="empty-state">
           <div class="empty-icon">✦</div>
           <p>Tu revisión aparecerá aquí</p>
@@ -79,6 +89,21 @@
             <span class="hint-click">💡 Haz clic en cualquier palabra resaltada para ver su ficha</span>
           </div>
           <div id="highlighted-text" class="highlighted-text"></div>
+        </div>
+
+        <!-- BANNER VISUAL DE SATURACIÓN TEMPORAL DE GEMINI -->
+        <div id="overloaded-state" class="overloaded-state hidden">
+          <div class="overloaded-icon">⏳</div>
+          <h3>Servidores de IA con alta demanda</h3>
+          <p>Los servidores de <strong>Google Gemini</strong> se encuentran temporalmente saturados en este momento. El
+            sistema funciona correctamente, pero la capacidad de la IA está ocupada.</p>
+          <div class="overloaded-tip">
+            💡 <strong>Sugerencia:</strong> Espera 1 o 2 minutos para que se libere la cuota del servicio y vuelve a
+            presionar el botón.
+          </div>
+          <button type="button" id="retry-btn" class="primary-btn btn-retry">
+            <span>Reintentar análisis ahora</span> ↻
+          </button>
         </div>
       </div>
     </section>
@@ -102,13 +127,15 @@
         <aside id="term-detail" class="term-detail">
           <span class="aside-label">FICHA FACTUAL</span>
           <h3>Selecciona un término</h3>
-          <p>Haz clic en cualquier término del texto o de la lista para consultar su definición, rol narrativo y forma de escritura RAE.</p>
+          <p>Haz clic en cualquier término del texto o de la lista para consultar su definición, rol narrativo y forma
+            de escritura RAE.</p>
         </aside>
       </div>
     </section>
   </main>
-  
+
   <div id="toast" class="toast" role="status"></div>
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
+
 </html>

@@ -1,0 +1,358 @@
+{
+  "f757ef38e3b02be53fe80ffc6a97008a": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Gameplay Loop",
+      "message": "Término en inglés que se refiere a la secuencia repetitiva de acciones que realiza un jugador durante el transcurso de un videojuego (ej: disparar, cubrirse, obtener recompensa). | La RAE recomienda evitar el uso innecesario de extranjerismos cuando existen alternativas en español. Se sugiere usar 'bucle de juego' o 'ciclo de juego'.",
+      "suggestions": [
+        "bucle de juego"
+      ],
+      "offset": 60,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE / Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "Gameplay Loop",
+        "category": "Extranjerismo no adaptado",
+        "definition": "Término en inglés que se refiere a la secuencia repetitiva de acciones que realiza un jugador durante el transcurso de un videojuego (ej: disparar, cubrirse, obtener recompensa).",
+        "rae_rule": "La RAE recomienda evitar el uso innecesario de extranjerismos cuando existen alternativas en español. Se sugiere usar 'bucle de juego' o 'ciclo de juego'.",
+        "recommended": "bucle de juego",
+        "source": "FundéuRAE / Diccionario panhispánico de dudas",
+        "source_url": "https://www.fundeu.es/recomendacion/videojuegos-anglicismos/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Celeste",
+      "message": "Videojuego de plataformas de 2018 desarrollado por Maddy Makes Games, conocido por su alta dificultad y su narrativa centrada en la superación personal y la salud mental. | Los títulos de obras (libros, películas, videojuegos) deben escribirse en cursiva.",
+      "suggestions": [
+        "*Celeste*"
+      ],
+      "offset": 1036,
+      "length": 7,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "RAE / Ortografía de la lengua española",
+      "lookup": {
+        "term": "Celeste",
+        "category": "Título de videojuego",
+        "definition": "Videojuego de plataformas de 2018 desarrollado por Maddy Makes Games, conocido por su alta dificultad y su narrativa centrada en la superación personal y la salud mental.",
+        "rae_rule": "Los títulos de obras (libros, películas, videojuegos) deben escribirse en cursiva.",
+        "recommended": "*Celeste*",
+        "source": "RAE / Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Madeline",
+      "message": "Protagonista del videojuego Celeste, una joven que debe escalar una montaña mientras enfrenta sus propios problemas de ansiedad y depresión. | Los nombres propios de personajes se escriben en letra redonda y con mayúscula inicial.",
+      "suggestions": [
+        "Madeline"
+      ],
+      "offset": 1330,
+      "length": 8,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "RAE / Ortografía de la lengua española",
+      "lookup": {
+        "term": "Madeline",
+        "category": "Personaje / Entidad de ficción",
+        "definition": "Protagonista del videojuego Celeste, una joven que debe escalar una montaña mientras enfrenta sus propios problemas de ansiedad y depresión.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda y con mayúscula inicial.",
+        "recommended": "Madeline",
+        "source": "RAE / Ortografía de la lengua española",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Golden Path",
+      "message": "Se refiere a la línea principal de misiones o la ruta crítica que el jugador debe seguir obligatoriamente para terminar la historia principal de un juego. | Debe usarse una traducción o adaptación si el lector no es técnico. Se recomienda 'ruta principal' o 'senda crítica'.",
+      "suggestions": [
+        "ruta principal"
+      ],
+      "offset": 1884,
+      "length": 11,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE / Terminología de videojuegos",
+      "lookup": {
+        "term": "Golden Path",
+        "category": "Jerga de videojuegos",
+        "definition": "Se refiere a la línea principal de misiones o la ruta crítica que el jugador debe seguir obligatoriamente para terminar la historia principal de un juego.",
+        "rae_rule": "Debe usarse una traducción o adaptación si el lector no es técnico. Se recomienda 'ruta principal' o 'senda crítica'.",
+        "recommended": "ruta principal",
+        "source": "FundéuRAE / Terminología de videojuegos",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "God of War",
+      "message": "Saga de videojuegos de acción y aventuras desarrollada por Santa Monica Studio, basada en la mitología, que narra la historia del guerrero Kratos. | Los títulos de obras deben escribirse en cursiva.",
+      "suggestions": [
+        "*God of War*"
+      ],
+      "offset": 2619,
+      "length": 10,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "RAE / Ortografía de la lengua española",
+      "lookup": {
+        "term": "God of War",
+        "category": "Título de videojuego",
+        "definition": "Saga de videojuegos de acción y aventuras desarrollada por Santa Monica Studio, basada en la mitología, que narra la historia del guerrero Kratos.",
+        "rae_rule": "Los títulos de obras deben escribirse en cursiva.",
+        "recommended": "*God of War*",
+        "source": "RAE / Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Faye",
+      "message": "Esposa de Kratos y madre de Atreus en God of War (2018). Su muerte es el evento detonante de la trama del juego. | Los nombres propios de personajes se escriben en letra redonda.",
+      "suggestions": [
+        "Faye"
+      ],
+      "offset": 2691,
+      "length": 4,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Faye",
+        "category": "Personaje / Entidad de ficción",
+        "definition": "Esposa de Kratos y madre de Atreus en God of War (2018). Su muerte es el evento detonante de la trama del juego.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda.",
+        "recommended": "Faye",
+        "source": "Wikipedia",
+        "source_url": "https://es.wikipedia.org/wiki/God_of_War_(juego_de_2018)",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Kratos",
+      "message": "Protagonista de la saga God of War, un guerrero espartano que se convierte en dios de la guerra tras buscar venganza contra el panteón griego y posteriormente nórdico. | Los nombres propios de personajes se escriben en letra redonda.",
+      "suggestions": [
+        "Kratos"
+      ],
+      "offset": 2775,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Kratos",
+        "category": "Personaje / Entidad de ficción",
+        "definition": "Protagonista de la saga God of War, un guerrero espartano que se convierte en dios de la guerra tras buscar venganza contra el panteón griego y posteriormente nórdico.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda.",
+        "recommended": "Kratos",
+        "source": "Wikipedia",
+        "source_url": "https://es.wikipedia.org/wiki/Kratos_(God_of_War)",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Atreus",
+      "message": "Hijo de Kratos en God of War (2018). Es un personaje central que acompaña al jugador y evoluciona a lo largo del viaje. | Los nombres propios de personajes se escriben en letra redonda.",
+      "suggestions": [
+        "Atreus"
+      ],
+      "offset": 2814,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Atreus",
+        "category": "Personaje / Entidad de ficción",
+        "definition": "Hijo de Kratos en God of War (2018). Es un personaje central que acompaña al jugador y evoluciona a lo largo del viaje.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda.",
+        "recommended": "Atreus",
+        "source": "Wikipedia",
+        "source_url": "https://es.wikipedia.org/wiki/God_of_War_(juego_de_2018)",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Kratos",
+      "message": "Protagonista de la saga God of War, un guerrero espartano que se convierte en dios de la guerra tras buscar venganza contra el panteón griego y posteriormente nórdico. | Los nombres propios de personajes se escriben en letra redonda.",
+      "suggestions": [
+        "Kratos"
+      ],
+      "offset": 2951,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Kratos",
+        "category": "Personaje / Entidad de ficción",
+        "definition": "Protagonista de la saga God of War, un guerrero espartano que se convierte en dios de la guerra tras buscar venganza contra el panteón griego y posteriormente nórdico.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda.",
+        "recommended": "Kratos",
+        "source": "Wikipedia",
+        "source_url": "https://es.wikipedia.org/wiki/Kratos_(God_of_War)",
+        "found": true
+      }
+    }
+  ],
+  "efe4b8f3565df9da7df57879852cda51": [
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Endgame",
+      "message": "Término que hace referencia a la etapa final de un videojuego una vez completada la historia principal, o al contenido disponible para los jugadores tras finalizar la campaña narrativa. | Los extranjerismos deben escribirse en cursiva. Si existe un equivalente, se recomienda su uso: «etapa final» o «posjuego».",
+      "suggestions": [
+        "*Endgame* / etapa final"
+      ],
+      "offset": 221,
+      "length": 7,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Endgame",
+        "category": "Jerga de videojuegos",
+        "definition": "Término que hace referencia a la etapa final de un videojuego una vez completada la historia principal, o al contenido disponible para los jugadores tras finalizar la campaña narrativa.",
+        "rae_rule": "Los extranjerismos deben escribirse en cursiva. Si existe un equivalente, se recomienda su uso: «etapa final» o «posjuego».",
+        "recommended": "*Endgame* / etapa final",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-adaptados-y-no-adaptados/",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Metroidvania",
+      "message": "Género de videojuegos de acción-aventura caracterizado por un mundo interconectado que se explora gradualmente, bloqueado a menudo por zonas que requieren habilidades obtenidas más tarde. El nombre proviene de las franquicias 'Metroid' y 'Castlevania'. | Al ser un término técnico específico del sector, debe escribirse en cursiva por considerarse un anglicismo o término especializado.",
+      "suggestions": [
+        "*Metroidvania*"
+      ],
+      "offset": 292,
+      "length": 12,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Metroidvania",
+        "category": "Jerga de videojuegos",
+        "definition": "Género de videojuegos de acción-aventura caracterizado por un mundo interconectado que se explora gradualmente, bloqueado a menudo por zonas que requieren habilidades obtenidas más tarde. El nombre proviene de las franquicias 'Metroid' y 'Castlevania'.",
+        "rae_rule": "Al ser un término técnico específico del sector, debe escribirse en cursiva por considerarse un anglicismo o término especializado.",
+        "recommended": "*Metroidvania*",
+        "source": "Wikipedia",
+        "source_url": "https://es.wikipedia.org/wiki/Metroidvania",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Soulslike",
+      "message": "Subgénero de videojuegos de rol de acción definido por una dificultad elevada, un diseño de niveles intrincado, combate metódico y narración indirecta. El término deriva de la serie 'Dark Souls' de FromSoftware. | Al ser un término técnico específico del sector, debe escribirse en cursiva por considerarse un anglicismo o término especializado.",
+      "suggestions": [
+        "*Soulslike*"
+      ],
+      "offset": 310,
+      "length": 9,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Soulslike",
+        "category": "Jerga de videojuegos",
+        "definition": "Subgénero de videojuegos de rol de acción definido por una dificultad elevada, un diseño de niveles intrincado, combate metódico y narración indirecta. El término deriva de la serie 'Dark Souls' de FromSoftware.",
+        "rae_rule": "Al ser un término técnico específico del sector, debe escribirse en cursiva por considerarse un anglicismo o término especializado.",
+        "recommended": "*Soulslike*",
+        "source": "Wikipedia",
+        "source_url": "https://es.wikipedia.org/wiki/Soulslike",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Hollow Knight",
+      "message": "Videojuego de acción-aventura y plataformas desarrollado por Team Cherry (2017). El jugador controla a un pequeño caballero que explora un vasto reino subterráneo en ruinas. | Los títulos de videojuegos deben escribirse en cursiva. Si el título está en inglés, se mantiene la grafía original, siempre en cursiva.",
+      "suggestions": [
+        "*Hollow Knight*"
+      ],
+      "offset": 950,
+      "length": 13,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "RAE / Ortografía de la lengua española",
+      "lookup": {
+        "term": "Hollow Knight",
+        "category": "Título de videojuego",
+        "definition": "Videojuego de acción-aventura y plataformas desarrollado por Team Cherry (2017). El jugador controla a un pequeño caballero que explora un vasto reino subterráneo en ruinas.",
+        "rae_rule": "Los títulos de videojuegos deben escribirse en cursiva. Si el título está en inglés, se mantiene la grafía original, siempre en cursiva.",
+        "recommended": "*Hollow Knight*",
+        "source": "RAE / Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Lugar / Universo de ficción",
+      "text": "Cruces Olvidados",
+      "message": "Zona inicial y área central dentro del videojuego 'Hollow Knight'. Es un lugar donde el jugador aprende las mecánicas básicas antes de explorar el resto del mapa. | Los nombres propios de lugares ficticios se escriben en letra redonda y con mayúsculas iniciales, sin necesidad de cursivas ni comillas a menos que el estilo editorial lo exija por claridad.",
+      "suggestions": [
+        "Cruces Olvidados"
+      ],
+      "offset": 1028,
+      "length": 16,
+      "rule_id": "GEMINI_LUGAR_/_UNIVERSO_DE_FICCIÓN",
+      "source": "RAE / Ortografía de la lengua española",
+      "lookup": {
+        "term": "Cruces Olvidados",
+        "category": "Lugar / Universo de ficción",
+        "definition": "Zona inicial y área central dentro del videojuego 'Hollow Knight'. Es un lugar donde el jugador aprende las mecánicas básicas antes de explorar el resto del mapa.",
+        "rae_rule": "Los nombres propios de lugares ficticios se escriben en letra redonda y con mayúsculas iniciales, sin necesidad de cursivas ni comillas a menos que el estilo editorial lo exija por claridad.",
+        "recommended": "Cruces Olvidados",
+        "source": "RAE / Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    },
+    {
+      "category": "Lugar / Universo de ficción",
+      "text": "Cruces Infectados",
+      "message": "Versión alterada y peligrosa de la zona 'Cruces Olvidados' en 'Hollow Knight'. El cambio ocurre debido a la propagación de una plaga ficticia llamada 'La Infección' dentro del juego. | Los nombres propios de lugares ficticios se escriben en letra redonda y con mayúsculas iniciales.",
+      "suggestions": [
+        "Cruces Infectados"
+      ],
+      "offset": 1084,
+      "length": 17,
+      "rule_id": "GEMINI_LUGAR_/_UNIVERSO_DE_FICCIÓN",
+      "source": "RAE / Ortografía de la lengua española",
+      "lookup": {
+        "term": "Cruces Infectados",
+        "category": "Lugar / Universo de ficción",
+        "definition": "Versión alterada y peligrosa de la zona 'Cruces Olvidados' en 'Hollow Knight'. El cambio ocurre debido a la propagación de una plaga ficticia llamada 'La Infección' dentro del juego.",
+        "rae_rule": "Los nombres propios de lugares ficticios se escriben en letra redonda y con mayúsculas iniciales.",
+        "recommended": "Cruces Infectados",
+        "source": "RAE / Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "dashes",
+      "message": "Mecánica de movimiento rápido o esquiva que permite al personaje desplazarse una corta distancia de forma instantánea. | Los extranjerismos deben escribirse en cursiva. Se recomienda el uso de equivalentes españoles como 'esquiva', 'desplazamiento' o 'impulso'.",
+      "suggestions": [
+        "*dash* / desplazamiento"
+      ],
+      "offset": 1200,
+      "length": 6,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "dashes",
+        "category": "Jerga de videojuegos",
+        "definition": "Mecánica de movimiento rápido o esquiva que permite al personaje desplazarse una corta distancia de forma instantánea.",
+        "rae_rule": "Los extranjerismos deben escribirse en cursiva. Se recomienda el uso de equivalentes españoles como 'esquiva', 'desplazamiento' o 'impulso'.",
+        "recommended": "*dash* / desplazamiento",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-adaptados-y-no-adaptados/",
+        "found": true
+      }
+    }
+  ]
+}

@@ -1,16 +1,21 @@
-"""Auditor lingüístico y de narrativa de videojuegos usando Gemini 3.8 Flash e Interactions API."""
+"""Auditor de narrativa con reintentos automáticos ante saturación y caché local de seguridad."""
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
+import time
 from typing import Any
+from dotenv import load_dotenv
 from google import genai
 
+load_dotenv()
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-# Modelo oficial actual de Google
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "models/gemini-3.8-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "models/gemini-3.1-flash-lite")
+CACHE_FILE = "cache_gemini_demo.json"
 
 SYSTEM_INSTRUCTION = """
 Eres un auditor experto de control de calidad lingüística (QA), especializado en narrativa y localización de videojuegos para el mercado hispanohablante.
@@ -53,9 +58,23 @@ DEBES responder ÚNICAMENTE con un JSON con la estructura:
 }
 """
 
+def _cargar_cache() -> dict[str, Any]:
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+def _guardar_cache(cache: dict[str, Any]) -> None:
+    try:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
 
 def _extraer_texto_interaccion(interaction: Any) -> str:
-    """Extrae el texto de salida del nuevo formato Interactions API de Gemini."""
     if hasattr(interaction, "output_text") and interaction.output_text:
         return interaction.output_text
     if hasattr(interaction, "steps") and interaction.steps:
@@ -69,54 +88,66 @@ def _extraer_texto_interaccion(interaction: Any) -> str:
             return str(parte)
     return str(interaction)
 
-
 def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
-    """Envía el texto a Gemini 3.8 Flash usando client.interactions.create."""
-    if not text.strip():
+    """Audita el texto con verificación previa en caché y reintentos ante saturación."""
+    texto_limpio = text.strip()
+    if not texto_limpio:
         return []
+
+    # 1. VERIFICACIÓN EN CACHÉ LOCAL (Si ya se analizó este texto, responde en 0.05 segundos)
+    hash_texto = hashlib.md5(texto_limpio.encode("utf-8")).hexdigest()
+    cache = _cargar_cache()
+    if hash_texto in cache:
+        return cache[hash_texto]
 
     api_key = GEMINI_API_KEY or os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
-        raise RuntimeError("Falta la variable de entorno GEMINI_API_KEY en tu archivo .env.")
+        raise RuntimeError("Falta la clave GEMINI_API_KEY en el archivo .env.")
 
     client = genai.Client(api_key=api_key)
+    prompt = f"Analiza exhaustivamente el siguiente texto:\n\n\"\"\"\n{texto_limpio}\n\"\"\""
 
-    prompt = f"Analiza exhaustivamente el siguiente texto:\n\n\"\"\"\n{text}\n\"\"\""
+    # 2. REINTENTOS AUTOMÁTICOS ANTE ALTA DEMANDA (Hasta 3 intentos con espera exponencial)
+    max_intentos = 3
+    ultimo_error = None
 
-    # Llamada con la nueva Interactions API requerida por Gemini 3.8 Flash
-    interaction = client.interactions.create(
-        model=GEMINI_MODEL,
-        input=prompt,
-        system_instruction=SYSTEM_INSTRUCTION,
-        response_format={"type": "text", "mime_type": "application/json"},
-        generation_config={
-            "max_output_tokens": 16384,
-            "thinking_level": "low",  # 'low' brinda respuestas rápidas y estructuradas
-        },
-    )
+    for intento in range(1, max_intentos + 1):
+        try:
+            interaction = client.interactions.create(
+                model=GEMINI_MODEL,
+                input=prompt,
+                system_instruction=SYSTEM_INSTRUCTION,
+                response_format={"type": "text", "mime_type": "application/json"},
+                generation_config={
+                    "max_output_tokens": 16384,
+                    "thinking_level": "low",
+                },
+            )
+            raw_text = _extraer_texto_interaccion(interaction).strip()
+            raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
+            raw_text = re.sub(r"\s*```$", "", raw_text)
 
-    raw_text = _extraer_texto_interaccion(interaction).strip()
+            match_json = re.search(r"\{.*\}", raw_text, re.DOTALL)
+            if match_json:
+                raw_text = match_json.group(0)
 
-    # Limpiar bloques markdown si vinieran incluidos (```json ... ```)
-    raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
-    raw_text = re.sub(r"\s*```$", "", raw_text)
+            data = json.loads(raw_text)
+            raw_findings = data.get("findings", [])
+            break  # Si la llamada tuvo éxito, salimos del ciclo de reintentos
+        except Exception as exc:
+            ultimo_error = exc
+            error_str = str(exc).lower()
+            # Si el error es de sobrecarga, cuota o alta demanda, esperamos y reintentamos
+            if any(k in error_str for k in ["overloaded", "demanda", "503", "429", "resource_exhausted", "unavailable"]):
+                if intento < max_intentos:
+                    tiempo_espera = intento * 2  # Espera 2s, luego 4s
+                    time.sleep(tiempo_espera)
+                    continue
+            raise RuntimeError(f"El servicio de IA experimentó alta demanda. Por favor presiona 'Analizar texto' nuevamente: {exc}")
 
-    # Extraer el JSON
-    match_json = re.search(r"\{.*\}", raw_text, re.DOTALL)
-    if match_json:
-        raw_text = match_json.group(0)
-
-    try:
-        data = json.loads(raw_text)
-        raw_findings = data.get("findings", [])
-    except Exception as exc:
-        raise RuntimeError(f"Error procesando respuesta JSON de Gemini: {exc}") from exc
-
-    # Mapear los hallazgos a los offsets del texto original
+    # 3. Mapear hallazgos sobre el texto original
     errores: list[dict[str, Any]] = []
     tramos_ocupados: list[tuple[int, int]] = []
-
-    # Ordenar por longitud descendente para que títulos largos se capturen primero
     raw_findings.sort(key=lambda x: len(x.get("text", "")), reverse=True)
 
     for item in raw_findings:
@@ -127,13 +158,10 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
         patron = re.compile(re.escape(palabra), re.IGNORECASE)
         for m in patron.finditer(text):
             ini, fin = m.start(), m.end()
-
-            # Evitar solapamientos
             if any(ini < ocup_fin and fin > ocup_ini for ocup_ini, ocup_fin in tramos_ocupados):
                 continue
 
             tramos_ocupados.append((ini, fin))
-
             cat = item.get("category", "Ortografia")
             desc = item.get("description", "")
             rae = item.get("rae_rule", "")
@@ -160,4 +188,10 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
                 },
             })
 
-    return sorted(errores, key=lambda x: x["offset"])
+    resultado_final = sorted(errores, key=lambda x: x["offset"])
+
+    # Guardar en caché para que las futuras pruebas con este mismo texto sean instantáneas
+    cache[hash_texto] = resultado_final
+    _guardar_cache(cache)
+
+    return resultado_final

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 from collections import Counter
+import traceback
 from typing import Any
 
 from dotenv import load_dotenv  # <--- 1. IMPORTAR ESTO
@@ -48,10 +49,26 @@ def analyze():
 
     try:
         errors = auditar_con_gemini(text)
-    except RuntimeError as exc:
-        return jsonify({"error": str(exc)}), 500
     except Exception as exc:
-        return jsonify({"error": f"Error inesperado al auditar: {exc}"}), 500
+        print("\n" + "="*50)
+        print("❌ ERROR EN AUDITAR_CON_GEMINI:")
+        traceback.print_exc()
+        print("="*50 + "\n")
+        
+        error_str = str(exc).lower()
+        # Detectar si el error es por saturación o límites de cuota de Google
+        es_saturacion = any(k in error_str for k in [
+            "overloaded", "demanda", "503", "429", "resource_exhausted", 
+            "unavailable", "rate limit", "quota", "temporarily"
+        ])
+
+        if es_saturacion:
+            return jsonify({
+                "error": "Los servidores de Google Gemini están experimentando alta demanda momentánea. Por favor, espera 1 o 2 minutos y vuelve a pulsar 'Analizar texto'.",
+                "is_overloaded": True
+            }), 503
+
+        return jsonify({"error": str(exc)}), 500
 
     counts = Counter(error["category"] for error in errors)
     return jsonify({
@@ -68,6 +85,8 @@ def analyze():
             "total": len(errors),
         },
     })
+
+
 
 
 if __name__ == "__main__":
