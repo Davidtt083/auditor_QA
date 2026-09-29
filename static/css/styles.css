@@ -239,3 +239,122 @@ textarea { width: 100%; min-height: 250px; padding: 16px; resize: vertical; bord
   .shell { padding: 25px 20px 60px; }
   .top-legend-bar { flex-direction: column; align-items: start; }
 }
+
+/* --- Previsualización visual de Cursivas vs Redonda (8 Reglas RAE) --- */
+.typo-box {
+  background: #fdfdfd;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin: 12px 0;
+}
+.typo-box.is-italic {
+  border-left: 4px solid var(--game-title);
+  background: #f4fbf7;
+}
+.typo-box.is-roman {
+  border-left: 4px solid var(--character);
+  background: #f6faff;
+}
+.typo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.typo-header strong {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--muted);
+}
+.typo-badge {
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+  letter-spacing: .04em;
+}
+.typo-italic {
+  background: #e6f6ee;
+  color: var(--game-title);
+}
+.typo-roman {
+  background: #eaf3ff;
+  color: var(--character);
+}
+.typo-sample {
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--ink);
+  margin: 4px 0 8px;
+}
+.preview-italic {
+  font-style: italic !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 600;
+  color: #0b5c3b;
+}
+.preview-roman {
+  font-style: normal !important;
+  font-weight: 600;
+  color: #123d80;
+}
+.typo-rule-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  border-top: 1px dashed var(--line);
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+/* En tarjetas del listado */
+.card-correct-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: 13px;
+  background: #fbfcfb;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+}
+.card-correct-row .lbl-como {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card-correct-row .val-como {
+  font-size: 14px;
+  font-weight: 700;
+}
+.font-italic {
+  font-style: italic !important;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--game-title);
+}
+.font-roman {
+  font-style: normal !important;
+  color: var(--character);
+}
+.badge-mini-italic {
+  font-size: 9px;
+  background: #e6f6ee;
+  color: var(--game-title);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.badge-mini-roman {
+  font-size: 9px;
+  background: #eaf3ff;
+  color: var(--character);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

@@ -15,13 +15,15 @@ let latestReport = null;
 let lookupIndex = {};
 
 const CAT = {
-  'Título de videojuego': { clave: 'videojuego', etiqueta: 'Título de videojuego', color: [14, 131, 84] },
-  'Personaje / Entidad de ficción': { clave: 'personaje', etiqueta: 'Personaje de ficción', color: [31, 111, 235] },
-  'Lugar / Universo de ficción': { clave: 'lugar', etiqueta: 'Lugar / Reino', color: [105, 65, 198] },
-  'Jerga de videojuegos': { clave: 'jerga', etiqueta: 'Jerga gaming', color: [217, 119, 6] },
-  'Ortografia': { clave: 'ortografia', etiqueta: 'Ortografía', color: [239, 118, 94] },
-  'Gramatica / Puntuacion': { clave: 'gramatica', etiqueta: 'Gramática', color: [32, 60, 75] },
-  'Extranjerismo no adaptado': { clave: 'extranjerismo', etiqueta: 'Extranjerismo', color: [45, 111, 168] },
+  'Título de videojuego': { clave: 'videojuego', etiqueta: 'Título de obra / Videojuego' },
+  'Personaje / Entidad de ficción': { clave: 'personaje', etiqueta: 'Personaje de ficción' },
+  'Lugar / Universo de ficción': { clave: 'lugar', etiqueta: 'Lugar / Reino' },
+  'Marca / Empresa': { clave: 'marca', etiqueta: 'Marca / Plataforma' },
+  'Sigla': { clave: 'sigla', etiqueta: 'Sigla extranjera' },
+  'Jerga de videojuegos': { clave: 'jerga', etiqueta: 'Jerga / Término genérico' },
+  'Ortografia': { clave: 'ortografia', etiqueta: 'Ortografía' },
+  'Gramatica / Puntuacion': { clave: 'gramatica', etiqueta: 'Gramática' },
+  'Extranjerismo no adaptado': { clave: 'extranjerismo', etiqueta: 'Extranjerismo crudo' },
 };
 
 const normaliza = valor => String(valor || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -74,18 +76,49 @@ function renderText(report) {
   });
 }
 
+// Genera la caja visual donde se ve claramente la tipografía (cursiva o redonda con mayúsculas)
+function bloqueTipografiaVisual(lookup) {
+  if (!lookup || !lookup.recommended) return '';
+  const esCursiva = lookup.is_italic;
+  const textoMuestra = esCursiva
+    ? `<em class="preview-italic">${escapeHtml(lookup.recommended)}</em>`
+    : `<span class="preview-roman">${escapeHtml(lookup.recommended)}</span>`;
+  const badgeTipo = esCursiva
+    ? `<span class="typo-badge typo-italic">ESCRITURA EN CURSIVA (ITÁLICA)</span>`
+    : `<span class="typo-badge typo-roman">ESCRITURA EN LETRA REDONDA</span>`;
+
+  return `
+    <div class="typo-box ${esCursiva ? 'is-italic' : 'is-roman'}">
+      <div class="typo-header">
+        <strong>Forma correcta de escritura:</strong>
+        ${badgeTipo}
+      </div>
+      <div class="typo-sample">${textoMuestra}</div>
+      ${lookup.rule_name ? `<div class="typo-rule-tag">${escapeHtml(lookup.rule_name)}</div>` : ''}
+    </div>
+  `;
+}
+
 function bloqueDetalleFactual(lookup) {
   if (!lookup || !lookup.found) {
     return '<p class="sin-fuente">Sin ficha disponible para este término.</p>';
   }
-  let html = '';
-  if (lookup.recommended) {
-    html += `<p class="replacement"><strong>Forma recomendada / Sustituto:</strong> ${escapeHtml(lookup.recommended)}</p>`;
-  }
+  let html = bloqueTipografiaVisual(lookup);
+
   if (lookup.rae_rule) {
-    html += `<div class="rae-box"><strong>Norma ortotipográfica (RAE / Fundéu):</strong><p>${escapeHtml(lookup.rae_rule)}</p></div>`;
+    html += `
+      <div class="rae-box">
+        <strong>Norma ortotipográfica aplicada:</strong>
+        <p>${escapeHtml(lookup.rae_rule)}</p>
+      </div>
+    `;
   }
-  html += `<p class="definicion"><strong>Descripción / Ficha enciclopédica:</strong><br>${escapeHtml(lookup.definition)}</p>`;
+  html += `
+    <p class="definicion">
+      <strong>Descripción / Contexto:</strong><br>
+      ${escapeHtml(lookup.definition)}
+    </p>
+  `;
   if (lookup.source) {
     html += `<small>Fuente: ${escapeHtml(lookup.source)}</small>`;
   }
@@ -109,15 +142,16 @@ function showMark(mark) {
 
 function tarjeta(error) {
   const meta = CAT[error.category] || { clave: 'ortografia', etiqueta: error.category };
-  const lookup = error.lookup || definicionDe(error.text);
-  
-  let detalle = '';
-  if (lookup && lookup.rae_rule) {
-    detalle += `<div class="card-rae-mini"><strong>Escritura según RAE:</strong> ${escapeHtml(lookup.rae_rule)}</div>`;
-  }
-  if (error.suggestions && error.suggestions.length) {
-    detalle += `<p class="replacement"><strong>Recomendación:</strong> ${escapeHtml(error.suggestions.join(', '))}</p>`;
-  }
+  const lookup = error.lookup || definicionDe(error.text) || {};
+  const esCursiva = lookup.is_italic;
+
+  const muestraVisual = lookup.recommended
+    ? (esCursiva ? `<em>${escapeHtml(lookup.recommended)}</em>` : `${escapeHtml(lookup.recommended)}`)
+    : escapeHtml(error.suggestions?.[0] || '');
+
+  const etiquetaTipografia = esCursiva
+    ? `<span class="badge-mini-italic">Cursiva</span>`
+    : `<span class="badge-mini-roman">Redonda</span>`;
 
   return `
     <article class="error-card cat-${meta.clave}" onclick='showMark(${JSON.stringify(error)})' style="cursor:pointer">
@@ -127,8 +161,13 @@ function tarjeta(error) {
           <h3>${escapeHtml(error.text)}</h3>
           <span class="card-category-tag tag-${meta.clave}">${escapeHtml(meta.etiqueta)}</span>
         </div>
-        <p>${escapeHtml(lookup ? lookup.definition : error.message)}</p>
-        ${detalle}
+        <p>${escapeHtml(lookup.definition || error.message)}</p>
+        <div class="card-correct-row">
+          <span class="lbl-como">Escritura correcta:</span>
+          <span class="val-como ${esCursiva ? 'font-italic' : 'font-roman'}">${muestraVisual}</span>
+          ${etiquetaTipografia}
+        </div>
+        ${lookup.rae_rule ? `<div class="card-rae-mini"><strong>Regla:</strong> ${escapeHtml(lookup.rae_rule)}</div>` : ''}
       </div>
     </article>
   `;
@@ -137,9 +176,9 @@ function tarjeta(error) {
 function renderDashboard(report) {
   const counterData = [
     ['total', 'Total hallazgos'],
-    ['Videojuegos', 'Videojuegos'],
-    ['Personajes / Ficción', 'Personajes / Ficción'],
-    ['Jerga gaming', 'Jerga gaming'],
+    ['Videojuegos', 'Videojuegos (R7)'],
+    ['Personajes / Ficción', 'Nombres propios (R3/5)'],
+    ['Jerga gaming', 'Extranjerismos / Jerga (R1/8)'],
     ['Ortografia', 'Ortografía'],
     ['Gramatica / Puntuacion', 'Gramática']
   ];
@@ -148,24 +187,24 @@ function renderDashboard(report) {
     .join('');
 
   const juegos = report.errors.filter(e => e.category === 'Título de videojuego');
-  const personajes = report.errors.filter(e => e.category.includes('Personaje') || e.category.includes('Lugar'));
-  const jerga = report.errors.filter(e => e.category === 'Jerga de videojuegos');
-  const ortografia = report.errors.filter(e => ['Ortografia', 'Gramatica / Puntuacion', 'Extranjerismo no adaptado'].includes(e.category));
+  const nombresPropios = report.errors.filter(e => ['Personaje / Entidad de ficción', 'Lugar / Universo de ficción', 'Marca / Empresa'].includes(e.category));
+  const jergaYExt = report.errors.filter(e => ['Jerga de videojuegos', 'Extranjerismo no adaptado', 'Sigla'].includes(e.category));
+  const ortografia = report.errors.filter(e => ['Ortografia', 'Gramatica / Puntuacion'].includes(e.category));
 
   let html = '';
-  if (juegos.length) html += `<h3 class="grupo-titulo">🎮 Títulos de videojuegos (${juegos.length})</h3>` + juegos.map(tarjeta).join('');
-  if (personajes.length) html += `<h3 class="grupo-titulo">🛡️ Personajes y mundo de ficción (${personajes.length})</h3>` + personajes.map(tarjeta).join('');
-  if (jerga.length) html += `<h3 class="grupo-titulo">⚙️ Jerga y mecánicas lúdicas (${jerga.length})</h3>` + jerga.map(tarjeta).join('');
-  if (ortografia.length) html += `<h3 class="grupo-titulo">⚠️ Correcciones ortográficas (${ortografia.length})</h3>` + ortografia.map(tarjeta).join('');
+  if (juegos.length) html += `<h3 class="grupo-titulo">🎮 Títulos de obras / Videojuegos (Regla 7 - Cursiva) (${juegos.length})</h3>` + juegos.map(tarjeta).join('');
+  if (nombresPropios.length) html += `<h3 class="grupo-titulo">🛡️ Nombres propios, personajes y marcas (Reglas 3, 4 y 5 - Redonda) (${nombresPropios.length})</h3>` + nombresPropios.map(tarjeta).join('');
+  if (jergaYExt.length) html += `<h3 class="grupo-titulo">⚙️ Extranjerismos crudos y jerga (Reglas 1, 2 y 8) (${jergaYExt.length})</h3>` + jergaYExt.map(tarjeta).join('');
+  if (ortografia.length) html += `<h3 class="grupo-titulo">⚠️ Correcciones ortográficas generales (${ortografia.length})</h3>` + ortografia.map(tarjeta).join('');
 
   if (!html) {
-    html = '<article class="error-card"><i class="error-dot" style="background:#63bb78"></i><div><h3>Texto limpio</h3><p>No se encontraron errores ni elementos a corregir.</p></div></article>';
+    html = '<article class="error-card"><i class="error-dot" style="background:#63bb78"></i><div><h3>Texto conforme</h3><p>El texto cumple con las normas ortotipográficas y no presenta errores.</p></div></article>';
   }
   document.querySelector('#error-list').innerHTML = html;
 }
 
 // ---------------------------------------------------------------------------
-// GENERACIÓN PROFESIONAL DE PDF CON jsPDF + AutoTable
+// GENERACIÓN DE PDF FORMAL CON ESCRITURA Y TIPOGRAFÍA VISUAL
 // ---------------------------------------------------------------------------
 function generarPDF(report) {
   if (!window.jspdf) {
@@ -173,103 +212,66 @@ function generarPDF(report) {
     return;
   }
   const { jsPDF } = window.jspdf;
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-
-  const fecha = new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  const doc = new jsPDF('p', 'mm', 'a4');
 
   // Encabezado
-  doc.setFillColor(28, 128, 98); // Verde institucional
-  doc.rect(0, 0, 210, 22, 'F');
-  
+  doc.setFillColor(28, 128, 98);
+  doc.rect(0, 0, 210, 25, 'F');
   doc.setTextColor(255, 255, 255);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(14);
-  doc.text('REPORTE QA: AUDITORÍA LINGÜÍSTICA Y NARRATIVA', 14, 14);
+  doc.text('REPORTE QA: AUDITORÍA NARRATIVA Y ORTOTIPOGRÁFICA', 14, 15);
 
-  // Subcabecera
-  doc.setTextColor(80, 80, 80);
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(9);
-  doc.text(`Fecha de emisión: ${fecha}  |  Total de elementos auditados: ${report.counts.total}`, 14, 30);
-
-  // Resumen cuantitativo
-  doc.setFontSize(10);
-  doc.setFont('helvetica', 'bold');
-  doc.text('Resumen por categorías:', 14, 38);
-
-  const c = report.counts;
-  const resumenTexto = `Videojuegos: ${c.Videojuegos || 0}   |   Personajes/Ficción: ${c['Personajes / Ficción'] || 0}   |   Jerga: ${c['Jerga gaming'] || 0}   |   Ortografía: ${c.Ortografia || 0}`;
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(9);
-  doc.setTextColor(40, 40, 40);
-  doc.text(resumenTexto, 14, 44);
-
-  // Preparar filas para la tabla
   const rows = report.errors.map(err => {
     const meta = CAT[err.category] || { etiqueta: err.category };
     const lk = err.lookup || definicionDe(err.text) || {};
-    const definicion = (lk.definition || err.message || '').replace(/\s+/g, ' ').trim();
-    const reglaRAE = (lk.rae_rule || '').replace(/\s+/g, ' ').trim();
-    const recomendado = lk.recommended || (err.suggestions && err.suggestions[0]) || 'N/A';
-
-    return [
-      meta.etiqueta,
-      err.text,
-      definicion,
-      `Forma sugerida: ${recomendado}\n\nNorma RAE:\n${reglaRAE}`
-    ];
+    
+    // Guardamos este dato en la fila para usarlo después al renderizar
+    return {
+      categoria: meta.etiqueta,
+      termino: err.text,
+      // Usamos un objeto para que la tabla sepa si debe ser cursiva o no
+      recomendado: {
+        text: lk.recommended || err.text,
+        isItalic: lk.is_italic === true
+      },
+      descripcion: (lk.definition || err.message || '').replace(/\s+/g, ' ').trim(),
+      regla: `Regla: ${lk.rule_name || 'Norma ortotipográfica'}\nRAE: ${lk.rae_rule || ''}`
+    };
   });
 
-  // Generar tabla formal
   doc.autoTable({
-    startY: 50,
-    head: [['Categoría', 'Término', 'Descripción / Ficha factual', 'Forma y Norma RAE']],
-    body: rows,
+    startY: 35,
+    head: [['Categoría', 'Término', 'Forma Correcta (Visual)', 'Contexto']],
+    body: rows.map(r => [r.categoria, r.termino, r.recomendado.text, r.descripcion + '\n\n' + r.regla]),
     theme: 'grid',
-    headStyles: {
-      fillColor: [32, 60, 75],
-      textColor: [255, 255, 255],
-      fontStyle: 'bold',
-      fontSize: 9,
-      halign: 'left',
-    },
-    columnStyles: {
-      0: { cellWidth: 32, fontStyle: 'bold', fontSize: 8 },
-      1: { cellWidth: 30, fontStyle: 'bold', fontSize: 8 },
-      2: { cellWidth: 65, fontSize: 8 },
-      3: { cellWidth: 55, fontSize: 8 },
-    },
-    styles: {
-      overflow: 'linebreak',
-      cellPadding: 3,
-      valign: 'top',
-      lineColor: [220, 229, 223],
-    },
-    alternateRowStyles: {
-      fillColor: [247, 250, 246],
-    },
-    didDrawPage: function (data) {
-      // Pie de página
-      doc.setFontSize(8);
-      doc.setTextColor(150, 150, 150);
-      const str = 'Página ' + doc.internal.getNumberOfPages();
-      doc.text(str, 196, 287, { align: 'right' });
-      doc.text('QA Text Auditor - Motor Gemini 3.8 Flash con verificación RAE', 14, 287);
+    headStyles: { fillColor: [32, 60, 75], fontSize: 8 },
+    styles: { fontSize: 8, cellPadding: 3 },
+    
+    // AQUÍ ESTÁ LA MAGIA: Aplicamos cursiva real celda por celda
+    didParseCell: function(data) {
+      if (data.section === 'body' && data.column.index === 2) {
+        const rowData = rows[data.row.index];
+        if (rowData.recomendado.isItalic) {
+          // Cambiamos la fuente a cursiva para esta celda específica
+          data.cell.styles.fontStyle = 'italic';
+        } else {
+          data.cell.styles.fontStyle = 'normal';
+        }
+      }
     }
   });
 
-  doc.save('reporte_qa_narrativa.pdf');
-  showToast('PDF descargado con éxito');
+  doc.save('reporte_qa_normas_rae.pdf');
 }
 
 // ---------------------------------------------------------------------------
-// EVENTOS Y ANALISIS
+// EVENTOS Y EJECUCIÓN
 // ---------------------------------------------------------------------------
 analyzeButton.addEventListener('click', async () => {
   analyzeButton.disabled = true;
-  resultState.textContent = 'Auditando con Gemini 3.8...';
-  
-  // Ocultar estados previos al comenzar
+  resultState.textContent = 'Aplicando las 8 normas con Gemini...';
+
   emptyState.classList.add('hidden');
   if (overloadedState) overloadedState.classList.add('hidden');
   reviewView.classList.add('hidden');
@@ -280,26 +282,24 @@ analyzeButton.addEventListener('click', async () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: input.value })
     });
-    
+
     const data = await response.json();
-    
-    // Si el backend indica que Gemini está saturado
+
     if (!response.ok) {
       if (data.is_overloaded || response.status === 503) {
         resultState.textContent = 'Servicio saturado';
         overloadedState.classList.remove('hidden');
-        showToast('Google Gemini está temporalmente saturado. Reintenta en 1 o 2 minutos.');
+        showToast('Google Gemini está ocupado. Intenta de nuevo en un par de minutos.');
         return;
       }
       throw new Error(data.error || 'No se pudo analizar el texto.');
     }
 
-    // Si todo salió bien, mostrar el resultado normal
     latestReport = data;
     indexarLookups(data);
     reviewView.classList.remove('hidden');
     dashboard.classList.remove('hidden');
-    resultState.textContent = `${data.counts.total} elemento${data.counts.total === 1 ? '' : 's'} identificado${data.counts.total === 1 ? '' : 's'}`;
+    resultState.textContent = `${data.counts.total} elemento${data.counts.total === 1 ? '' : 's'} auditado${data.counts.total === 1 ? '' : 's'}`;
     document.querySelector('#review-summary').textContent = `${data.text.length.toLocaleString('es-ES')} caracteres auditados`;
     renderText(data);
     renderDashboard(data);
@@ -312,7 +312,6 @@ analyzeButton.addEventListener('click', async () => {
   }
 });
 
-// Botón interactivo para reintentar con 1 clic desde el aviso
 if (retryBtn) {
   retryBtn.addEventListener('click', () => {
     analyzeButton.click();

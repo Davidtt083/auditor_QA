@@ -1,4 +1,4 @@
-"""Auditor de narrativa con reintentos automáticos ante saturación y caché local de seguridad."""
+"""Auditor de narrativa con las 8 normas de ortotipografía RAE/Fundéu y Gemini 3.8 Flash."""
 
 from __future__ import annotations
 
@@ -18,45 +18,93 @@ GEMINI_MODEL = os.getenv("GEMINI_MODEL", "models/gemini-3.1-flash-lite")
 CACHE_FILE = "cache_gemini_demo.json"
 
 SYSTEM_INSTRUCTION = """
-Eres un auditor experto de control de calidad lingüística (QA), especializado en narrativa y localización de videojuegos para el mercado hispanohablante.
-El auditor humano que lee tu reporte NO tiene conocimientos de videojuegos.
+res un Auditor Senior de QA de Narrativa y Localización de Videojuegos.
+Tu trabajo es auditar textos para un editor no experto. Debes interpretar el contexto narrativo (lugares, mecánicas, zonas, personajes).
 
-Analiza el texto suministrado y detecta los elementos en estas 7 categorías exactas:
-1. "Título de videojuego": Títulos de obras y sagas completos (ej: "Horizon Zero Dawn", "The Legend of Zelda: Breath of the Wild"). NO los fragmentes en palabras sueltas.
-2. "Personaje / Entidad de ficción": Nombres de personajes ficticios (ej: "Aloy", "Ganon", "Mario", "Sephiroth").
-3. "Lugar / Universo de ficción": Mundos, reinos, regiones o planetas ficticios (ej: "Hyrule", "Midgar", "Azeroth").
-4. "Jerga de videojuegos": Mecánicas, términos técnicos del medio o adaptaciones de la comunidad (ej: "crafteo", "farmeo", "lore", "gameplay", "spawn", "build").
-5. "Ortografia": Faltas de ortografía o tildes reales en español (ej: "consitente" -> "consistente", "tendra" -> "tendrá"). NUNCA marques un personaje o videojuego como falta ortográfica.
-6. "Gramatica / Puntuacion": Errores de concordancia, sintaxis o puntuación.
-7. "Extranjerismo no adaptado": Términos generales ajenos al español no exclusivos de videojuegos (ej: "meeting", "feedback", "backend").
+Reglas adicionales de Auditoría:
+1. Lugares y Zonas (ej: "Cruces Olvidados", "Cruces Infectados"): Identifícalos como "Lugar / Zona del mundo". Explica que son nombres propios de lugares del juego y su importancia en la narrativa o el mapa. Deben ir en LETRA REDONDA.
+2. Mecánicas narrativas: Si el autor usa términos como "dash", "ala", "regreso", explica si el término es adecuado para el contexto de la zona o si hay una forma más profesional de describirlo.
+3. Consistencia: Si detectas que un lugar tiene dos nombres en el texto, señala la importancia de mantener la consistencia.
 
-Para CADA elemento devuelve:
-- "text": Fragmento textual EXACTO tal como aparece en el texto.
-- "category": Una de las 7 categorías anteriores.
-- "description": Explicación enciclopédica clara (ej. juego: desarrolladora, año y temática; personaje: rol e historia; jerga: definición).
-- "rae_rule": Norma ortotipográfica según RAE / FundéuRAE:
-    * Videojuegos: Deben escribirse en CURSIVA (itálica). En español solo la primera palabra y nombres propios llevan mayúscula (*Horizon zero dawn*); si se conserva el título original en inglés con mayúsculas, siempre en CURSIVA (*Horizon Zero Dawn*), nunca en redonda sin comillas.
-    * Personajes y lugares: Nombres propios que van en LETRA REDONDA (sin cursivas ni comillas) con mayúscula inicial.
-    * Jerga/préstamos: Si es extranjerismo crudo (ej: gameplay) en cursiva o sustituto patrimonial (jugabilidad); si es adaptación flexiva (crafteo), explicar si se admite en la jerga o sugerir alternativa formal (fabricación).
-- "recommended": La sustitución recomendada o grafía correcta con cursiva (ej: "*Horizon Zero Dawn*", "Aloy", "fabricación / creación", "consistente").
-- "source": Fuente consultada (ej: "RAE / Ortografía académica", "FundéuRAE", "Wikipedia").
-- "source_url": Enlace web de referencia (si existe, o cadena vacía).
+Para la salida JSON:
+- "is_italic": true (si la regla RAE exige cursiva como en títulos de juegos) o false (si exige redonda).
+- "recommended": La forma corregida con el estilo tipográfico explícito (ej: *Horizon Zero Dawn* o "Aloy").
 
-DEBES responder ÚNICAMENTE con un JSON con la estructura:
+Debes aplicar de forma estricta las siguientes 8 REGLAS EDITORIALES Y DE ORTOTIPOGRAFÍA:
+
+REGLA 1 - PALABRAS INGLESAS NO ADAPTADAS (EXTRANJERISMOS CRUDOS):
+Si una palabra o expresión en inglés no está adaptada ortográficamente al español y se utiliza como término común (ej: gameplay, respawn, lore, streaming, feedback, briefing), escríbela en CURSIVA y con MINÚSCULA INICIAL (salvo inicio de oración).
+Restricción: NO uses mayúscula inicial únicamente por ser una palabra en inglés.
+Tipografía: Cursiva (is_italic = true).
+
+REGLA 2 - EXTRANJERISMOS ADAPTADOS AL ESPAÑOL:
+Si el término ya ha sido incorporado o adaptado al español según el DLE, DPD o FundéuRAE (ej: escáner, fútbol, ciberespacio, o verbos/sustantivos adaptados morfológicamente como crafteo/fabricación, farmeo/recolección), escríbelo en letra REDONDA (sin cursiva) y respeta la grafía española aceptada.
+Tipografía: Redonda (is_italic = false).
+
+REGLA 3 - NOMBRES PROPIOS EXTRANJEROS:
+Si corresponde al nombre propio de una persona, personaje ficticio, lugar o reino (ej: Aloy, Ganon, Kratos, Sephiroth, Hyrule, Midgar), escríbelo en letra REDONDA y conserva las mayúsculas oficiales.
+Restricción: NUNCA lo marques en cursiva ni comillas por estar en otro idioma. NUNCA lo marques como falta ortográfica.
+Tipografía: Redonda (is_italic = false).
+
+REGLA 4 - EMPRESAS, INSTITUCIONES, PLATAFORMAS Y MARCAS:
+Si corresponde al nombre oficial de una empresa, plataforma, consola o marca comercial (ej: PlayStation, Nintendo, Guerrilla Games, Xbox, Steam, Sony), escríbelo en letra REDONDA y conserva su grafía oficial registrada.
+Restricción: NO los conviertas en cursiva por estar en inglés.
+Tipografía: Redonda (is_italic = false).
+
+REGLA 5 - NOMBRES PROPIOS FORMADOS POR VARIAS PALABRAS:
+Si se trata de un nombre propio compuesto por dos o más palabras (ej: Sony Interactive Entertainment, Warner Bros, Square Enix, Red Hot Chili Peppers), conserva su denominación y capitalización oficiales en letra REDONDA.
+Restricción: No cambies arbitrariamente sus mayúsculas, minúsculas ni cursivas.
+Tipografía: Redonda (is_italic = false).
+
+REGLA 6 - SIGLAS EXTRANJERAS:
+Si el elemento es una sigla extranjera (ej: RPG, DLC, NPC, HUD, QA, API, UI), escríbela en letra REDONDA y con las mayúsculas de su forma oficial.
+Restricción: NO apliques cursiva solo porque proceda de otro idioma.
+Tipografía: Redonda (is_italic = false).
+
+REGLA 7 - TÍTULOS DE LIBROS, PELÍCULAS, VIDEOJUEGOS Y OBRAS:
+Si es el título de una obra (videojuegos, libros, películas, series) como "Horizon Zero Dawn", "The Legend of Zelda: Breath of the Wild", escríbelo en CURSIVA.
+Consideración: Respeta la grafía oficial del título. Nunca lo fragmentes en palabras sueltas.
+Tipografía: Cursiva (is_italic = true).
+
+REGLA 8 - TÉRMINOS GENÉRICOS EN INGLÉS FORMADOS POR VARIAS PALABRAS:
+Si una expresión inglesa de dos o más palabras funciona como término común/genérico y no como nombre propio (ej: battle royale, machine learning, fast travel, cloud gaming, free to play), escríbela en CURSIVA y normalmente con MINÚSCULA INICIAL.
+Restricción: NO uses mayúsculas iniciales en todas las palabras por influencia del Title Case inglés.
+Tipografía: Cursiva (is_italic = true).
+
+ERRORES ORTOGRÁFICOS O GRAMATICALES GENERALES:
+Si hay una falta de ortografía o tilde en español (ej: "consitente", "tendra", "analisis"), categorízala como "Ortografia", asigna "Regla General: Ortografía española", indica la palabra corregida en redonda (is_italic = false) y explica la regla de acentuación o grafía.
+
+Para CADA elemento detectado debes devolver en JSON:
+- "text": Fragmento textual EXACTO tal como aparece en el texto analizado.
+- "category": Categoría temática ("Título de videojuego", "Personaje / Entidad de ficción", "Marca / Empresa", "Sigla", "Jerga de videojuegos", "Extranjerismo no adaptado", "Ortografia", "Gramatica / Puntuacion").
+- "rule_number": Número de regla aplicada (ej: "Regla 1", "Regla 3", "Regla 7", "Ortografía").
+- "rule_name": Nombre de la regla (ej: "Regla 7: Títulos de videojuegos y obras (en cursiva)").
+- "is_italic": true si la norma exige cursiva/itálica; false si exige letra redonda.
+- "recommended": La forma exacta recomendada según la norma (con su capitalización precisa y correcta).
+- "description": Explicación enciclopédica clara de qué es (género, productora, rol narrativo o definición).
+- "rae_rule": Explicación formal y didáctica de la regla ortotipográfica aplicada.
+- "source": Fuente citada (ej: "Ortografía RAE", "FundéuRAE", "Wikipedia").
+- "source_url": Enlace web de referencia (o cadena vacía).
+
+Responde ÚNICAMENTE con un JSON con la estructura:
 {
   "findings": [
     {
       "text": "...",
       "category": "...",
+      "rule_number": "...",
+      "rule_name": "...",
+      "is_italic": true,
+      "recommended": "...",
       "description": "...",
       "rae_rule": "...",
-      "recommended": "...",
       "source": "...",
       "source_url": "..."
     }
   ]
 }
 """
+
 
 def _cargar_cache() -> dict[str, Any]:
     if os.path.exists(CACHE_FILE):
@@ -67,12 +115,14 @@ def _cargar_cache() -> dict[str, Any]:
             return {}
     return {}
 
+
 def _guardar_cache(cache: dict[str, Any]) -> None:
     try:
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
     except Exception:
         pass
+
 
 def _extraer_texto_interaccion(interaction: Any) -> str:
     if hasattr(interaction, "output_text") and interaction.output_text:
@@ -88,14 +138,14 @@ def _extraer_texto_interaccion(interaction: Any) -> str:
             return str(parte)
     return str(interaction)
 
+
 def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
-    """Audita el texto con verificación previa en caché y reintentos ante saturación."""
     texto_limpio = text.strip()
     if not texto_limpio:
         return []
 
-    # 1. VERIFICACIÓN EN CACHÉ LOCAL (Si ya se analizó este texto, responde en 0.05 segundos)
-    hash_texto = hashlib.md5(texto_limpio.encode("utf-8")).hexdigest()
+    # Hash del texto para la caché en disco
+    hash_texto = hashlib.md5((texto_limpio + "_v_reglas8").encode("utf-8")).hexdigest()
     cache = _cargar_cache()
     if hash_texto in cache:
         return cache[hash_texto]
@@ -105,12 +155,9 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
         raise RuntimeError("Falta la clave GEMINI_API_KEY en el archivo .env.")
 
     client = genai.Client(api_key=api_key)
-    prompt = f"Analiza exhaustivamente el siguiente texto:\n\n\"\"\"\n{texto_limpio}\n\"\"\""
+    prompt = f"Aplica rigurosamente las 8 reglas ortotipográficas y analiza este texto:\n\n\"\"\"\n{texto_limpio}\n\"\"\""
 
-    # 2. REINTENTOS AUTOMÁTICOS ANTE ALTA DEMANDA (Hasta 3 intentos con espera exponencial)
     max_intentos = 3
-    ultimo_error = None
-
     for intento in range(1, max_intentos + 1):
         try:
             interaction = client.interactions.create(
@@ -133,19 +180,16 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
 
             data = json.loads(raw_text)
             raw_findings = data.get("findings", [])
-            break  # Si la llamada tuvo éxito, salimos del ciclo de reintentos
+            break
         except Exception as exc:
-            ultimo_error = exc
             error_str = str(exc).lower()
-            # Si el error es de sobrecarga, cuota o alta demanda, esperamos y reintentamos
-            if any(k in error_str for k in ["overloaded", "demanda", "503", "429", "resource_exhausted", "unavailable"]):
+            if any(k in error_str for k in ["overloaded", "demanda", "503", "429", "resource_exhausted"]):
                 if intento < max_intentos:
-                    tiempo_espera = intento * 2  # Espera 2s, luego 4s
-                    time.sleep(tiempo_espera)
+                    time.sleep(intento * 2)
                     continue
-            raise RuntimeError(f"El servicio de IA experimentó alta demanda. Por favor presiona 'Analizar texto' nuevamente: {exc}")
+            raise RuntimeError(f"El servicio de IA experimentó alta demanda: {exc}")
 
-    # 3. Mapear hallazgos sobre el texto original
+    # Posicionar sobre el texto
     errores: list[dict[str, Any]] = []
     tramos_ocupados: list[tuple[int, int]] = []
     raw_findings.sort(key=lambda x: len(x.get("text", "")), reverse=True)
@@ -166,6 +210,8 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
             desc = item.get("description", "")
             rae = item.get("rae_rule", "")
             recom = item.get("recommended", "")
+            is_italic = bool(item.get("is_italic", False))
+            rule_name = item.get("rule_name", item.get("rule_number", "Norma editorial"))
 
             errores.append({
                 "category": cat,
@@ -175,22 +221,22 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
                 "offset": ini,
                 "length": fin - ini,
                 "rule_id": f"GEMINI_{cat.upper().replace(' ', '_')}",
-                "source": item.get("source", "Auditoría Gemini 3.8"),
+                "source": item.get("source", "Auditoría RAE/Gemini"),
                 "lookup": {
                     "term": palabra,
                     "category": cat,
+                    "rule_name": rule_name,
+                    "is_italic": is_italic,
                     "definition": desc,
                     "rae_rule": rae,
                     "recommended": recom,
-                    "source": item.get("source", "Análisis Gemini 3.8"),
+                    "source": item.get("source", "Normas RAE / FundéuRAE"),
                     "source_url": item.get("source_url", ""),
                     "found": True,
                 },
             })
 
     resultado_final = sorted(errores, key=lambda x: x["offset"])
-
-    # Guardar en caché para que las futuras pruebas con este mismo texto sean instantáneas
     cache[hash_texto] = resultado_final
     _guardar_cache(cache)
 

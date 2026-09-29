@@ -354,5 +354,975 @@
         "found": true
       }
     }
+  ],
+  "4e3498e9d46b44c4a1a246e0f6c9b6a5": [
+    {
+      "category": "Título de videojuego",
+      "text": "Horizon Zero Dawn",
+      "message": "Videojuego de rol de acción desarrollado por Guerrilla Games y publicado por Sony Interactive Entertainment. | Los títulos de obras (libros, películas, videojuegos, etc.) deben escribirse en cursiva para distinguirlos del resto del texto, respetando su grafía original.",
+      "suggestions": [
+        "Horizon Zero Dawn"
+      ],
+      "offset": 23,
+      "length": 17,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Horizon Zero Dawn",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de rol de acción desarrollado por Guerrilla Games y publicado por Sony Interactive Entertainment.",
+        "rae_rule": "Los títulos de obras (libros, películas, videojuegos, etc.) deben escribirse en cursiva para distinguirlos del resto del texto, respetando su grafía original.",
+        "recommended": "Horizon Zero Dawn",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/ortografía/la-escritura-de-los-títulos",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Aloy",
+      "message": "Protagonista principal del videojuego Horizon Zero Dawn. | Los nombres propios de personajes ficticios se escriben en letra redonda y mantienen su grafía original, sin necesidad de cursiva ni comillas.",
+      "suggestions": [
+        "Aloy"
+      ],
+      "offset": 47,
+      "length": 4,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Aloy",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Protagonista principal del videojuego Horizon Zero Dawn.",
+        "rae_rule": "Los nombres propios de personajes ficticios se escriben en letra redonda y mantienen su grafía original, sin necesidad de cursiva ni comillas.",
+        "recommended": "Aloy",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Ganon",
+      "message": "Principal antagonista en la franquicia The Legend of Zelda. | Los nombres propios de personajes ficticios se escriben en letra redonda y mantienen su grafía original.",
+      "suggestions": [
+        "Ganon"
+      ],
+      "offset": 68,
+      "length": 5,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Ganon",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Principal antagonista en la franquicia The Legend of Zelda.",
+        "rae_rule": "Los nombres propios de personajes ficticios se escriben en letra redonda y mantienen su grafía original.",
+        "recommended": "Ganon",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Hyrule",
+      "message": "Reino ficticio donde se desarrollan la mayoría de los juegos de la saga The Legend of Zelda. | Los nombres propios de lugares o reinos ficticios se escriben en letra redonda.",
+      "suggestions": [
+        "Hyrule"
+      ],
+      "offset": 86,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Hyrule",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Reino ficticio donde se desarrollan la mayoría de los juegos de la saga The Legend of Zelda.",
+        "rae_rule": "Los nombres propios de lugares o reinos ficticios se escriben en letra redonda.",
+        "recommended": "Hyrule",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "crafteo",
+      "message": "Término adaptado al español derivado del inglés 'crafting', que refiere a la acción de fabricar objetos o equipamiento dentro de un videojuego. | Cuando un extranjerismo ha sido incorporado al léxico español, ya sea mediante adaptación morfológica (sufijación) o fonética, debe escribirse en letra redonda.",
+      "suggestions": [
+        "crafteo"
+      ],
+      "offset": 97,
+      "length": 7,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "crafteo",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 2: Extranjerismos adaptados al español",
+        "is_italic": false,
+        "definition": "Término adaptado al español derivado del inglés 'crafting', que refiere a la acción de fabricar objetos o equipamiento dentro de un videojuego.",
+        "rae_rule": "Cuando un extranjerismo ha sido incorporado al léxico español, ya sea mediante adaptación morfológica (sufijación) o fonética, debe escribirse en letra redonda.",
+        "recommended": "crafteo",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-adaptados-y-no-adaptados/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "The Legend of Zelda: Breath of the Wild",
+      "message": "Videojuego de acción-aventura desarrollado y publicado por Nintendo. | Los títulos de obras deben escribirse en cursiva. Se respeta la grafía original del título y no debe fragmentarse.",
+      "suggestions": [
+        "The Legend of Zelda: Breath of the Wild"
+      ],
+      "offset": 131,
+      "length": 39,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "The Legend of Zelda: Breath of the Wild",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de acción-aventura desarrollado y publicado por Nintendo.",
+        "rae_rule": "Los títulos de obras deben escribirse en cursiva. Se respeta la grafía original del título y no debe fragmentarse.",
+        "recommended": "The Legend of Zelda: Breath of the Wild",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/ortografía/la-escritura-de-los-títulos",
+        "found": true
+      }
+    }
+  ],
+  "68f780739496335e7f4b892ce9a1e9e3": [
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Endgame",
+      "message": "Fase final de un videojuego en la que el usuario ya ha completado la historia principal y se dedica a actividades de repetición o alta dificultad. | Los extranjerismos crudos y expresiones en otras lenguas deben escribirse en cursiva y con minúscula inicial (salvo que sea nombre propio o inicio de oración).",
+      "suggestions": [
+        "endgame"
+      ],
+      "offset": 250,
+      "length": 7,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Endgame",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Fase final de un videojuego en la que el usuario ya ha completado la historia principal y se dedica a actividades de repetición o alta dificultad.",
+        "rae_rule": "Los extranjerismos crudos y expresiones en otras lenguas deben escribirse en cursiva y con minúscula inicial (salvo que sea nombre propio o inicio de oración).",
+        "recommended": "endgame",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Metroidvania",
+      "message": "Género de videojuegos de acción-aventura centrado en la exploración de un mapa interconectado, cuya progresión depende de la obtención de habilidades. | Los términos que ya han sido incorporados o adaptados al uso general en español deben escribirse en letra redonda. Aunque es un anglicismo, al ser un término técnico específico muy consolidado, se suele tratar como sustantivo común.",
+      "suggestions": [
+        "metroidvania"
+      ],
+      "offset": 321,
+      "length": 12,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "RAE / FundéuRAE",
+      "lookup": {
+        "term": "Metroidvania",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 2: Extranjerismos adaptados al español",
+        "is_italic": false,
+        "definition": "Género de videojuegos de acción-aventura centrado en la exploración de un mapa interconectado, cuya progresión depende de la obtención de habilidades.",
+        "rae_rule": "Los términos que ya han sido incorporados o adaptados al uso general en español deben escribirse en letra redonda. Aunque es un anglicismo, al ser un término técnico específico muy consolidado, se suele tratar como sustantivo común.",
+        "recommended": "metroidvania",
+        "source": "RAE / FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Soulslike",
+      "message": "Género de videojuegos caracterizado por un alto nivel de dificultad, combate estratégico y progresión basada en la muerte y el aprendizaje. | Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial al ser términos comunes.",
+      "suggestions": [
+        "soulslike"
+      ],
+      "offset": 339,
+      "length": 9,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Soulslike",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Género de videojuegos caracterizado por un alto nivel de dificultad, combate estratégico y progresión basada en la muerte y el aprendizaje.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial al ser términos comunes.",
+        "recommended": "soulslike",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Hollow Knight",
+      "message": "Videojuego de acción-aventura de tipo metroidvania desarrollado por Team Cherry. | Los títulos de las obras (libros, películas, videojuegos) deben escribirse en cursiva.",
+      "suggestions": [
+        "Hollow Knight"
+      ],
+      "offset": 979,
+      "length": 13,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "RAE (Ortografía de la lengua española)",
+      "lookup": {
+        "term": "Hollow Knight",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de libros, películas, videojuegos y obras",
+        "is_italic": true,
+        "definition": "Videojuego de acción-aventura de tipo metroidvania desarrollado por Team Cherry.",
+        "rae_rule": "Los títulos de las obras (libros, películas, videojuegos) deben escribirse en cursiva.",
+        "recommended": "Hollow Knight",
+        "source": "RAE (Ortografía de la lengua española)",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "dashes",
+      "message": "Movimiento rápido o esquiva, generalmente una embestida que permite desplazarse velozmente. | Se trata de un extranjerismo no adaptado que funciona como término común, por lo que debe ir en cursiva.",
+      "suggestions": [
+        "dashes"
+      ],
+      "offset": 1229,
+      "length": 6,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "dashes",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Movimiento rápido o esquiva, generalmente una embestida que permite desplazarse velozmente.",
+        "rae_rule": "Se trata de un extranjerismo no adaptado que funciona como término común, por lo que debe ir en cursiva.",
+        "recommended": "dashes",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    }
+  ],
+  "bb7d161d1e6d5e502d159b60094be295": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "\"Gameplay Loop\"",
+      "message": "Se refiere al ciclo de acciones fundamentales que el jugador repite constantemente (acción-recompensa-mejora) en un videojuego. | Los extranjerismos crudos (aquellos que no han sido adaptados al español) deben escribirse en cursiva y con minúscula inicial, salvo que el inicio de la oración lo exija.",
+      "suggestions": [
+        "gameplay loop"
+      ],
+      "offset": 59,
+      "length": 15,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "\"Gameplay Loop\"",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas (en cursiva)",
+        "is_italic": true,
+        "definition": "Se refiere al ciclo de acciones fundamentales que el jugador repite constantemente (acción-recompensa-mejora) en un videojuego.",
+        "rae_rule": "Los extranjerismos crudos (aquellos que no han sido adaptados al español) deben escribirse en cursiva y con minúscula inicial, salvo que el inicio de la oración lo exija.",
+        "recommended": "gameplay loop",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-crudos-y-adaptados/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Celeste",
+      "message": "Videojuego de plataformas desarrollado por Maddy Makes Games, centrado en la temática de la salud mental y la superación personal. | Los títulos de obras de creación (libros, películas, videojuegos, etc.) deben escribirse en cursiva según las normas de la RAE.",
+      "suggestions": [
+        "*Celeste*"
+      ],
+      "offset": 1036,
+      "length": 7,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Celeste",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de plataformas desarrollado por Maddy Makes Games, centrado en la temática de la salud mental y la superación personal.",
+        "rae_rule": "Los títulos de obras de creación (libros, películas, videojuegos, etc.) deben escribirse en cursiva según las normas de la RAE.",
+        "recommended": "*Celeste*",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Madeline",
+      "message": "Protagonista del videojuego *Celeste*, quien emprende un viaje para escalar una montaña mientras lucha contra su ansiedad y depresión. | Los nombres propios de personajes, lugares o reinos, al ser identificadores específicos, no deben marcarse con cursiva ni comillas, independientemente de su origen lingüístico.",
+      "suggestions": [
+        "Madeline"
+      ],
+      "offset": 1330,
+      "length": 8,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Madeline",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros (en redonda)",
+        "is_italic": false,
+        "definition": "Protagonista del videojuego *Celeste*, quien emprende un viaje para escalar una montaña mientras lucha contra su ansiedad y depresión.",
+        "rae_rule": "Los nombres propios de personajes, lugares o reinos, al ser identificadores específicos, no deben marcarse con cursiva ni comillas, independientemente de su origen lingüístico.",
+        "recommended": "Madeline",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    }
+  ],
+  "4f13443cab92ec0baf34dd4cdeff340a": [
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "vi",
+      "message": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane. | Los nombres propios de personajes se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+      "suggestions": [
+        "Vi"
+      ],
+      "offset": 134,
+      "length": 2,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Vi",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+        "recommended": "Vi",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "vi",
+      "message": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane. | Los nombres propios de personajes se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+      "suggestions": [
+        "Vi"
+      ],
+      "offset": 282,
+      "length": 2,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Vi",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+        "recommended": "Vi",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "League of Legends",
+      "message": "Videojuego de estrategia de acción (MOBA) desarrollado por Riot Games, lanzado en 2009. | Las obras de creación (títulos de libros, películas, cuadros, esculturas, piezas musicales, programas de televisión, videojuegos, etc.) deben escribirse en cursiva.",
+      "suggestions": [
+        "*League of Legends*"
+      ],
+      "offset": 585,
+      "length": 17,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "League of Legends",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de estrategia de acción (MOBA) desarrollado por Riot Games, lanzado en 2009.",
+        "rae_rule": "Las obras de creación (títulos de libros, películas, cuadros, esculturas, piezas musicales, programas de televisión, videojuegos, etc.) deben escribirse en cursiva.",
+        "recommended": "*League of Legends*",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Riot Games",
+      "message": "Empresa estadounidense desarrolladora y editora de videojuegos, creadora de League of Legends. | Los nombres de instituciones, empresas, marcas comerciales o corporaciones se escriben con letra redonda y respetando la grafía oficial.",
+      "suggestions": [
+        "Riot Games"
+      ],
+      "offset": 606,
+      "length": 10,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Riot Games",
+        "category": "Marca / Empresa",
+        "rule_name": "Regla 4: Empresas, instituciones, plataformas y marcas",
+        "is_italic": false,
+        "definition": "Empresa estadounidense desarrolladora y editora de videojuegos, creadora de League of Legends.",
+        "rae_rule": "Los nombres de instituciones, empresas, marcas comerciales o corporaciones se escriben con letra redonda y respetando la grafía oficial.",
+        "recommended": "Riot Games",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "MOBA",
+      "message": "Sigla de 'Multiplayer Online Battle Arena', un subgénero de los videojuegos de estrategia en tiempo real. | Las siglas, incluso aquellas que proceden de otras lenguas, se escriben en letra redonda y se mantienen invariables en plural.",
+      "suggestions": [
+        "MOBA"
+      ],
+      "offset": 696,
+      "length": 4,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "MOBA",
+        "category": "Sigla",
+        "rule_name": "Regla 6: Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Sigla de 'Multiplayer Online Battle Arena', un subgénero de los videojuegos de estrategia en tiempo real.",
+        "rae_rule": "Las siglas, incluso aquellas que proceden de otras lenguas, se escriben en letra redonda y se mantienen invariables en plural.",
+        "recommended": "MOBA",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/siglas-y-acronimos-en-espanol/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Arcane",
+      "message": "Serie de televisión animada de 2021 basada en el universo de League of Legends. | Los títulos de series de televisión y obras audiovisuales deben escribirse en cursiva para distinguirlos claramente del texto circundante.",
+      "suggestions": [
+        "*Arcane*"
+      ],
+      "offset": 809,
+      "length": 6,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Arcane",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Serie de televisión animada de 2021 basada en el universo de League of Legends.",
+        "rae_rule": "Los títulos de series de televisión y obras audiovisuales deben escribirse en cursiva para distinguirlos claramente del texto circundante.",
+        "recommended": "*Arcane*",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Jinx",
+      "message": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane. | Los nombres propios de personajes, lugares o reinos se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+      "suggestions": [
+        "Jinx"
+      ],
+      "offset": 945,
+      "length": 4,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Jinx",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane.",
+        "rae_rule": "Los nombres propios de personajes, lugares o reinos se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+        "recommended": "Jinx",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Vi",
+      "message": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane. | Los nombres propios de personajes se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+      "suggestions": [
+        "Vi"
+      ],
+      "offset": 952,
+      "length": 2,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Vi",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Personaje ficticio central en el universo de League of Legends y protagonista en Arcane.",
+        "rae_rule": "Los nombres propios de personajes se escriben en letra redonda, sin cursivas ni comillas, independientemente de su origen lingüístico.",
+        "recommended": "Vi",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    }
+  ],
+  "d14963ac708eb9a24f1b2cb46061c82a": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Feedback",
+      "message": "Término técnico utilizado para referirse a la respuesta o valoración que se obtiene tras realizar una acción, fundamental en el desarrollo de software. | Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "feedback"
+      ],
+      "offset": 106,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Feedback",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1 - Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término técnico utilizado para referirse a la respuesta o valoración que se obtiene tras realizar una acción, fundamental en el desarrollo de software.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+        "recommended": "feedback",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/feedback/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "User Experience",
+      "message": "Término utilizado para referirse a la experiencia de usuario dentro de un producto digital o videojuego. | Las locuciones o términos formados por varias palabras que funcionan como término común deben ir en cursiva y minúscula.",
+      "suggestions": [
+        "user experience"
+      ],
+      "offset": 219,
+      "length": 15,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "User Experience",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8 - Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Término utilizado para referirse a la experiencia de usuario dentro de un producto digital o videojuego.",
+        "rae_rule": "Las locuciones o términos formados por varias palabras que funcionan como término común deben ir en cursiva y minúscula.",
+        "recommended": "user experience",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "gameplay",
+      "message": "Término técnico que describe la forma en que un usuario interactúa con el videojuego; las mecánicas y reglas de juego. | Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "gameplay"
+      ],
+      "offset": 264,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "gameplay",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1 - Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término técnico que describe la forma en que un usuario interactúa con el videojuego; las mecánicas y reglas de juego.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+        "recommended": "gameplay",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/gameplay-termino-de-videojuegos/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Level Design",
+      "message": "Disciplina del desarrollo de videojuegos que consiste en la creación de niveles, escenarios o misiones. | Las locuciones extranjeras genéricas deben escribirse en cursiva y minúscula.",
+      "suggestions": [
+        "level design"
+      ],
+      "offset": 448,
+      "length": 12,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Level Design",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8 - Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Disciplina del desarrollo de videojuegos que consiste en la creación de niveles, escenarios o misiones.",
+        "rae_rule": "Las locuciones extranjeras genéricas deben escribirse en cursiva y minúscula.",
+        "recommended": "level design",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Streaming",
+      "message": "Distribución digital de contenido multimedia a través de una red de computadoras, permitiendo el consumo en tiempo real. | Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "streaming"
+      ],
+      "offset": 565,
+      "length": 9,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Streaming",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1 - Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Distribución digital de contenido multimedia a través de una red de computadoras, permitiendo el consumo en tiempo real.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+        "recommended": "streaming",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/streaming-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "Npc",
+      "message": "Acrónimo de 'Non-Player Character'. Personaje no jugable controlado por la IA del juego. | Las siglas se escriben habitualmente en mayúsculas y no llevan tilde, aunque se pronuncien en inglés o español.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 609,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Npc",
+        "category": "Sigla",
+        "rule_name": "Regla 6 - Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Acrónimo de 'Non-Player Character'. Personaje no jugable controlado por la IA del juego.",
+        "rae_rule": "Las siglas se escriben habitualmente en mayúsculas y no llevan tilde, aunque se pronuncien en inglés o español.",
+        "recommended": "NPC",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/sigla",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Game Designer",
+      "message": "Profesional responsable del diseño de las mecánicas, sistemas y reglas de un videojuego. | Los términos genéricos en inglés deben ir en cursiva y minúscula.",
+      "suggestions": [
+        "game designer"
+      ],
+      "offset": 657,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Game Designer",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8 - Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Profesional responsable del diseño de las mecánicas, sistemas y reglas de un videojuego.",
+        "rae_rule": "Los términos genéricos en inglés deben ir en cursiva y minúscula.",
+        "recommended": "game designer",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "CEO",
+      "message": "Sigla de 'Chief Executive Officer'. Director ejecutivo de una empresa. | Las siglas en mayúsculas, incluso las extranjeras, se escriben en redonda.",
+      "suggestions": [
+        "CEO"
+      ],
+      "offset": 677,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "CEO",
+        "category": "Sigla",
+        "rule_name": "Regla 6 - Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Sigla de 'Chief Executive Officer'. Director ejecutivo de una empresa.",
+        "rae_rule": "Las siglas en mayúsculas, incluso las extranjeras, se escriben en redonda.",
+        "recommended": "CEO",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/ceo/",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "teams",
+      "message": "Plataforma de comunicación y colaboración de Microsoft. | Los nombres de marcas y aplicaciones deben conservar su grafía oficial registrada (mayúsculas incluidas).",
+      "suggestions": [
+        "Teams"
+      ],
+      "offset": 926,
+      "length": 5,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "teams",
+        "category": "Marca / Empresa",
+        "rule_name": "Regla 4 - Empresas, instituciones, plataformas y marcas",
+        "is_italic": false,
+        "definition": "Plataforma de comunicación y colaboración de Microsoft.",
+        "rae_rule": "Los nombres de marcas y aplicaciones deben conservar su grafía oficial registrada (mayúsculas incluidas).",
+        "recommended": "Teams",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Unreal engine",
+      "message": "Motor de desarrollo de videojuegos creado por Epic Games. | Los nombres de marcas comerciales conservan su grafía oficial, evitando la cursiva.",
+      "suggestions": [
+        "Unreal Engine"
+      ],
+      "offset": 1051,
+      "length": 13,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Unreal engine",
+        "category": "Marca / Empresa",
+        "rule_name": "Regla 4 - Empresas, instituciones, plataformas y marcas",
+        "is_italic": false,
+        "definition": "Motor de desarrollo de videojuegos creado por Epic Games.",
+        "rae_rule": "Los nombres de marcas comerciales conservan su grafía oficial, evitando la cursiva.",
+        "recommended": "Unreal Engine",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "articulate rise",
+      "message": "Herramienta de autoría para crear módulos de aprendizaje en línea. | Las marcas deben respetar la grafía oficial registrada.",
+      "suggestions": [
+        "Articulate Rise"
+      ],
+      "offset": 1099,
+      "length": 15,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "articulate rise",
+        "category": "Marca / Empresa",
+        "rule_name": "Regla 4 - Empresas, instituciones, plataformas y marcas",
+        "is_italic": false,
+        "definition": "Herramienta de autoría para crear módulos de aprendizaje en línea.",
+        "rae_rule": "Las marcas deben respetar la grafía oficial registrada.",
+        "recommended": "Articulate Rise",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "html",
+      "message": "HyperText Markup Language. Lenguaje estándar para la creación de páginas web. | Las siglas deben escribirse completamente en mayúsculas.",
+      "suggestions": [
+        "HTML"
+      ],
+      "offset": 1293,
+      "length": 4,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "html",
+        "category": "Sigla",
+        "rule_name": "Regla 6 - Siglas extranjeras",
+        "is_italic": false,
+        "definition": "HyperText Markup Language. Lenguaje estándar para la creación de páginas web.",
+        "rae_rule": "Las siglas deben escribirse completamente en mayúsculas.",
+        "recommended": "HTML",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "Click",
+      "message": "Acción de presionar un botón de un dispositivo apuntador. | El DLE recomienda la grafía adaptada al español 'clic' en letra redonda, en lugar del anglicismo 'click'.",
+      "suggestions": [
+        "clic"
+      ],
+      "offset": 1434,
+      "length": 5,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Click",
+        "category": "Ortografia",
+        "rule_name": "Regla General: Ortografía española",
+        "is_italic": false,
+        "definition": "Acción de presionar un botón de un dispositivo apuntador.",
+        "rae_rule": "El DLE recomienda la grafía adaptada al español 'clic' en letra redonda, en lugar del anglicismo 'click'.",
+        "recommended": "clic",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/clic-mejor-que-click/",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "youtube",
+      "message": "Plataforma de video propiedad de Google. | Las marcas registradas deben respetar la grafía oficial (incluyendo la Y y T mayúsculas).",
+      "suggestions": [
+        "YouTube"
+      ],
+      "offset": 1614,
+      "length": 7,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "youtube",
+        "category": "Marca / Empresa",
+        "rule_name": "Regla 4 - Empresas, instituciones, plataformas y marcas",
+        "is_italic": false,
+        "definition": "Plataforma de video propiedad de Google.",
+        "rae_rule": "Las marcas registradas deben respetar la grafía oficial (incluyendo la Y y T mayúsculas).",
+        "recommended": "YouTube",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "The last of us",
+      "message": "Videojuego de acción y aventura desarrollado por Naughty Dog. | Los títulos de obras deben ir en cursiva y respetar la grafía oficial (capitalización propia).",
+      "suggestions": [
+        "The Last of Us"
+      ],
+      "offset": 1744,
+      "length": 14,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "The last of us",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7 - Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de acción y aventura desarrollado por Naughty Dog.",
+        "rae_rule": "Los títulos de obras deben ir en cursiva y respetar la grafía oficial (capitalización propia).",
+        "recommended": "The Last of Us",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Harry potter",
+      "message": "Franquicia basada en los libros y películas, adaptada a múltiples videojuegos. | Los títulos de obras deben ir en cursiva y respetar la grafía oficial.",
+      "suggestions": [
+        "Harry Potter"
+      ],
+      "offset": 1760,
+      "length": 12,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Harry potter",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7 - Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Franquicia basada en los libros y películas, adaptada a múltiples videojuegos.",
+        "rae_rule": "Los títulos de obras deben ir en cursiva y respetar la grafía oficial.",
+        "recommended": "Harry Potter",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Storytelling",
+      "message": "El arte de contar historias, fundamental en la narrativa de videojuegos. | Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "storytelling"
+      ],
+      "offset": 1834,
+      "length": 12,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Storytelling",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1 - Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "El arte de contar historias, fundamental en la narrativa de videojuegos.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y con minúscula inicial.",
+        "recommended": "storytelling",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/storytelling-es-el-arte-de-contar-historias/",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "new york",
+      "message": "Ciudad de Estados Unidos. | Los topónimos extranjeros que tienen una forma tradicional adaptada al español deben utilizarse obligatoriamente.",
+      "suggestions": [
+        "Nueva York"
+      ],
+      "offset": 1983,
+      "length": 8,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "new york",
+        "category": "Ortografia",
+        "rule_name": "Regla General: Ortografía española",
+        "is_italic": false,
+        "definition": "Ciudad de Estados Unidos.",
+        "rae_rule": "Los topónimos extranjeros que tienen una forma tradicional adaptada al español deben utilizarse obligatoriamente.",
+        "recommended": "Nueva York",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/nueva-york-nombre-de-la-ciudad/",
+        "found": true
+      }
+    }
   ]
 }
