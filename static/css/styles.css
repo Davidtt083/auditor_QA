@@ -358,3 +358,27 @@ textarea { width: 100%; min-height: 250px; padding: 16px; resize: vertical; bord
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* Color para Herramientas y Elementos de Software */
+:root {
+  --tool: #0891b2;
+}
+
+.mark.cat-herramienta { border-color: var(--tool); background: #ecfeff; color: #0e7490; font-weight: 600; }
+.error-card.cat-herramienta .error-dot { background: var(--tool); }
+.tag-herramienta { background: #ecfeff; color: var(--tool); }
+.badge-herramienta { background: #ecfeff; color: var(--tool); }
+.dot-herramienta { background: var(--tool); }
+.chip-herramienta { background: #f0fdfa; border-color: #ccfbf1; }
+
+/* Color para Métodos y Metodologías (Regla 11) */
+:root {
+  --metodo: #7c3aed;
+}
+
+.mark.cat-metodo { border-color: var(--metodo); background: #f5f3ff; color: #6d28d9; font-weight: 600; }
+.error-card.cat-metodo .error-dot { background: var(--metodo); }
+.tag-metodo { background: #f5f3ff; color: var(--metodo); }
+.badge-metodo { background: #f5f3ff; color: var(--metodo); }
+.dot-metodo { background: var(--metodo); }
+.chip-metodo { background: #faf5ff; border-color: #e9d5ff; }

@@ -1324,5 +1324,4099 @@
         "found": true
       }
     }
+  ],
+  "57465cf1d6d645557a78bda4295f3b72": [
+    {
+      "category": "Título de videojuego",
+      "text": "God of War",
+      "message": "Videojuego de acción y aventuras desarrollado por Santa Monica Studio. Es un título fundamental en la narrativa moderna de videojuegos por su enfoque en la relación paternofilial. | Los títulos de obras de creación (videojuegos, libros, películas) deben escribirse en cursiva para distinguirlos del resto del texto.",
+      "suggestions": [
+        "*God of War*"
+      ],
+      "offset": 23,
+      "length": 10,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "God of War",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de acción y aventuras desarrollado por Santa Monica Studio. Es un título fundamental en la narrativa moderna de videojuegos por su enfoque en la relación paternofilial.",
+        "rae_rule": "Los títulos de obras de creación (videojuegos, libros, películas) deben escribirse en cursiva para distinguirlos del resto del texto.",
+        "recommended": "*God of War*",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Kratos",
+      "message": "Protagonista de la franquicia God of War, un guerrero espartano marcado por la tragedia y la furia, que busca redención y paternidad. | Los nombres propios de personajes ficticios se escriben en redonda, sin necesidad de cursivas ni comillas.",
+      "suggestions": [
+        "Kratos"
+      ],
+      "offset": 179,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Kratos",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Protagonista de la franquicia God of War, un guerrero espartano marcado por la tragedia y la furia, que busca redención y paternidad.",
+        "rae_rule": "Los nombres propios de personajes ficticios se escriben en redonda, sin necesidad de cursivas ni comillas.",
+        "recommended": "Kratos",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Atreus",
+      "message": "Hijo de Kratos en el juego, personaje central del arco narrativo del título de 2018. | Los nombres propios de personajes ficticios se escriben en redonda, sin necesidad de cursivas ni comillas.",
+      "suggestions": [
+        "Atreus"
+      ],
+      "offset": 218,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Atreus",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Hijo de Kratos en el juego, personaje central del arco narrativo del título de 2018.",
+        "rae_rule": "Los nombres propios de personajes ficticios se escriben en redonda, sin necesidad de cursivas ni comillas.",
+        "recommended": "Atreus",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Kratos",
+      "message": "Protagonista de la franquicia God of War, un guerrero espartano marcado por la tragedia y la furia, que busca redención y paternidad. | Los nombres propios de personajes ficticios se escriben en redonda, sin necesidad de cursivas ni comillas.",
+      "suggestions": [
+        "Kratos"
+      ],
+      "offset": 355,
+      "length": 6,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Kratos",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Protagonista de la franquicia God of War, un guerrero espartano marcado por la tragedia y la furia, que busca redención y paternidad.",
+        "rae_rule": "Los nombres propios de personajes ficticios se escriben en redonda, sin necesidad de cursivas ni comillas.",
+        "recommended": "Kratos",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Endgame",
+      "message": "Término que hace referencia al contenido accesible tras finalizar la campaña principal o al estado de un juego en su fase final. | Los extranjerismos crudos no adaptados al español deben escribirse en cursiva. Se debe usar minúscula inicial salvo al principio de oración.",
+      "suggestions": [
+        "*endgame*"
+      ],
+      "offset": 765,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Endgame",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas",
+        "is_italic": true,
+        "definition": "Término que hace referencia al contenido accesible tras finalizar la campaña principal o al estado de un juego en su fase final.",
+        "rae_rule": "Los extranjerismos crudos no adaptados al español deben escribirse en cursiva. Se debe usar minúscula inicial salvo al principio de oración.",
+        "recommended": "*endgame*",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Metroidvania",
+      "message": "Género de videojuegos no lineal caracterizado por un mapa interconectado que requiere habilidades específicas para desbloquear nuevas áreas. | Al ser un término inglés no adaptado, debe ir en cursiva. Al tratarse de un nombre de subgénero genérico, se prefiere la minúscula.",
+      "suggestions": [
+        "*metroidvania*"
+      ],
+      "offset": 836,
+      "length": 12,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Metroidvania",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas",
+        "is_italic": true,
+        "definition": "Género de videojuegos no lineal caracterizado por un mapa interconectado que requiere habilidades específicas para desbloquear nuevas áreas.",
+        "rae_rule": "Al ser un término inglés no adaptado, debe ir en cursiva. Al tratarse de un nombre de subgénero genérico, se prefiere la minúscula.",
+        "recommended": "*metroidvania*",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Soulslike",
+      "message": "Subgénero de acción-RPG caracterizado por una alta dificultad, combate metódico y pérdida de recursos tras morir. | Al ser un extranjerismo crudo, debe escribirse en cursiva.",
+      "suggestions": [
+        "*soulslike*"
+      ],
+      "offset": 854,
+      "length": 9,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Soulslike",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas",
+        "is_italic": true,
+        "definition": "Subgénero de acción-RPG caracterizado por una alta dificultad, combate metódico y pérdida de recursos tras morir.",
+        "rae_rule": "Al ser un extranjerismo crudo, debe escribirse en cursiva.",
+        "recommended": "*soulslike*",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Hollow Knight",
+      "message": "Videojuego de acción y plataformas tipo metroidvania desarrollado por Team Cherry. | Los títulos de obras de creación (videojuegos) deben escribirse en cursiva.",
+      "suggestions": [
+        "*Hollow Knight*"
+      ],
+      "offset": 1494,
+      "length": 13,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Hollow Knight",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de acción y plataformas tipo metroidvania desarrollado por Team Cherry.",
+        "rae_rule": "Los títulos de obras de creación (videojuegos) deben escribirse en cursiva.",
+        "recommended": "*Hollow Knight*",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Lugar / Zona del mundo",
+      "text": "Cruces Olvidados",
+      "message": "Zona inicial de Hollow Knight. Representa el tutorial y el punto de partida del jugador. | Los topónimos de ficción deben escribirse en redonda. Al ser el nombre propio de una zona del juego, no requiere cursiva ni comillas innecesarias.",
+      "suggestions": [
+        "Cruces Olvidados"
+      ],
+      "offset": 1572,
+      "length": 16,
+      "rule_id": "GEMINI_LUGAR_/_ZONA_DEL_MUNDO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Cruces Olvidados",
+        "category": "Lugar / Zona del mundo",
+        "rule_name": "Regla 3: Nombres propios extranjeros (topónimos de ficción)",
+        "is_italic": false,
+        "definition": "Zona inicial de Hollow Knight. Representa el tutorial y el punto de partida del jugador.",
+        "rae_rule": "Los topónimos de ficción deben escribirse en redonda. Al ser el nombre propio de una zona del juego, no requiere cursiva ni comillas innecesarias.",
+        "recommended": "Cruces Olvidados",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Lugar / Zona del mundo",
+      "text": "Cruces Infectados",
+      "message": "Estado alterado de los 'Cruces Olvidados' tras el avance de la infección en la narrativa del juego. Es vital mantener consistencia nominal con el nombre original. | Se debe mantener la consistencia en la grafía de los lugares. Los nombres propios de zonas van en redonda.",
+      "suggestions": [
+        "Cruces Infectados"
+      ],
+      "offset": 1628,
+      "length": 17,
+      "rule_id": "GEMINI_LUGAR_/_ZONA_DEL_MUNDO",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "Cruces Infectados",
+        "category": "Lugar / Zona del mundo",
+        "rule_name": "Regla 3: Nombres propios extranjeros (topónimos de ficción)",
+        "is_italic": false,
+        "definition": "Estado alterado de los 'Cruces Olvidados' tras el avance de la infección en la narrativa del juego. Es vital mantener consistencia nominal con el nombre original.",
+        "rae_rule": "Se debe mantener la consistencia en la grafía de los lugares. Los nombres propios de zonas van en redonda.",
+        "recommended": "Cruces Infectados",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "dashes",
+      "message": "Mecánica de desplazamiento rápido. En español, se prefiere 'impulso' o 'esquive', pero si se mantiene el anglicismo, debe ir en cursiva. | Los extranjerismos crudos se escriben en cursiva. Se recomienda evitar el plural 'dashes' si no es necesario, usando el singular o adaptándolo.",
+      "suggestions": [
+        "*dash*"
+      ],
+      "offset": 1744,
+      "length": 6,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "dashes",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas",
+        "is_italic": true,
+        "definition": "Mecánica de desplazamiento rápido. En español, se prefiere 'impulso' o 'esquive', pero si se mantiene el anglicismo, debe ir en cursiva.",
+        "rae_rule": "Los extranjerismos crudos se escriben en cursiva. Se recomienda evitar el plural 'dashes' si no es necesario, usando el singular o adaptándolo.",
+        "recommended": "*dash*",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-cursiva/",
+        "found": true
+      }
+    }
+  ],
+  "35e693fa5414f329fdfcec0ede425ac1": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "35mm coarse film grain",
+      "message": "Terminología técnica de fotografía analógica referida a la densidad y textura del grano en una película de 35 milímetros. | Los extranjerismos crudos o sintagmas ingleses que actúan como términos comunes deben escribirse en cursiva. Además, la abreviatura de milímetros (mm) debe ir precedida de un espacio.",
+      "suggestions": [
+        "35 mm coarse film grain"
+      ],
+      "offset": 34,
+      "length": 22,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "35mm coarse film grain",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Terminología técnica de fotografía analógica referida a la densidad y textura del grano en una película de 35 milímetros.",
+        "rae_rule": "Los extranjerismos crudos o sintagmas ingleses que actúan como términos comunes deben escribirse en cursiva. Además, la abreviatura de milímetros (mm) debe ir precedida de un espacio.",
+        "recommended": "35 mm coarse film grain",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/s%C3%ADmbolos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Gritty film texture",
+      "message": "Referencia a un estilo visual caracterizado por una textura de película áspera o rugosa, muy común en la estética cinematográfica. | Las expresiones en inglés de dos o más palabras que funcionan como término común deben ir en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "gritty film texture"
+      ],
+      "offset": 59,
+      "length": 19,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Gritty film texture",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Referencia a un estilo visual caracterizado por una textura de película áspera o rugosa, muy común en la estética cinematográfica.",
+        "rae_rule": "Las expresiones en inglés de dos o más palabras que funcionan como término común deben ir en cursiva y con minúscula inicial.",
+        "recommended": "gritty film texture",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "High-detail skin pores",
+      "message": "Instrucción técnica para motores gráficos o IA que busca simular la porosidad de la piel humana. | Al ser un sintagma inglés usado como término genérico (no nombre propio), debe escribirse en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "high-detail skin pores"
+      ],
+      "offset": 127,
+      "length": 22,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "High-detail skin pores",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Instrucción técnica para motores gráficos o IA que busca simular la porosidad de la piel humana.",
+        "rae_rule": "Al ser un sintagma inglés usado como término genérico (no nombre propio), debe escribirse en cursiva y con minúscula inicial.",
+        "recommended": "high-detail skin pores",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Visible sweat",
+      "message": "Parámetro técnico para renderizado que fuerza la inclusión de efectos de transpiración en la superficie de un modelo 3D. | Los términos técnicos en inglés deben ir en cursiva según la norma de extranjerismos no adaptados.",
+      "suggestions": [
+        "visible sweat"
+      ],
+      "offset": 152,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Visible sweat",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Parámetro técnico para renderizado que fuerza la inclusión de efectos de transpiración en la superficie de un modelo 3D.",
+        "rae_rule": "Los términos técnicos en inglés deben ir en cursiva según la norma de extranjerismos no adaptados.",
+        "recommended": "visible sweat",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Shot on Kodak 5247 film",
+      "message": "Referencia a una emulsión específica de película cinematográfica (Eastman Color Negative Film 5247) popular en las décadas de los 70 y 80. | Aunque contenga un nombre propio (Kodak), la expresión completa actúa como un sintagma descriptivo en inglés y debe ir en cursiva.",
+      "suggestions": [
+        "shot on Kodak 5247 film"
+      ],
+      "offset": 238,
+      "length": 23,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Shot on Kodak 5247 film",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Referencia a una emulsión específica de película cinematográfica (Eastman Color Negative Film 5247) popular en las décadas de los 70 y 80.",
+        "rae_rule": "Aunque contenga un nombre propio (Kodak), la expresión completa actúa como un sintagma descriptivo en inglés y debe ir en cursiva.",
+        "recommended": "shot on Kodak 5247 film",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Not a 3D render",
+      "message": "Instrucción negativa utilizada en 'prompts' de IA para evitar el aspecto sintético propio de los motores de renderizado 3D. | Las expresiones en inglés de varias palabras deben escribirse en cursiva para diferenciarlas del texto en español.",
+      "suggestions": [
+        "not a 3D render"
+      ],
+      "offset": 363,
+      "length": 15,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Not a 3D render",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Instrucción negativa utilizada en 'prompts' de IA para evitar el aspecto sintético propio de los motores de renderizado 3D.",
+        "rae_rule": "Las expresiones en inglés de varias palabras deben escribirse en cursiva para diferenciarlas del texto en español.",
+        "recommended": "not a 3D render",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Photographic film frame",
+      "message": "Referencia al encuadre o aspecto visual de una película fotográfica real. | Sintagma en inglés usado como término técnico/común, por tanto, requiere cursiva y minúsculas iniciales.",
+      "suggestions": [
+        "photographic film frame"
+      ],
+      "offset": 381,
+      "length": 23,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Photographic film frame",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Referencia al encuadre o aspecto visual de una película fotográfica real.",
+        "rae_rule": "Sintagma en inglés usado como término técnico/común, por tanto, requiere cursiva y minúsculas iniciales.",
+        "recommended": "photographic film frame",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "videojuego",
+      "message": "Término referido a juegos electrónicos. | En este contexto, la palabra 'videojuego' aparece en el texto entre comillas inglesas (\"\"). Según la RAE, se deben preferir las comillas angulares o latinas (« ») para textos en español.",
+      "suggestions": [
+        "«videojuego»"
+      ],
+      "offset": 456,
+      "length": 10,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "videojuego",
+        "category": "Ortografia",
+        "rule_name": "Ortografía española",
+        "is_italic": false,
+        "definition": "Término referido a juegos electrónicos.",
+        "rae_rule": "En este contexto, la palabra 'videojuego' aparece en el texto entre comillas inglesas (\"\"). Según la RAE, se deben preferir las comillas angulares o latinas (« ») para textos en español.",
+        "recommended": "«videojuego»",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/comillas",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Motivated practical neon",
+      "message": "Término de iluminación cinematográfica que se refiere a luces que tienen una fuente visible en la escena (luces prácticas) y que justifican la iluminación de la toma. | Sintagma técnico en inglés, por lo que debe ir en cursiva y minúsculas.",
+      "suggestions": [
+        "motivated practical neon"
+      ],
+      "offset": 470,
+      "length": 24,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Motivated practical neon",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Término de iluminación cinematográfica que se refiere a luces que tienen una fuente visible en la escena (luces prácticas) y que justifican la iluminación de la toma.",
+        "rae_rule": "Sintagma técnico en inglés, por lo que debe ir en cursiva y minúsculas.",
+        "recommended": "motivated practical neon",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-cursi-o-redonda/",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Nano Bana Pro",
+      "message": "Nombre propio (presumiblemente de un software, modelo de IA o herramienta de desarrollo). | Los nombres propios, independientemente de su origen, se escriben en letra redonda y conservan su mayúscula inicial.",
+      "suggestions": [
+        "Nano Bana Pro"
+      ],
+      "offset": 573,
+      "length": 13,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Nano Bana Pro",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Nombre propio (presumiblemente de un software, modelo de IA o herramienta de desarrollo).",
+        "rae_rule": "Los nombres propios, independientemente de su origen, se escriben en letra redonda y conservan su mayúscula inicial.",
+        "recommended": "Nano Bana Pro",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/may%C3%BAsculas",
+        "found": true
+      }
+    }
+  ],
+  "4730681e8aa5b828254ed358bae77ec9": [
+    {
+      "category": "Sigla",
+      "text": "NPCs",
+      "message": "Acrónimo de 'Non-Player Character' (personaje no jugable). Se refiere a personajes controlados por la inteligencia artificial del juego, no por el usuario. | Las siglas se escriben en mayúsculas y no llevan marca de plural (la 's' final) para evitar errores, pues la pluralidad se indica mediante los artículos (los NPC).",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 1532,
+      "length": 4,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "Ortografía de la lengua española (RAE)",
+      "lookup": {
+        "term": "NPCs",
+        "category": "Sigla",
+        "rule_name": "Regla 6: Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Acrónimo de 'Non-Player Character' (personaje no jugable). Se refiere a personajes controlados por la inteligencia artificial del juego, no por el usuario.",
+        "rae_rule": "Las siglas se escriben en mayúsculas y no llevan marca de plural (la 's' final) para evitar errores, pues la pluralidad se indica mediante los artículos (los NPC).",
+        "recommended": "NPC",
+        "source": "Ortografía de la lengua española (RAE)",
+        "source_url": "https://www.rae.es/dpd/sigla",
+        "found": true
+      }
+    }
+  ],
+  "8fa6568c17d2d7c6260ea09732cf0496": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Bleed Effect",
+      "message": "Término técnico utilizado en juegos de rol y videojuegos para describir el fenómeno donde los sentimientos o traumas del personaje (avatar) afectan al jugador real (o viceversa). | Los términos genéricos en inglés formados por varias palabras, cuando se usan como préstamos, deben escribirse en cursiva y con minúscula inicial.",
+      "suggestions": [
+        "bleed effect"
+      ],
+      "offset": 594,
+      "length": 12,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Bleed Effect",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Término técnico utilizado en juegos de rol y videojuegos para describir el fenómeno donde los sentimientos o traumas del personaje (avatar) afectan al jugador real (o viceversa).",
+        "rae_rule": "Los términos genéricos en inglés formados por varias palabras, cuando se usan como préstamos, deben escribirse en cursiva y con minúscula inicial.",
+        "recommended": "bleed effect",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Sigla de 'Non-Player Character' (personaje no jugador). Son los personajes controlados por la IA del juego con los que el jugador interactúa. | Las siglas extranjeras se escriben en redonda y mantienen sus mayúsculas originales. Se desaconseja su adaptación o cursivización si son términos estándar en la industria.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 812,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Regla 6: Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Sigla de 'Non-Player Character' (personaje no jugador). Son los personajes controlados por la IA del juego con los que el jugador interactúa.",
+        "rae_rule": "Las siglas extranjeras se escriben en redonda y mantienen sus mayúsculas originales. Se desaconseja su adaptación o cursivización si son términos estándar en la industria.",
+        "recommended": "NPC",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-se-escriben-sin-puntos-y-no-llevan-tilde/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Spec Ops: The Line",
+      "message": "Videojuego de disparos en tercera persona (2012) conocido por su narrativa subversiva sobre la guerra y la psicología del protagonista. | Los títulos de obras de creación (videojuegos, libros, películas) deben escribirse en cursiva y mantener su grafía original.",
+      "suggestions": [
+        "*Spec Ops: The Line*"
+      ],
+      "offset": 2049,
+      "length": 18,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Spec Ops: The Line",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de disparos en tercera persona (2012) conocido por su narrativa subversiva sobre la guerra y la psicología del protagonista.",
+        "rae_rule": "Los títulos de obras de creación (videojuegos, libros, películas) deben escribirse en cursiva y mantener su grafía original.",
+        "recommended": "*Spec Ops: The Line*",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "shooter",
+      "message": "Género de videojuegos de disparos. Aunque 'juego de disparos' es el equivalente natural, el término 'shooter' está muy extendido como jerga técnica. | Los extranjerismos crudos (términos no adaptados) que se usan en el lenguaje común deben escribirse en cursiva.",
+      "suggestions": [
+        "shooter"
+      ],
+      "offset": 2111,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "shooter",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Género de videojuegos de disparos. Aunque 'juego de disparos' es el equivalente natural, el término 'shooter' está muy extendido como jerga técnica.",
+        "rae_rule": "Los extranjerismos crudos (términos no adaptados) que se usan en el lenguaje común deben escribirse en cursiva.",
+        "recommended": "shooter",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Personaje / Entidad de ficción",
+      "text": "Capitán Walker",
+      "message": "Protagonista del videojuego *Spec Ops: The Line*. Como nombre propio de personaje, no requiere cursiva. | Los nombres propios de personajes de ficción se escriben en redonda, sin necesidad de comillas ni cursiva, incluso si son extranjeros.",
+      "suggestions": [
+        "Capitán Walker"
+      ],
+      "offset": 2220,
+      "length": 14,
+      "rule_id": "GEMINI_PERSONAJE_/_ENTIDAD_DE_FICCIÓN",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Capitán Walker",
+        "category": "Personaje / Entidad de ficción",
+        "rule_name": "Regla 3: Nombres propios extranjeros",
+        "is_italic": false,
+        "definition": "Protagonista del videojuego *Spec Ops: The Line*. Como nombre propio de personaje, no requiere cursiva.",
+        "rae_rule": "Los nombres propios de personajes de ficción se escriben en redonda, sin necesidad de comillas ni cursiva, incluso si son extranjeros.",
+        "recommended": "Capitán Walker",
+        "source": "Ortografía RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "sprints",
+      "message": "En gestión de proyectos (metodologías ágiles), es un periodo corto de tiempo en el que se trabaja en tareas específicas y concretas. | Término en inglés no adaptado que debe figurar en cursiva en contextos en español.",
+      "suggestions": [
+        "sprints"
+      ],
+      "offset": 3281,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "sprints",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 1: Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "En gestión de proyectos (metodologías ágiles), es un periodo corto de tiempo en el que se trabaja en tareas específicas y concretas.",
+        "rae_rule": "Término en inglés no adaptado que debe figurar en cursiva en contextos en español.",
+        "recommended": "sprints",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Scrum",
+      "message": "Marco de trabajo (framework) para la gestión de proyectos, muy utilizado en el desarrollo de software y videojuegos. | Al ser un nombre propio de una metodología/marca comercial de gestión, se escribe en redonda.",
+      "suggestions": [
+        "Scrum"
+      ],
+      "offset": 3298,
+      "length": 5,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Scrum",
+        "category": "Marca / Empresa",
+        "rule_name": "Regla 4: Empresas, instituciones, plataformas y marcas",
+        "is_italic": false,
+        "definition": "Marco de trabajo (framework) para la gestión de proyectos, muy utilizado en el desarrollo de software y videojuegos.",
+        "rae_rule": "Al ser un nombre propio de una metodología/marca comercial de gestión, se escribe en redonda.",
+        "recommended": "Scrum",
+        "source": "Wikipedia",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "PMI",
+      "message": "Project Management Institute. Organización profesional dedicada a la gestión de proyectos. | Las siglas se escriben en redonda. No se deben cursivizar por ser extranjeras.",
+      "suggestions": [
+        "PMI"
+      ],
+      "offset": 3306,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "PMI",
+        "category": "Sigla",
+        "rule_name": "Regla 6: Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Project Management Institute. Organización profesional dedicada a la gestión de proyectos.",
+        "rae_rule": "Las siglas se escriben en redonda. No se deben cursivizar por ser extranjeras.",
+        "recommended": "PMI",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "Metroidvania",
+      "message": "Subgénero de videojuegos de acción-aventura caracterizado por la exploración no lineal y el bloqueo de áreas que requieren habilidades obtenidas posteriormente. | Aunque deriva de títulos de juegos (*Metroid* y *Castlevania*), el término ya funciona como nombre común del género y, por su uso extendido, se escribe en redonda.",
+      "suggestions": [
+        "Metroidvania"
+      ],
+      "offset": 3654,
+      "length": 12,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "Wikipedia",
+      "lookup": {
+        "term": "Metroidvania",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Regla 2: Extranjerismos adaptados al español",
+        "is_italic": false,
+        "definition": "Subgénero de videojuegos de acción-aventura caracterizado por la exploración no lineal y el bloqueo de áreas que requieren habilidades obtenidas posteriormente.",
+        "rae_rule": "Aunque deriva de títulos de juegos (*Metroid* y *Castlevania*), el término ya funciona como nombre común del género y, por su uso extendido, se escribe en redonda.",
+        "recommended": "Metroidvania",
+        "source": "Wikipedia",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "Meaningful Choices",
+      "message": "Término narrativo que hace referencia a las decisiones del jugador que tienen un impacto real y significativo en la trama o el mundo del juego. | Expresión genérica inglesa de varias palabras. Debe ir en cursiva y minúsculas iniciales.",
+      "suggestions": [
+        "meaningful choices"
+      ],
+      "offset": 4196,
+      "length": 18,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Meaningful Choices",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Regla 8: Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Término narrativo que hace referencia a las decisiones del jugador que tienen un impacto real y significativo en la trama o el mundo del juego.",
+        "rae_rule": "Expresión genérica inglesa de varias palabras. Debe ir en cursiva y minúsculas iniciales.",
+        "recommended": "meaningful choices",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "ofrezcas",
+      "message": "El texto original dice: 'Si le ofrezcas'. Esto es incorrecto gramaticalmente tras el condicional 'si'. La forma correcta es 'Si le ofreces'. | La conjunción condicional 'si' no rige subjuntivo en oraciones que expresan condición real (Si + presente de indicativo).",
+      "suggestions": [
+        "ofrezcas"
+      ],
+      "offset": 4223,
+      "length": 8,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "DPD RAE",
+      "lookup": {
+        "term": "ofrezcas",
+        "category": "Ortografia",
+        "rule_name": "Regla General: Ortografía española",
+        "is_italic": false,
+        "definition": "El texto original dice: 'Si le ofrezcas'. Esto es incorrecto gramaticalmente tras el condicional 'si'. La forma correcta es 'Si le ofreces'.",
+        "rae_rule": "La conjunción condicional 'si' no rige subjuntivo en oraciones que expresan condición real (Si + presente de indicativo).",
+        "recommended": "ofrezcas",
+        "source": "DPD RAE",
+        "source_url": "https://www.rae.es/dpd/si",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de videojuego",
+      "text": "Detroit: Become Human",
+      "message": "Videojuego de aventura gráfica y narrativa desarrollado por Quantic Dream, centrado en las consecuencias de las decisiones del jugador. | Los títulos de videojuegos se escriben en cursiva.",
+      "suggestions": [
+        "*Detroit: Become Human*"
+      ],
+      "offset": 4607,
+      "length": 21,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "Ortografía RAE",
+      "lookup": {
+        "term": "Detroit: Become Human",
+        "category": "Título de videojuego",
+        "rule_name": "Regla 7: Títulos de videojuegos y obras (en cursiva)",
+        "is_italic": true,
+        "definition": "Videojuego de aventura gráfica y narrativa desarrollado por Quantic Dream, centrado en las consecuencias de las decisiones del jugador.",
+        "rae_rule": "Los títulos de videojuegos se escriben en cursiva.",
+        "recommended": "*Detroit: Become Human*",
+        "source": "Ortografía RAE",
+        "source_url": "https://www.rae.es/dpd/cursiva",
+        "found": true
+      }
+    }
+  ],
+  "2a01e2706bade871b563deeebb31c19a": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "assets",
+      "message": "Término en inglés para referirse a recursos digitales o elementos de un proyecto. | Los extranjerismos crudos deben escribirse en cursiva según la norma de la RAE.",
+      "suggestions": [
+        "assets"
+      ],
+      "offset": 331,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "assets",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a recursos digitales o elementos de un proyecto.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva según la norma de la RAE.",
+        "recommended": "assets",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "gameplay",
+      "message": "Término en inglés que se refiere a la experiencia de juego o jugabilidad. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "gameplay"
+      ],
+      "offset": 352,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "gameplay",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés que se refiere a la experiencia de juego o jugabilidad.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "gameplay",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "workflow",
+      "message": "Término en inglés que significa flujo de trabajo. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "workflow"
+      ],
+      "offset": 400,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "workflow",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés que significa flujo de trabajo.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "workflow",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Hierarchy",
+      "message": "Ventana dentro del motor Unity que muestra la jerarquía de los GameObjects. | Los nombres propios de elementos de interfaz y herramientas de software deben escribirse con mayúscula inicial y en redonda.",
+      "suggestions": [
+        "Hierarchy"
+      ],
+      "offset": 694,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Hierarchy",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Ventana dentro del motor Unity que muestra la jerarquía de los GameObjects.",
+        "rae_rule": "Los nombres propios de elementos de interfaz y herramientas de software deben escribirse con mayúscula inicial y en redonda.",
+        "recommended": "Hierarchy",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "GameObjects",
+      "message": "Clase base fundamental en Unity para los objetos dentro de una escena. | Los elementos internos de software mantienen su denominación oficial con mayúscula inicial.",
+      "suggestions": [
+        "GameObjects"
+      ],
+      "offset": 718,
+      "length": 11,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "GameObjects",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Clase base fundamental en Unity para los objetos dentro de una escena.",
+        "rae_rule": "Los elementos internos de software mantienen su denominación oficial con mayúscula inicial.",
+        "recommended": "GameObjects",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Inspector",
+      "message": "Panel de Unity para modificar las propiedades de un objeto seleccionado. | Los nombres propios de elementos de interfaz y herramientas de software deben escribirse con mayúscula inicial y en redonda.",
+      "suggestions": [
+        "Inspector"
+      ],
+      "offset": 785,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Inspector",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Panel de Unity para modificar las propiedades de un objeto seleccionado.",
+        "rae_rule": "Los nombres propios de elementos de interfaz y herramientas de software deben escribirse con mayúscula inicial y en redonda.",
+        "recommended": "Inspector",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Project",
+      "message": "Ventana que muestra la estructura de archivos y carpetas en Unity. | Los nombres propios de elementos de interfaz deben mantener su grafía oficial.",
+      "suggestions": [
+        "Project"
+      ],
+      "offset": 848,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Project",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Ventana que muestra la estructura de archivos y carpetas en Unity.",
+        "rae_rule": "Los nombres propios de elementos de interfaz deben mantener su grafía oficial.",
+        "recommended": "Project",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "assets",
+      "message": "Término en inglés para referirse a recursos digitales o elementos de un proyecto. | Los extranjerismos crudos deben escribirse en cursiva según la norma de la RAE.",
+      "suggestions": [
+        "assets"
+      ],
+      "offset": 875,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "assets",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a recursos digitales o elementos de un proyecto.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva según la norma de la RAE.",
+        "recommended": "assets",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "prefabs",
+      "message": "Tipo de asset en Unity que permite guardar un GameObject con sus componentes y propiedades. | Al ser un elemento técnico específico del software, debe capitalizarse.",
+      "suggestions": [
+        "Prefabs"
+      ],
+      "offset": 901,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "prefabs",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Tipo de asset en Unity que permite guardar un GameObject con sus componentes y propiedades.",
+        "rae_rule": "Al ser un elemento técnico específico del software, debe capitalizarse.",
+        "recommended": "Prefabs",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Project",
+      "message": "Ventana que muestra la estructura de archivos y carpetas en Unity. | Los nombres propios de elementos de interfaz deben mantener su grafía oficial.",
+      "suggestions": [
+        "Project"
+      ],
+      "offset": 1202,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Project",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Ventana que muestra la estructura de archivos y carpetas en Unity.",
+        "rae_rule": "Los nombres propios de elementos de interfaz deben mantener su grafía oficial.",
+        "recommended": "Project",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Scene",
+      "message": "Vista de edición de la escena en el motor Unity. | Los nombres de las ventanas o vistas de la interfaz deben ir con mayúscula inicial.",
+      "suggestions": [
+        "Scene"
+      ],
+      "offset": 1223,
+      "length": 5,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Scene",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Vista de edición de la escena en el motor Unity.",
+        "rae_rule": "Los nombres de las ventanas o vistas de la interfaz deben ir con mayúscula inicial.",
+        "recommended": "Scene",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Inspector",
+      "message": "Panel de Unity para modificar las propiedades de un objeto seleccionado. | Los nombres propios de elementos de interfaz y herramientas de software deben escribirse con mayúscula inicial y en redonda.",
+      "suggestions": [
+        "Inspector"
+      ],
+      "offset": 1300,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Inspector",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Panel de Unity para modificar las propiedades de un objeto seleccionado.",
+        "rae_rule": "Los nombres propios de elementos de interfaz y herramientas de software deben escribirse con mayúscula inicial y en redonda.",
+        "recommended": "Inspector",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Transform",
+      "message": "Componente básico en Unity que determina la posición, rotación y escala. | Los nombres de los componentes de software son elementos de interfaz técnicos.",
+      "suggestions": [
+        "Transform"
+      ],
+      "offset": 1329,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Transform",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Componente básico en Unity que determina la posición, rotación y escala.",
+        "rae_rule": "Los nombres de los componentes de software son elementos de interfaz técnicos.",
+        "recommended": "Transform",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Position",
+      "message": "Campo de propiedad dentro del componente Transform en Unity. | Campos o etiquetas de interfaz se escriben con mayúscula inicial.",
+      "suggestions": [
+        "Position"
+      ],
+      "offset": 1362,
+      "length": 8,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Position",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Campo de propiedad dentro del componente Transform en Unity.",
+        "rae_rule": "Campos o etiquetas de interfaz se escriben con mayúscula inicial.",
+        "recommended": "Position",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Rotation",
+      "message": "Campo de propiedad dentro del componente Transform en Unity. | Campos o etiquetas de interfaz se escriben con mayúscula inicial.",
+      "suggestions": [
+        "Rotation"
+      ],
+      "offset": 1372,
+      "length": 8,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Rotation",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Campo de propiedad dentro del componente Transform en Unity.",
+        "rae_rule": "Campos o etiquetas de interfaz se escriben con mayúscula inicial.",
+        "recommended": "Rotation",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Scale",
+      "message": "Campo de propiedad dentro del componente Transform en Unity. | Campos o etiquetas de interfaz se escriben con mayúscula inicial.",
+      "suggestions": [
+        "Scale"
+      ],
+      "offset": 1383,
+      "length": 5,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Scale",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Campo de propiedad dentro del componente Transform en Unity.",
+        "rae_rule": "Campos o etiquetas de interfaz se escriben con mayúscula inicial.",
+        "recommended": "Scale",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Animator",
+      "message": "Ventana o componente del sistema de animación de Unity. | Nombres de herramientas de interfaz van en mayúscula inicial.",
+      "suggestions": [
+        "Animator"
+      ],
+      "offset": 1492,
+      "length": 8,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Animator",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Ventana o componente del sistema de animación de Unity.",
+        "rae_rule": "Nombres de herramientas de interfaz van en mayúscula inicial.",
+        "recommended": "Animator",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Animator Controller",
+      "message": "Archivo activo en Unity para gestionar estados de animación. | Nombres propios técnicos de la interfaz de software.",
+      "suggestions": [
+        "Animator Controller"
+      ],
+      "offset": 1521,
+      "length": 19,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Animator Controller",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Archivo activo en Unity para gestionar estados de animación.",
+        "rae_rule": "Nombres propios técnicos de la interfaz de software.",
+        "recommended": "Animator Controller",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Parameters",
+      "message": "Pestaña o sección dentro del Animator en Unity. | Elementos de interfaz y menús específicos.",
+      "suggestions": [
+        "Parameters"
+      ],
+      "offset": 1653,
+      "length": 10,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Parameters",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Pestaña o sección dentro del Animator en Unity.",
+        "rae_rule": "Elementos de interfaz y menús específicos.",
+        "recommended": "Parameters",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Transitions",
+      "message": "Elemento dentro del sistema de Animator en Unity. | Elementos de interfaz y menús específicos.",
+      "suggestions": [
+        "Transitions"
+      ],
+      "offset": 1670,
+      "length": 11,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Transitions",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Elemento dentro del sistema de Animator en Unity.",
+        "rae_rule": "Elementos de interfaz y menús específicos.",
+        "recommended": "Transitions",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Rigidbody",
+      "message": "Componente de física en Unity. | Nombres técnicos de componentes de interfaz.",
+      "suggestions": [
+        "Rigidbody"
+      ],
+      "offset": 1991,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Rigidbody",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Componente de física en Unity.",
+        "rae_rule": "Nombres técnicos de componentes de interfaz.",
+        "recommended": "Rigidbody",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Capsule Collider",
+      "message": "Componente de colisión en Unity. | Nombres técnicos de componentes de interfaz.",
+      "suggestions": [
+        "Capsule Collider"
+      ],
+      "offset": 2123,
+      "length": 16,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Capsule Collider",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Componente de colisión en Unity.",
+        "rae_rule": "Nombres técnicos de componentes de interfaz.",
+        "recommended": "Capsule Collider",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "health",
+      "message": "Término en inglés para referirse a la barra de vida en videojuegos. | Se recomienda usar el término español 'salud' o 'vida'.",
+      "suggestions": [
+        "salud"
+      ],
+      "offset": 2244,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "health",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a la barra de vida en videojuegos.",
+        "rae_rule": "Se recomienda usar el término español 'salud' o 'vida'.",
+        "recommended": "salud",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "power-up",
+      "message": "Término en inglés para un potenciador. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "power-up"
+      ],
+      "offset": 2256,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "power-up",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para un potenciador.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "power-up",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Collider",
+      "message": "Componente base de colisiones en Unity. | Nombres técnicos de componentes de interfaz.",
+      "suggestions": [
+        "Collider"
+      ],
+      "offset": 2288,
+      "length": 8,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Collider",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Componente base de colisiones en Unity.",
+        "rae_rule": "Nombres técnicos de componentes de interfaz.",
+        "recommended": "Collider",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Is Trigger",
+      "message": "Propiedad booleana dentro de un Collider en Unity. | Etiquetas de propiedades en la interfaz.",
+      "suggestions": [
+        "Is Trigger"
+      ],
+      "offset": 2318,
+      "length": 10,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Is Trigger",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Propiedad booleana dentro de un Collider en Unity.",
+        "rae_rule": "Etiquetas de propiedades en la interfaz.",
+        "recommended": "Is Trigger",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Window",
+      "message": "Menú principal en la interfaz de Unity. | Los menús de programas se escriben con mayúscula inicial.",
+      "suggestions": [
+        "Window"
+      ],
+      "offset": 2436,
+      "length": 6,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Window",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Menú principal en la interfaz de Unity.",
+        "rae_rule": "Los menús de programas se escriben con mayúscula inicial.",
+        "recommended": "Window",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Package Manager",
+      "message": "Herramienta de gestión de paquetes en Unity. | Nombres de herramientas de interfaz.",
+      "suggestions": [
+        "Package Manager"
+      ],
+      "offset": 2514,
+      "length": 15,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Package Manager",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Herramienta de gestión de paquetes en Unity.",
+        "rae_rule": "Nombres de herramientas de interfaz.",
+        "recommended": "Package Manager",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "NavMesh",
+      "message": "Sistema de navegación de Unity. | Nombres técnicos de sistemas o herramientas de software.",
+      "suggestions": [
+        "NavMesh"
+      ],
+      "offset": 2706,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "NavMesh",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Sistema de navegación de Unity.",
+        "rae_rule": "Nombres técnicos de sistemas o herramientas de software.",
+        "recommended": "NavMesh",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "prefabs",
+      "message": "Tipo de asset en Unity que permite guardar un GameObject con sus componentes y propiedades. | Al ser un elemento técnico específico del software, debe capitalizarse.",
+      "suggestions": [
+        "Prefabs"
+      ],
+      "offset": 2798,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "prefabs",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Tipo de asset en Unity que permite guardar un GameObject con sus componentes y propiedades.",
+        "rae_rule": "Al ser un elemento técnico específico del software, debe capitalizarse.",
+        "recommended": "Prefabs",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Prefab",
+      "message": "Tipo de asset en Unity. | Elemento técnico de software.",
+      "suggestions": [
+        "Prefab"
+      ],
+      "offset": 2911,
+      "length": 6,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Prefab",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Tipo de asset en Unity.",
+        "rae_rule": "Elemento técnico de software.",
+        "recommended": "Prefab",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "prefab",
+      "message": "Tipo de asset en Unity. | Elemento técnico de software.",
+      "suggestions": [
+        "Prefab"
+      ],
+      "offset": 3012,
+      "length": 6,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Prefab",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Tipo de asset en Unity.",
+        "rae_rule": "Elemento técnico de software.",
+        "recommended": "Prefab",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "workflow",
+      "message": "Término en inglés que significa flujo de trabajo. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "workflow"
+      ],
+      "offset": 3102,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "workflow",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés que significa flujo de trabajo.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "workflow",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Console",
+      "message": "Ventana donde se muestran los mensajes de error y logs. | Nombres de ventanas de interfaz.",
+      "suggestions": [
+        "Console"
+      ],
+      "offset": 3218,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Console",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Ventana donde se muestran los mensajes de error y logs.",
+        "rae_rule": "Nombres de ventanas de interfaz.",
+        "recommended": "Console",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Play",
+      "message": "Botón de control en Unity. | Botones de interfaz.",
+      "suggestions": [
+        "Play"
+      ],
+      "offset": 3548,
+      "length": 4,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Play",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Botón de control en Unity.",
+        "rae_rule": "Botones de interfaz.",
+        "recommended": "Play",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Build Settings",
+      "message": "Ventana de configuración de compilación en Unity. | Nombres de ventanas de interfaz.",
+      "suggestions": [
+        "Build Settings"
+      ],
+      "offset": 3628,
+      "length": 14,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Build Settings",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Ventana de configuración de compilación en Unity.",
+        "rae_rule": "Nombres de ventanas de interfaz.",
+        "recommended": "Build Settings",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Window",
+      "message": "Menú principal en la interfaz de Unity. | Los menús de programas se escriben con mayúscula inicial.",
+      "suggestions": [
+        "Window"
+      ],
+      "offset": 3745,
+      "length": 6,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Manual de estilo editorial",
+      "lookup": {
+        "term": "Window",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos de software: mayúscula inicial en menús y herramientas",
+        "is_italic": false,
+        "definition": "Menú principal en la interfaz de Unity.",
+        "rae_rule": "Los menús de programas se escriben con mayúscula inicial.",
+        "recommended": "Window",
+        "source": "Manual de estilo editorial",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Jerga de videojuegos",
+      "text": "crafteo",
+      "message": "Término adaptado derivado del inglés 'crafting'. | Las adaptaciones morfológicas al español se escriben en redonda.",
+      "suggestions": [
+        "crafteo"
+      ],
+      "offset": 3965,
+      "length": 7,
+      "rule_id": "GEMINI_JERGA_DE_VIDEOJUEGOS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "crafteo",
+        "category": "Jerga de videojuegos",
+        "rule_name": "Extranjerismos adaptados al español",
+        "is_italic": false,
+        "definition": "Término adaptado derivado del inglés 'crafting'.",
+        "rae_rule": "Las adaptaciones morfológicas al español se escriben en redonda.",
+        "recommended": "crafteo",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/crafteo-o-crafteado/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "loot",
+      "message": "Término en inglés para botín. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "loot"
+      ],
+      "offset": 3976,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "loot",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para botín.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "loot",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "boss fight",
+      "message": "Término en inglés para combate contra un jefe. | Las expresiones inglesas formadas por varias palabras deben ir en cursiva.",
+      "suggestions": [
+        "boss fight"
+      ],
+      "offset": 3984,
+      "length": 10,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "boss fight",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Términos genéricos en inglés formados por varias palabras",
+        "is_italic": true,
+        "definition": "Término en inglés para combate contra un jefe.",
+        "rae_rule": "Las expresiones inglesas formadas por varias palabras deben ir en cursiva.",
+        "recommended": "boss fight",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "respawn",
+      "message": "Término en inglés para reaparición. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "respawn"
+      ],
+      "offset": 3998,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "respawn",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para reaparición.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "respawn",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "hitbox",
+      "message": "Término en inglés para caja de colisión. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "hitbox"
+      ],
+      "offset": 4009,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "hitbox",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para caja de colisión.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "hitbox",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "shader",
+      "message": "Término en inglés para programa de sombreado. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "shader"
+      ],
+      "offset": 4019,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "shader",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para programa de sombreado.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "shader",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "rigging",
+      "message": "Término en inglés para el proceso de creación de esqueletos en modelos 3D. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "rigging"
+      ],
+      "offset": 4029,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "rigging",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para el proceso de creación de esqueletos en modelos 3D.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "rigging",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "raycast",
+      "message": "Término en inglés para lanzamiento de rayos. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "raycast"
+      ],
+      "offset": 4040,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "raycast",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para lanzamiento de rayos.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "raycast",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "framerate",
+      "message": "Término en inglés para tasa de fotogramas. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "framerate"
+      ],
+      "offset": 4052,
+      "length": 9,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "framerate",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Palabras inglesas no adaptadas (extranjerismos crudos)",
+        "is_italic": true,
+        "definition": "Término en inglés para tasa de fotogramas.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "framerate",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    }
+  ],
+  "f8abc06e04be37b8d43a8c0285c38c5e": [
+    {
+      "category": "Título de obra",
+      "text": "Horizon Zero Dawn",
+      "message": "Título de una obra artística (videojuego). Debe escribirse en cursiva. | Los títulos de libros, películas, videojuegos, etc., se escriben en cursiva.",
+      "suggestions": [
+        "Horizon Zero Dawn"
+      ],
+      "offset": 44,
+      "length": 17,
+      "rule_id": "GEMINI_TÍTULO_DE_OBRA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "Horizon Zero Dawn",
+        "category": "Título de obra",
+        "rule_name": "Títulos de libros, películas, videojuegos y otras obras artísticas",
+        "is_italic": true,
+        "definition": "Título de una obra artística (videojuego). Debe escribirse en cursiva.",
+        "rae_rule": "Los títulos de libros, películas, videojuegos, etc., se escriben en cursiva.",
+        "recommended": "Horizon Zero Dawn",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/titulos-de-obras-de-creacion/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "pipeline",
+      "message": "Término inglés técnico sin adaptación al español. Debe ir en cursiva. | Los extranjerismos crudos deben escribirse en cursiva o entre comillas.",
+      "suggestions": [
+        "pipeline"
+      ],
+      "offset": 140,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE / Fundéu",
+      "lookup": {
+        "term": "pipeline",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Palabras extranjeras no adaptadas y latinismos",
+        "is_italic": true,
+        "definition": "Término inglés técnico sin adaptación al español. Debe ir en cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva o entre comillas.",
+        "recommended": "pipeline",
+        "source": "RAE / Fundéu",
+        "source_url": "https://www.fundeu.es/recomendacion/extranjerismos-y-latinismos-crudos-o-no-adaptados-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "design thinking",
+      "message": "Metodología de trabajo. Debe ir obligatoriamente en minúsculas y cursiva. | Las denominaciones de metodologías no son nombres propios, por lo que deben escribirse en minúsculas y cursiva al ser extranjerismos.",
+      "suggestions": [
+        "design thinking"
+      ],
+      "offset": 400,
+      "length": 15,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "Norma interna QA",
+      "lookup": {
+        "term": "design thinking",
+        "category": "Método / Metodología",
+        "rule_name": "Denominaciones de métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de trabajo. Debe ir obligatoriamente en minúsculas y cursiva.",
+        "rae_rule": "Las denominaciones de metodologías no son nombres propios, por lo que deben escribirse en minúsculas y cursiva al ser extranjerismos.",
+        "recommended": "design thinking",
+        "source": "Norma interna QA",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Move",
+      "message": "Nombre de herramienta dentro del software ZBrush. Conserva mayúscula y redonda. | Los elementos de interfaz gráfica conservan su denominación oficial y mayúsculas propias de la herramienta.",
+      "suggestions": [
+        "Move"
+      ],
+      "offset": 1093,
+      "length": 4,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Regla de estilo de software",
+      "lookup": {
+        "term": "Move",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Elementos internos de software y herramientas",
+        "is_italic": false,
+        "definition": "Nombre de herramienta dentro del software ZBrush. Conserva mayúscula y redonda.",
+        "rae_rule": "Los elementos de interfaz gráfica conservan su denominación oficial y mayúsculas propias de la herramienta.",
+        "recommended": "Move",
+        "source": "Regla de estilo de software",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Prefijación / Ortografía",
+      "text": "mini-falda",
+      "message": "Los prefijos se escriben unidos a la base léxica sin guion. | Los prefijos se escriben soldados a la base, sin guion intermedio.",
+      "suggestions": [
+        "minifalda"
+      ],
+      "offset": 3316,
+      "length": 10,
+      "rule_id": "GEMINI_PREFIJACIÓN_/_ORTOGRAFÍA",
+      "source": "RAE",
+      "lookup": {
+        "term": "mini-falda",
+        "category": "Prefijación / Ortografía",
+        "rule_name": "Escritura de prefijos (soldados y sin guion)",
+        "is_italic": false,
+        "definition": "Los prefijos se escriben unidos a la base léxica sin guion.",
+        "rae_rule": "Los prefijos se escriben soldados a la base, sin guion intermedio.",
+        "recommended": "minifalda",
+        "source": "RAE",
+        "source_url": "https://www.rae.es/noticia/la-escritura-de-los-prefijos",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD's",
+      "message": "Plural incorrecto de una sigla en español. Las siglas son invariables en plural y se marcan con el artículo. | En español, las siglas son invariables en la escritura; no deben añadirse marcas de plural como 's' o 'es'.",
+      "suggestions": [
+        "los HUD"
+      ],
+      "offset": 4154,
+      "length": 5,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "Auditoría RAE/Gemini",
+      "lookup": {
+        "term": "HUD's",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras y plurales de siglas",
+        "is_italic": false,
+        "definition": "Plural incorrecto de una sigla en español. Las siglas son invariables en plural y se marcan con el artículo.",
+        "rae_rule": "En español, las siglas son invariables en la escritura; no deben añadirse marcas de plural como 's' o 'es'.",
+        "recommended": "los HUD",
+        "source": "Manual RAE / FundéuRAE",
+        "source_url": "https://www.rae.es/dpd/sigla",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "analisis",
+      "message": "Palabra esdrújula, requiere tilde obligatoria en la antepenúltima sílaba. | Todas las palabras esdrújulas llevan tilde.",
+      "suggestions": [
+        "análisis"
+      ],
+      "offset": 4289,
+      "length": 8,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "analisis",
+        "category": "Ortografia",
+        "rule_name": "Acentuación ortográfica",
+        "is_italic": false,
+        "definition": "Palabra esdrújula, requiere tilde obligatoria en la antepenúltima sílaba.",
+        "rae_rule": "Todas las palabras esdrújulas llevan tilde.",
+        "recommended": "análisis",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es/espanol-al-dia/reglas-de-acentuacion",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "tendra",
+      "message": "Verbo en futuro imperfecto. Requiere tilde en la última sílaba por ser palabra aguda terminada en vocal. | Las palabras agudas terminadas en vocal llevan tilde.",
+      "suggestions": [
+        "tendrá"
+      ],
+      "offset": 4331,
+      "length": 6,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "tendra",
+        "category": "Ortografia",
+        "rule_name": "Acentuación ortográfica",
+        "is_italic": false,
+        "definition": "Verbo en futuro imperfecto. Requiere tilde en la última sílaba por ser palabra aguda terminada en vocal.",
+        "rae_rule": "Las palabras agudas terminadas en vocal llevan tilde.",
+        "recommended": "tendrá",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es/espanol-al-dia/reglas-de-acentuacion",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "consitente",
+      "message": "Error tipográfico (falta una 's'). | Uso correcto del léxico castellano.",
+      "suggestions": [
+        "consistente"
+      ],
+      "offset": 4371,
+      "length": 10,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "RAE - Diccionario",
+      "lookup": {
+        "term": "consitente",
+        "category": "Ortografia",
+        "rule_name": "Corrección de errores tipográficos",
+        "is_italic": false,
+        "definition": "Error tipográfico (falta una 's').",
+        "rae_rule": "Uso correcto del léxico castellano.",
+        "recommended": "consistente",
+        "source": "RAE - Diccionario",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Ortografia",
+      "text": "realizo",
+      "message": "Verbo en pretérito perfecto simple. Requiere tilde en la 'o' al ser aguda terminada en vocal. | Las palabras agudas terminadas en vocal llevan tilde.",
+      "suggestions": [
+        "realizó"
+      ],
+      "offset": 4396,
+      "length": 7,
+      "rule_id": "GEMINI_ORTOGRAFIA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "realizo",
+        "category": "Ortografia",
+        "rule_name": "Acentuación ortográfica",
+        "is_italic": false,
+        "definition": "Verbo en pretérito perfecto simple. Requiere tilde en la 'o' al ser aguda terminada en vocal.",
+        "rae_rule": "Las palabras agudas terminadas en vocal llevan tilde.",
+        "recommended": "realizó",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es/espanol-al-dia/reglas-de-acentuacion",
+        "found": true
+      }
+    }
+  ],
+  "8b0024454410a4047799c8d269a03a4c": [
+    {
+      "category": "Título de obra",
+      "text": "Horizon Zero Dawn",
+      "message": "Título de videojuego. Debe ir en cursiva según las normas ortográficas para títulos de obras artísticas. | Los títulos de obras se escriben en cursiva.",
+      "suggestions": [
+        "*Horizon Zero Dawn*"
+      ],
+      "offset": 44,
+      "length": 17,
+      "rule_id": "GEMINI_TÍTULO_DE_OBRA",
+      "source": "RAE - Ortografía de la lengua española",
+      "lookup": {
+        "term": "Horizon Zero Dawn",
+        "category": "Título de obra",
+        "rule_name": "Títulos de obras",
+        "is_italic": true,
+        "definition": "Título de videojuego. Debe ir en cursiva según las normas ortográficas para títulos de obras artísticas.",
+        "rae_rule": "Los títulos de obras se escriben en cursiva.",
+        "recommended": "*Horizon Zero Dawn*",
+        "source": "RAE - Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/ortografía/los-títulos-de-obras",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "brainstorming",
+      "message": "Término en inglés. Se debe usar cursiva si se mantiene el término original, o preferiblemente usar la traducción española 'lluvia de ideas'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*brainstorming* o lluvia de ideas"
+      ],
+      "offset": 220,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "brainstorming",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés. Se debe usar cursiva si se mantiene el término original, o preferiblemente usar la traducción española 'lluvia de ideas'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*brainstorming* o lluvia de ideas",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "gameplay loop",
+      "message": "Expresión compuesta en inglés que describe el ciclo de acciones repetitivas del jugador. | Las locuciones o expresiones fijas en otra lengua deben escribirse en cursiva.",
+      "suggestions": [
+        "*gameplay loop* o bucle de juego"
+      ],
+      "offset": 274,
+      "length": 13,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "gameplay loop",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Expresión compuesta en inglés que describe el ciclo de acciones repetitivas del jugador.",
+        "rae_rule": "Las locuciones o expresiones fijas en otra lengua deben escribirse en cursiva.",
+        "recommended": "*gameplay loop* o bucle de juego",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "lore",
+      "message": "Término en inglés que se refiere a la historia o contexto del mundo. Al no estar adaptado, requiere cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*lore* o trasfondo (historia)"
+      ],
+      "offset": 292,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "lore",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés que se refiere a la historia o contexto del mundo. Al no estar adaptado, requiere cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*lore* o trasfondo (historia)",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "gameplay",
+      "message": "Término técnico común. La RAE y Fundéu recomiendan usar 'jugabilidad' siempre que sea posible. | Preferir equivalentes en español. Si se usa el original, va en cursiva.",
+      "suggestions": [
+        "*gameplay* o jugabilidad"
+      ],
+      "offset": 338,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "gameplay",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico común. La RAE y Fundéu recomiendan usar 'jugabilidad' siempre que sea posible.",
+        "rae_rule": "Preferir equivalentes en español. Si se usa el original, va en cursiva.",
+        "recommended": "*gameplay* o jugabilidad",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/jugabilidad-mejor-que-gameplay/",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "design thinking",
+      "message": "Metodología de diseño. Al ser un nombre propio de una metodología extranjera, debe ir en cursiva. | Las locuciones extranjeras deben escribirse en cursiva.",
+      "suggestions": [
+        "*design thinking*"
+      ],
+      "offset": 400,
+      "length": 15,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "design thinking",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Metodología de diseño. Al ser un nombre propio de una metodología extranjera, debe ir en cursiva.",
+        "rae_rule": "Las locuciones extranjeras deben escribirse en cursiva.",
+        "recommended": "*design thinking*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "scrum",
+      "message": "Metodología de gestión de proyectos ágiles. Debe ir en cursiva por ser un anglicismo técnico. | Los nombres de metodologías o sistemas extranjeros se escriben en cursiva.",
+      "suggestions": [
+        "*scrum*"
+      ],
+      "offset": 417,
+      "length": 5,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "scrum",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de gestión de proyectos ágiles. Debe ir en cursiva por ser un anglicismo técnico.",
+        "rae_rule": "Los nombres de metodologías o sistemas extranjeros se escriben en cursiva.",
+        "recommended": "*scrum*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "kanban",
+      "message": "Sistema de organización de trabajo. Es un extranjerismo adaptado (procedente del japonés), pero al referirse al método de gestión técnica, suele mantenerse la cursiva. | Los nombres de metodologías o sistemas extranjeros se escriben en cursiva.",
+      "suggestions": [
+        "*kanban*"
+      ],
+      "offset": 425,
+      "length": 6,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "kanban",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Sistema de organización de trabajo. Es un extranjerismo adaptado (procedente del japonés), pero al referirse al método de gestión técnica, suele mantenerse la cursiva.",
+        "rae_rule": "Los nombres de metodologías o sistemas extranjeros se escriben en cursiva.",
+        "recommended": "*kanban*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "gameplay",
+      "message": "Término técnico común. La RAE y Fundéu recomiendan usar 'jugabilidad' siempre que sea posible. | Preferir equivalentes en español. Si se usa el original, va en cursiva.",
+      "suggestions": [
+        "*gameplay* o jugabilidad"
+      ],
+      "offset": 803,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "gameplay",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico común. La RAE y Fundéu recomiendan usar 'jugabilidad' siempre que sea posible.",
+        "rae_rule": "Preferir equivalentes en español. Si se usa el original, va en cursiva.",
+        "recommended": "*gameplay* o jugabilidad",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/jugabilidad-mejor-que-gameplay/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "respawn",
+      "message": "Término técnico de videojuegos. Debe ir en cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*respawn* o reaparición"
+      ],
+      "offset": 813,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "respawn",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico de videojuegos. Debe ir en cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*respawn* o reaparición",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "loot",
+      "message": "Término técnico. Se recomienda el uso de 'botín'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*loot* o botín"
+      ],
+      "offset": 822,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "loot",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico. Se recomienda el uso de 'botín'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*loot* o botín",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "feedback",
+      "message": "Extranjerismo muy común. Se recomienda usar 'retroalimentación' o 'comentarios'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*feedback* o retroalimentación"
+      ],
+      "offset": 828,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "feedback",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Extranjerismo muy común. Se recomienda usar 'retroalimentación' o 'comentarios'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*feedback* o retroalimentación",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/feedback-es-retroalimentacion/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "streaming",
+      "message": "Término técnico para la transmisión de datos. Debe ir en cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*streaming* o retransmisión en directo"
+      ],
+      "offset": 838,
+      "length": 9,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "streaming",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico para la transmisión de datos. Debe ir en cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*streaming* o retransmisión en directo",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/streaming-es-transmision-en-directo/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "briefing",
+      "message": "Término muy extendido. Al ser un anglicismo, requiere cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*briefing* o reunión informativa"
+      ],
+      "offset": 850,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "briefing",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término muy extendido. Al ser un anglicismo, requiere cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*briefing* o reunión informativa",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "ZBrush",
+      "message": "Software de escultura digital. Los nombres de software se escriben en redonda. | Los nombres de marcas y software se escriben en redonda y respetan su grafía.",
+      "suggestions": [
+        "ZBrush"
+      ],
+      "offset": 1009,
+      "length": 6,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "ZBrush",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y software",
+        "is_italic": false,
+        "definition": "Software de escultura digital. Los nombres de software se escriben en redonda.",
+        "rae_rule": "Los nombres de marcas y software se escriben en redonda y respetan su grafía.",
+        "recommended": "ZBrush",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Blender",
+      "message": "Software de modelado. Nombre de marca propio. | Los nombres de marcas y software se escriben en redonda.",
+      "suggestions": [
+        "Blender"
+      ],
+      "offset": 1017,
+      "length": 7,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Blender",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y software",
+        "is_italic": false,
+        "definition": "Software de modelado. Nombre de marca propio.",
+        "rae_rule": "Los nombres de marcas y software se escriben en redonda.",
+        "recommended": "Blender",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Photoshop",
+      "message": "Software de edición. Nombre de marca propio. | Los nombres de marcas y software se escriben en redonda.",
+      "suggestions": [
+        "Photoshop"
+      ],
+      "offset": 1027,
+      "length": 9,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Photoshop",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y software",
+        "is_italic": false,
+        "definition": "Software de edición. Nombre de marca propio.",
+        "rae_rule": "Los nombres de marcas y software se escriben en redonda.",
+        "recommended": "Photoshop",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "ZBrush",
+      "message": "Software de escultura digital. Los nombres de software se escriben en redonda. | Los nombres de marcas y software se escriben en redonda y respetan su grafía.",
+      "suggestions": [
+        "ZBrush"
+      ],
+      "offset": 1041,
+      "length": 6,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "ZBrush",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y software",
+        "is_italic": false,
+        "definition": "Software de escultura digital. Los nombres de software se escriben en redonda.",
+        "rae_rule": "Los nombres de marcas y software se escriben en redonda y respetan su grafía.",
+        "recommended": "ZBrush",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Move",
+      "message": "Nombre de una herramienta específica dentro de un software. Debe ir en redonda con mayúscula inicial. | Elementos de interfaz de software se escriben en redonda y mayúscula inicial.",
+      "suggestions": [
+        "Move"
+      ],
+      "offset": 1093,
+      "length": 4,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Move",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Nombre de una herramienta específica dentro de un software. Debe ir en redonda con mayúscula inicial.",
+        "rae_rule": "Elementos de interfaz de software se escriben en redonda y mayúscula inicial.",
+        "recommended": "Move",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Smooth",
+      "message": "Nombre de una herramienta específica dentro de ZBrush. Redonda. | Elementos de interfaz de software se escriben en redonda y mayúscula inicial.",
+      "suggestions": [
+        "Smooth"
+      ],
+      "offset": 1160,
+      "length": 6,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Smooth",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Nombre de una herramienta específica dentro de ZBrush. Redonda.",
+        "rae_rule": "Elementos de interfaz de software se escriben en redonda y mayúscula inicial.",
+        "recommended": "Smooth",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Geometry",
+      "message": "Nombre de una pestaña o menú en el software. Redonda. | Elementos de interfaz de software se escriben en redonda.",
+      "suggestions": [
+        "Geometry"
+      ],
+      "offset": 1227,
+      "length": 8,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Geometry",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Nombre de una pestaña o menú en el software. Redonda.",
+        "rae_rule": "Elementos de interfaz de software se escriben en redonda.",
+        "recommended": "Geometry",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "SubTool",
+      "message": "Nombre de componente del software. Se mantiene la grafía original en redonda. | Elementos de interfaz de software se escriben en redonda.",
+      "suggestions": [
+        "SubTool"
+      ],
+      "offset": 1288,
+      "length": 7,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "SubTool",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Nombre de componente del software. Se mantiene la grafía original en redonda.",
+        "rae_rule": "Elementos de interfaz de software se escriben en redonda.",
+        "recommended": "SubTool",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Dynamesh",
+      "message": "Función o herramienta de ZBrush. Redonda. | Elementos de interfaz de software se escriben en redonda.",
+      "suggestions": [
+        "Dynamesh"
+      ],
+      "offset": 1401,
+      "length": 8,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Dynamesh",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Función o herramienta de ZBrush. Redonda.",
+        "rae_rule": "Elementos de interfaz de software se escriben en redonda.",
+        "recommended": "Dynamesh",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "asset",
+      "message": "Término para referirse a elementos digitales. Requiere cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*asset* o recurso"
+      ],
+      "offset": 1591,
+      "length": 5,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "asset",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término para referirse a elementos digitales. Requiere cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*asset* o recurso",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Unity",
+      "message": "Motor de videojuegos. Nombre de marca propio. | Nombres de marcas y software en redonda.",
+      "suggestions": [
+        "Unity"
+      ],
+      "offset": 1616,
+      "length": 5,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Unity",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y software",
+        "is_italic": false,
+        "definition": "Motor de videojuegos. Nombre de marca propio.",
+        "rae_rule": "Nombres de marcas y software en redonda.",
+        "recommended": "Unity",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Inspector",
+      "message": "Panel de la interfaz de Unity. Se escribe en redonda. | Elementos de interfaz de software en redonda.",
+      "suggestions": [
+        "Inspector"
+      ],
+      "offset": 1673,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Inspector",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Panel de la interfaz de Unity. Se escribe en redonda.",
+        "rae_rule": "Elementos de interfaz de software en redonda.",
+        "recommended": "Inspector",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Transform",
+      "message": "Componente técnico en Unity. Se escribe en redonda. | Elementos de interfaz de software en redonda.",
+      "suggestions": [
+        "Transform"
+      ],
+      "offset": 1697,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Transform",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Componente técnico en Unity. Se escribe en redonda.",
+        "rae_rule": "Elementos de interfaz de software en redonda.",
+        "recommended": "Transform",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Herramienta / Elemento de interfaz",
+      "text": "Hierarchy",
+      "message": "Panel de la interfaz de Unity. Se escribe en redonda. | Elementos de interfaz de software en redonda.",
+      "suggestions": [
+        "Hierarchy"
+      ],
+      "offset": 1741,
+      "length": 9,
+      "rule_id": "GEMINI_HERRAMIENTA_/_ELEMENTO_DE_INTERFAZ",
+      "source": "Normativa interna de localización de software",
+      "lookup": {
+        "term": "Hierarchy",
+        "category": "Herramienta / Elemento de interfaz",
+        "rule_name": "Herramientas de software",
+        "is_italic": false,
+        "definition": "Panel de la interfaz de Unity. Se escribe en redonda.",
+        "rae_rule": "Elementos de interfaz de software en redonda.",
+        "recommended": "Hierarchy",
+        "source": "Normativa interna de localización de software",
+        "source_url": "https://www.fundeu.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "C#",
+      "message": "Lenguaje de programación. Se escribe en redonda y respeta su grafía. | Nombres de lenguajes se escriben en redonda.",
+      "suggestions": [
+        "C#"
+      ],
+      "offset": 1834,
+      "length": 2,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "C#",
+        "category": "Marca / Empresa",
+        "rule_name": "Lenguajes de programación",
+        "is_italic": false,
+        "definition": "Lenguaje de programación. Se escribe en redonda y respeta su grafía.",
+        "rae_rule": "Nombres de lenguajes se escriben en redonda.",
+        "recommended": "C#",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "API",
+      "message": "Sigla de 'Application Programming Interface'. Se mantiene en mayúsculas y redonda, sin 's' en plural. | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "API"
+      ],
+      "offset": 1852,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "API",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Application Programming Interface'. Se mantiene en mayúsculas y redonda, sin 's' en plural.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "API",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Sigla de 'Non-Player Character'. Invariable en plural (los NPC). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 1902,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Non-Player Character'. Invariable en plural (los NPC).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "NPC",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 1965,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "HUD",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "health",
+      "message": "Término en inglés. Se recomienda usar 'salud' o 'puntos de vida'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*health* o salud"
+      ],
+      "offset": 2001,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "health",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés. Se recomienda usar 'salud' o 'puntos de vida'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*health* o salud",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "stamina",
+      "message": "Término en inglés. Se recomienda usar 'resistencia' o 'energía'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*stamina* o resistencia"
+      ],
+      "offset": 2009,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "stamina",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés. Se recomienda usar 'resistencia' o 'energía'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*stamina* o resistencia",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "fast travel",
+      "message": "Expresión técnica. Debe ir en cursiva. | Las expresiones compuestas en inglés deben escribirse en cursiva.",
+      "suggestions": [
+        "*fast travel* o viaje rápido"
+      ],
+      "offset": 2096,
+      "length": 11,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "fast travel",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Expresión técnica. Debe ir en cursiva.",
+        "rae_rule": "Las expresiones compuestas en inglés deben escribirse en cursiva.",
+        "recommended": "*fast travel* o viaje rápido",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/traduccion-de-fast-travel/",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "battle royale",
+      "message": "Género de videojuegos. Al no tener una traducción estándar única y ser un préstamo muy asentado en cursiva, se mantiene así. | Las expresiones compuestas en inglés deben escribirse en cursiva.",
+      "suggestions": [
+        "*battle royale*"
+      ],
+      "offset": 2212,
+      "length": 13,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "battle royale",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Género de videojuegos. Al no tener una traducción estándar única y ser un préstamo muy asentado en cursiva, se mantiene así.",
+        "rae_rule": "Las expresiones compuestas en inglés deben escribirse en cursiva.",
+        "recommended": "*battle royale*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "machine learning",
+      "message": "Término técnico de IA. Se recomienda 'aprendizaje automático'. | Las expresiones compuestas en inglés deben escribirse en cursiva.",
+      "suggestions": [
+        "*machine learning* o aprendizaje automático"
+      ],
+      "offset": 2227,
+      "length": 16,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "machine learning",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Término técnico de IA. Se recomienda 'aprendizaje automático'.",
+        "rae_rule": "Las expresiones compuestas en inglés deben escribirse en cursiva.",
+        "recommended": "*machine learning* o aprendizaje automático",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/aprendizaje-automatico-es-mejor-que-machine-learning/",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "cloud gaming",
+      "message": "Tecnología de juego remoto. Se recomienda usar 'juego en la nube'. | Las expresiones compuestas en inglés deben escribirse en cursiva.",
+      "suggestions": [
+        "*cloud gaming* o juego en la nube"
+      ],
+      "offset": 2246,
+      "length": 12,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "cloud gaming",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Tecnología de juego remoto. Se recomienda usar 'juego en la nube'.",
+        "rae_rule": "Las expresiones compuestas en inglés deben escribirse en cursiva.",
+        "recommended": "*cloud gaming* o juego en la nube",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/juego-en-la-nube-mejor-que-cloud-gaming/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "DLC",
+      "message": "Sigla de 'Downloadable Content'. Invariable en plural (los DLC). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "DLC"
+      ],
+      "offset": 2379,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "DLC",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Downloadable Content'. Invariable en plural (los DLC).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "DLC",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "RPG",
+      "message": "Sigla de 'Role-Playing Game'. Invariable en plural (los RPG). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "RPG"
+      ],
+      "offset": 2388,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "RPG",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Role-Playing Game'. Invariable en plural (los RPG).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "RPG",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "quests",
+      "message": "Término en inglés. Se recomienda usar 'misiones' o 'encargos'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*quests* o misiones"
+      ],
+      "offset": 2456,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "quests",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés. Se recomienda usar 'misiones' o 'encargos'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*quests* o misiones",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "feature",
+      "message": "Término técnico. Se recomienda usar 'funcionalidad'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*feature* o funcionalidad"
+      ],
+      "offset": 2539,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "feature",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico. Se recomienda usar 'funcionalidad'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*feature* o funcionalidad",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "QA",
+      "message": "Sigla de 'Quality Assurance'. Invariable en plural. | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "QA"
+      ],
+      "offset": 2561,
+      "length": 2,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "QA",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Quality Assurance'. Invariable en plural.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "QA",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "bugs",
+      "message": "Término técnico muy común. Se recomienda usar 'errores' o 'fallos'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*bugs* o errores"
+      ],
+      "offset": 2607,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "bugs",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico muy común. Se recomienda usar 'errores' o 'fallos'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*bugs* o errores",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "issue",
+      "message": "Término en inglés. Se recomienda usar 'incidencia' o 'problema'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*issue* o incidencia"
+      ],
+      "offset": 2721,
+      "length": 5,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "issue",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés. Se recomienda usar 'incidencia' o 'problema'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*issue* o incidencia",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "smoke test",
+      "message": "Expresión técnica. Al tratarse de un término especializado, suele mantenerse la cursiva si se usa en inglés. | Las expresiones compuestas en inglés deben escribirse en cursiva.",
+      "suggestions": [
+        "*smoke test* o prueba de humo"
+      ],
+      "offset": 2790,
+      "length": 10,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "smoke test",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Expresión técnica. Al tratarse de un término especializado, suele mantenerse la cursiva si se usa en inglés.",
+        "rae_rule": "Las expresiones compuestas en inglés deben escribirse en cursiva.",
+        "recommended": "*smoke test* o prueba de humo",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Término genérico en inglés",
+      "text": "regression test",
+      "message": "Expresión técnica. Se recomienda el uso de 'prueba de regresión'. | Las expresiones compuestas en inglés deben escribirse en cursiva.",
+      "suggestions": [
+        "*regression test* o prueba de regresión"
+      ],
+      "offset": 2854,
+      "length": 15,
+      "rule_id": "GEMINI_TÉRMINO_GENÉRICO_EN_INGLÉS",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "regression test",
+        "category": "Término genérico en inglés",
+        "rule_name": "Términos genéricos en inglés",
+        "is_italic": true,
+        "definition": "Expresión técnica. Se recomienda el uso de 'prueba de regresión'.",
+        "rae_rule": "Las expresiones compuestas en inglés deben escribirse en cursiva.",
+        "recommended": "*regression test* o prueba de regresión",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "build",
+      "message": "Término técnico para la versión compilada. Se recomienda usar 'versión'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*build* o versión"
+      ],
+      "offset": 2908,
+      "length": 5,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "build",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico para la versión compilada. Se recomienda usar 'versión'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*build* o versión",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "lean six sigma",
+      "message": "Metodología de mejora de procesos. Se escribe en cursiva. | Los nombres de metodologías se escriben en cursiva.",
+      "suggestions": [
+        "*lean six sigma*"
+      ],
+      "offset": 3033,
+      "length": 14,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "lean six sigma",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de mejora de procesos. Se escribe en cursiva.",
+        "rae_rule": "Los nombres de metodologías se escriben en cursiva.",
+        "recommended": "*lean six sigma*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "kanban",
+      "message": "Sistema de organización de trabajo. Es un extranjerismo adaptado (procedente del japonés), pero al referirse al método de gestión técnica, suele mantenerse la cursiva. | Los nombres de metodologías o sistemas extranjeros se escriben en cursiva.",
+      "suggestions": [
+        "*kanban*"
+      ],
+      "offset": 3049,
+      "length": 6,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "kanban",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Sistema de organización de trabajo. Es un extranjerismo adaptado (procedente del japonés), pero al referirse al método de gestión técnica, suele mantenerse la cursiva.",
+        "rae_rule": "Los nombres de metodologías o sistemas extranjeros se escriben en cursiva.",
+        "recommended": "*kanban*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "agile",
+      "message": "Metodología de desarrollo. Se escribe en cursiva. | Los nombres de metodologías se escriben en cursiva.",
+      "suggestions": [
+        "*agile*"
+      ],
+      "offset": 3057,
+      "length": 5,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "agile",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de desarrollo. Se escribe en cursiva.",
+        "rae_rule": "Los nombres de metodologías se escriben en cursiva.",
+        "recommended": "*agile*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "waterfall",
+      "message": "Metodología de desarrollo en cascada. Se escribe en cursiva. | Los nombres de metodologías se escriben en cursiva.",
+      "suggestions": [
+        "*waterfall*"
+      ],
+      "offset": 3064,
+      "length": 9,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "waterfall",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de desarrollo en cascada. Se escribe en cursiva.",
+        "rae_rule": "Los nombres de metodologías se escriben en cursiva.",
+        "recommended": "*waterfall*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "kaizen",
+      "message": "Metodología de mejora continua. Se escribe en cursiva. | Los nombres de metodologías se escriben en cursiva.",
+      "suggestions": [
+        "*kaizen*"
+      ],
+      "offset": 3075,
+      "length": 6,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "kaizen",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de mejora continua. Se escribe en cursiva.",
+        "rae_rule": "Los nombres de metodologías se escriben en cursiva.",
+        "recommended": "*kaizen*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Método / Metodología",
+      "text": "poka-yoke",
+      "message": "Metodología de control de errores. Se escribe en cursiva. | Los nombres de metodologías se escriben en cursiva.",
+      "suggestions": [
+        "*poka-yoke*"
+      ],
+      "offset": 3084,
+      "length": 9,
+      "rule_id": "GEMINI_MÉTODO_/_METODOLOGÍA",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "poka-yoke",
+        "category": "Método / Metodología",
+        "rule_name": "Métodos y metodologías",
+        "is_italic": true,
+        "definition": "Metodología de control de errores. Se escribe en cursiva.",
+        "rae_rule": "Los nombres de metodologías se escriben en cursiva.",
+        "recommended": "*poka-yoke*",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Steam",
+      "message": "Plataforma de distribución. Nombre de marca propio. | Los nombres de marcas se escriben en redonda.",
+      "suggestions": [
+        "Steam"
+      ],
+      "offset": 3524,
+      "length": 5,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Steam",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Plataforma de distribución. Nombre de marca propio.",
+        "rae_rule": "Los nombres de marcas se escriben en redonda.",
+        "recommended": "Steam",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "PlayStation",
+      "message": "Plataforma/Consola. Nombre de marca propio. | Los nombres de marcas se escriben en redonda.",
+      "suggestions": [
+        "PlayStation"
+      ],
+      "offset": 3531,
+      "length": 11,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "PlayStation",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Plataforma/Consola. Nombre de marca propio.",
+        "rae_rule": "Los nombres de marcas se escriben en redonda.",
+        "recommended": "PlayStation",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Xbox",
+      "message": "Plataforma/Consola. Nombre de marca propio. | Los nombres de marcas se escriben en redonda.",
+      "suggestions": [
+        "Xbox"
+      ],
+      "offset": 3544,
+      "length": 4,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Xbox",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Plataforma/Consola. Nombre de marca propio.",
+        "rae_rule": "Los nombres de marcas se escriben en redonda.",
+        "recommended": "Xbox",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Nintendo",
+      "message": "Plataforma/Empresa. Nombre de marca propio. | Los nombres de marcas se escriben en redonda.",
+      "suggestions": [
+        "Nintendo"
+      ],
+      "offset": 3551,
+      "length": 8,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Nintendo",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Plataforma/Empresa. Nombre de marca propio.",
+        "rae_rule": "Los nombres de marcas se escriben en redonda.",
+        "recommended": "Nintendo",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Sony Interactive Entertainment",
+      "message": "Empresa editora. Nombre propio oficial. | Los nombres de empresas se escriben en redonda.",
+      "suggestions": [
+        "Sony Interactive Entertainment"
+      ],
+      "offset": 3639,
+      "length": 30,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Sony Interactive Entertainment",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Empresa editora. Nombre propio oficial.",
+        "rae_rule": "Los nombres de empresas se escriben en redonda.",
+        "recommended": "Sony Interactive Entertainment",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Square Enix",
+      "message": "Empresa editora. Nombre propio oficial. | Los nombres de empresas se escriben en redonda.",
+      "suggestions": [
+        "Square Enix"
+      ],
+      "offset": 3757,
+      "length": 11,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Square Enix",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Empresa editora. Nombre propio oficial.",
+        "rae_rule": "Los nombres de empresas se escriben en redonda.",
+        "recommended": "Square Enix",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Warner Bros.",
+      "message": "Empresa editora. Nombre propio oficial. | Los nombres de empresas se escriben en redonda.",
+      "suggestions": [
+        "Warner Bros."
+      ],
+      "offset": 3770,
+      "length": 12,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Warner Bros.",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Empresa editora. Nombre propio oficial.",
+        "rae_rule": "Los nombres de empresas se escriben en redonda.",
+        "recommended": "Warner Bros.",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca / Empresa",
+      "text": "Guerrilla Games",
+      "message": "Estudio desarrollador. Nombre propio oficial. | Los nombres de empresas se escriben en redonda.",
+      "suggestions": [
+        "Guerrilla Games"
+      ],
+      "offset": 3785,
+      "length": 15,
+      "rule_id": "GEMINI_MARCA_/_EMPRESA",
+      "source": "RAE - Ortografía",
+      "lookup": {
+        "term": "Guerrilla Games",
+        "category": "Marca / Empresa",
+        "rule_name": "Marcas y empresas",
+        "is_italic": false,
+        "definition": "Estudio desarrollador. Nombre propio oficial.",
+        "rae_rule": "Los nombres de empresas se escriben en redonda.",
+        "recommended": "Guerrilla Games",
+        "source": "RAE - Ortografía",
+        "source_url": "https://www.rae.es",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "CEO",
+      "message": "Sigla de 'Chief Executive Officer'. Invariable en plural (los CEO). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "CEO"
+      ],
+      "offset": 3951,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "CEO",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Chief Executive Officer'. Invariable en plural (los CEO).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "CEO",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HTML",
+      "message": "Sigla de 'HyperText Markup Language'. Sigla técnica. | Las siglas se escriben en mayúsculas, en redonda.",
+      "suggestions": [
+        "HTML"
+      ],
+      "offset": 3956,
+      "length": 4,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "HTML",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'HyperText Markup Language'. Sigla técnica.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda.",
+        "recommended": "HTML",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "IBM",
+      "message": "Sigla de empresa. Sigla técnica. | Las siglas se escriben en mayúsculas, en redonda.",
+      "suggestions": [
+        "IBM"
+      ],
+      "offset": 3962,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "IBM",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de empresa. Sigla técnica.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda.",
+        "recommended": "IBM",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Sigla de 'Non-Player Character'. Invariable en plural (los NPC). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 3967,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Non-Player Character'. Invariable en plural (los NPC).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "NPC",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 3972,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "HUD",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "RPG",
+      "message": "Sigla de 'Role-Playing Game'. Invariable en plural (los RPG). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "RPG"
+      ],
+      "offset": 3977,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "RPG",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Role-Playing Game'. Invariable en plural (los RPG).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "RPG",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "DLC",
+      "message": "Sigla de 'Downloadable Content'. Invariable en plural (los DLC). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "DLC"
+      ],
+      "offset": 3982,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "DLC",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Downloadable Content'. Invariable en plural (los DLC).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "DLC",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "QA",
+      "message": "Sigla de 'Quality Assurance'. Invariable en plural. | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "QA"
+      ],
+      "offset": 3987,
+      "length": 2,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "QA",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Quality Assurance'. Invariable en plural.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "QA",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "API",
+      "message": "Sigla de 'Application Programming Interface'. Se mantiene en mayúsculas y redonda, sin 's' en plural. | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "API"
+      ],
+      "offset": 3992,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "API",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Application Programming Interface'. Se mantiene en mayúsculas y redonda, sin 's' en plural.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "API",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "CEO",
+      "message": "Sigla de 'Chief Executive Officer'. Invariable en plural (los CEO). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "CEO"
+      ],
+      "offset": 4075,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "CEO",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Chief Executive Officer'. Invariable en plural (los CEO).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "CEO",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Sigla de 'Non-Player Character'. Invariable en plural (los NPC). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 4084,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Non-Player Character'. Invariable en plural (los NPC).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "NPC",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 4093,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "HUD",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "API",
+      "message": "Sigla de 'Application Programming Interface'. Se mantiene en mayúsculas y redonda, sin 's' en plural. | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "API"
+      ],
+      "offset": 4103,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "API",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Application Programming Interface'. Se mantiene en mayúsculas y redonda, sin 's' en plural.",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "API",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD). | Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 4154,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Siglas",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas técnicas",
+        "is_italic": false,
+        "definition": "Sigla de 'Heads-Up Display'. Invariable en plural (los HUD).",
+        "rae_rule": "Las siglas se escriben en mayúsculas, en redonda y son invariables en plural.",
+        "recommended": "HUD",
+        "source": "RAE - Siglas",
+        "source_url": "https://www.rae.es/dpd/siglas",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "shader",
+      "message": "Término técnico de gráficos. Se recomienda usar 'sombreador' o mantenerlo en cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*shader* o sombreador"
+      ],
+      "offset": 4347,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "shader",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico de gráficos. Se recomienda usar 'sombreador' o mantenerlo en cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*shader* o sombreador",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "test",
+      "message": "Término muy común. Se recomienda usar 'prueba'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*test* o prueba"
+      ],
+      "offset": 4407,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "test",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término muy común. Se recomienda usar 'prueba'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*test* o prueba",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/test-mejor-que-prueba/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "shader",
+      "message": "Término técnico de gráficos. Se recomienda usar 'sombreador' o mantenerlo en cursiva. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*shader* o sombreador"
+      ],
+      "offset": 4508,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "RAE - Extranjerismos",
+      "lookup": {
+        "term": "shader",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término técnico de gráficos. Se recomienda usar 'sombreador' o mantenerlo en cursiva.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*shader* o sombreador",
+        "source": "RAE - Extranjerismos",
+        "source_url": "https://www.rae.es/dpd/extranjerismos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo / Latinismo",
+      "text": "test",
+      "message": "Término muy común. Se recomienda usar 'prueba'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "*test* o prueba"
+      ],
+      "offset": 4569,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO_/_LATINISMO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "test",
+        "category": "Extranjerismo crudo / Latinismo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término muy común. Se recomienda usar 'prueba'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "*test* o prueba",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/test-mejor-que-prueba/",
+        "found": true
+      }
+    }
   ]
 }

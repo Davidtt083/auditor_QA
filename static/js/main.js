@@ -176,29 +176,35 @@ function tarjeta(error) {
 function renderDashboard(report) {
   const counterData = [
     ['total', 'Total hallazgos'],
-    ['Videojuegos', 'Videojuegos (R7)'],
-    ['Personajes / Ficción', 'Nombres propios (R3/5)'],
-    ['Jerga gaming', 'Extranjerismos / Jerga (R1/8)'],
-    ['Ortografia', 'Ortografía'],
+    ['Videojuegos', 'Obras / Juegos (R7)'],
+    ['Personajes / Ficción', 'Nombres / Marcas (R3-5)'],
+    ['Jerga gaming', 'Métodos y Jerga (R8/11)'],
+    ['Ortografia', 'Ortografía / Prefijos'],
     ['Gramatica / Puntuacion', 'Gramática']
   ];
   document.querySelector('#counters').innerHTML = counterData
     .map(([key, label]) => `<div class="counter ${key === 'total' ? 'total' : ''}"><strong>${report.counts[key] ?? 0}</strong><span>${label}</span></div>`)
     .join('');
 
-  const juegos = report.errors.filter(e => e.category === 'Título de videojuego');
-  const nombresPropios = report.errors.filter(e => ['Personaje / Entidad de ficción', 'Lugar / Universo de ficción', 'Marca / Empresa'].includes(e.category));
-  const jergaYExt = report.errors.filter(e => ['Jerga de videojuegos', 'Extranjerismo no adaptado', 'Sigla'].includes(e.category));
-  const ortografia = report.errors.filter(e => ['Ortografia', 'Gramatica / Puntuacion'].includes(e.category));
+  const obras = report.errors.filter(e => e.category.includes('Título') || e.category.includes('obra'));
+  const metodos = report.errors.filter(e => e.category.includes('Método') || e.category.includes('Metodología'));
+  const herramientas = report.errors.filter(e => e.category.includes('Herramienta') || e.category.includes('interfaz'));
+  const nombresYMarcas = report.errors.filter(e => ['Personaje / Entidad de ficción', 'Lugar / Universo de ficción', 'Marca / Empresa'].includes(e.category));
+  const siglas = report.errors.filter(e => e.category === 'Sigla');
+  const extranjerismos = report.errors.filter(e => e.category.includes('Extranjerismo') || e.category.includes('Latinismo') || e.category.includes('Jerga'));
+  const ortografiaYPrefijos = report.errors.filter(e => e.category.includes('Ortografia') || e.category.includes('Prefijación') || e.category.includes('Gramatica'));
 
   let html = '';
-  if (juegos.length) html += `<h3 class="grupo-titulo">🎮 Títulos de obras / Videojuegos (Regla 7 - Cursiva) (${juegos.length})</h3>` + juegos.map(tarjeta).join('');
-  if (nombresPropios.length) html += `<h3 class="grupo-titulo">🛡️ Nombres propios, personajes y marcas (Reglas 3, 4 y 5 - Redonda) (${nombresPropios.length})</h3>` + nombresPropios.map(tarjeta).join('');
-  if (jergaYExt.length) html += `<h3 class="grupo-titulo">⚙️ Extranjerismos crudos y jerga (Reglas 1, 2 y 8) (${jergaYExt.length})</h3>` + jergaYExt.map(tarjeta).join('');
-  if (ortografia.length) html += `<h3 class="grupo-titulo">⚠️ Correcciones ortográficas generales (${ortografia.length})</h3>` + ortografia.map(tarjeta).join('');
+  if (obras.length) html += `<h3 class="grupo-titulo">🎨 Títulos de obras artísticas y videojuegos (Regla 7 - Cursiva) (${obras.length})</h3>` + obras.map(tarjeta).join('');
+  if (metodos.length) html += `<h3 class="grupo-titulo">📊 Métodos y metodologías de gestión (Regla 11 - Minúsculas y Cursiva) (${metodos.length})</h3>` + metodos.map(tarjeta).join('');
+  if (herramientas.length) html += `<h3 class="grupo-titulo">🛠️ Herramientas y elementos de interfaz (Mayúscula inicial - Redonda) (${herramientas.length})</h3>` + herramientas.map(tarjeta).join('');
+  if (siglas.length) html += `<h3 class="grupo-titulo">🔤 Siglas y plurales invariables (Regla 6 - Redonda sin 's') (${siglas.length})</h3>` + siglas.map(tarjeta).join('');
+  if (nombresYMarcas.length) html += `<h3 class="grupo-titulo">🛡️ Nombres propios y marcas (Reglas 3, 4 y 5 - Redonda) (${nombresYMarcas.length})</h3>` + nombresYMarcas.map(tarjeta).join('');
+  if (extranjerismos.length) html += `<h3 class="grupo-titulo">🌐 Extranjerismos crudos y palabras en latín (Reglas 1 y 8 - Cursiva) (${extranjerismos.length})</h3>` + extranjerismos.map(tarjeta).join('');
+  if (ortografiaYPrefijos.length) html += `<h3 class="grupo-titulo">⚠️ Correcciones ortográficas y prefijos sin guion (Regla 10) (${ortografiaYPrefijos.length})</h3>` + ortografiaYPrefijos.map(tarjeta).join('');
 
   if (!html) {
-    html = '<article class="error-card"><i class="error-dot" style="background:#63bb78"></i><div><h3>Texto conforme</h3><p>El texto cumple con las normas ortotipográficas y no presenta errores.</p></div></article>';
+    html = '<article class="error-card"><i class="error-dot" style="background:#63bb78"></i><div><h3>Texto conforme</h3><p>El texto cumple con todas las reglas ortotipográficas analizadas.</p></div></article>';
   }
   document.querySelector('#error-list').innerHTML = html;
 }
