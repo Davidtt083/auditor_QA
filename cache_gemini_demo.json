@@ -5418,5 +5418,2023 @@
         "found": true
       }
     }
+  ],
+  "f530a4538c9b51ebaf14b16e444fe92d": [
+    {
+      "category": "Título de videojuego",
+      "text": "Horizon Zero Dawn",
+      "message": "Videojuego de acción y rol desarrollado por Guerrilla Games. Los títulos de obras deben escribirse en cursiva. | Las obras de creación (libros, películas, videojuegos) se escriben en cursiva.",
+      "suggestions": [
+        "Horizon Zero Dawn"
+      ],
+      "offset": 44,
+      "length": 17,
+      "rule_id": "GEMINI_TÍTULO_DE_VIDEOJUEGO",
+      "source": "RAE - Ortografía de la lengua española",
+      "lookup": {
+        "term": "Horizon Zero Dawn",
+        "category": "Título de videojuego",
+        "rule_name": "Títulos de videojuegos y obras artísticas",
+        "is_italic": true,
+        "definition": "Videojuego de acción y rol desarrollado por Guerrilla Games. Los títulos de obras deben escribirse en cursiva.",
+        "rae_rule": "Las obras de creación (libros, películas, videojuegos) se escriben en cursiva.",
+        "recommended": "Horizon Zero Dawn",
+        "source": "RAE - Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/ortografía/la-escritura-de-los-títulos-de-las-obras",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "testing",
+      "message": "Término en inglés para referirse a la fase de pruebas de software o validación de calidad. | Los extranjerismos crudos deben escribirse en cursiva y minúscula.",
+      "suggestions": [
+        "testing"
+      ],
+      "offset": 120,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "testing",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a la fase de pruebas de software o validación de calidad.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y minúscula.",
+        "recommended": "testing",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "pipeline",
+      "message": "Conjunto de procesos o etapas secuenciales que forman un flujo de trabajo. | Los extranjerismos sin adaptación en español deben marcarse en cursiva.",
+      "suggestions": [
+        "pipeline"
+      ],
+      "offset": 140,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "pipeline",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Conjunto de procesos o etapas secuenciales que forman un flujo de trabajo.",
+        "rae_rule": "Los extranjerismos sin adaptación en español deben marcarse en cursiva.",
+        "recommended": "pipeline",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "brainstorming",
+      "message": "Técnica de grupo para generar ideas originales, conocida en español como 'lluvia de ideas' o 'tormenta de ideas'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "brainstorming"
+      ],
+      "offset": 220,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "brainstorming",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Técnica de grupo para generar ideas originales, conocida en español como 'lluvia de ideas' o 'tormenta de ideas'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "brainstorming",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/brainstorming-lluvia-de-ideas/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "gameplay loop",
+      "message": "Ciclo repetitivo de acciones que definen la experiencia principal de juego. | Los extranjerismos de varias palabras que actúan como unidades léxicas se escriben en cursiva.",
+      "suggestions": [
+        "gameplay loop"
+      ],
+      "offset": 274,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "gameplay loop",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Ciclo repetitivo de acciones que definen la experiencia principal de juego.",
+        "rae_rule": "Los extranjerismos de varias palabras que actúan como unidades léxicas se escriben en cursiva.",
+        "recommended": "gameplay loop",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "lore",
+      "message": "Conjunto de conocimientos, historia y trasfondo de un mundo ficticio. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "lore"
+      ],
+      "offset": 292,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "lore",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Conjunto de conocimientos, historia y trasfondo de un mundo ficticio.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "lore",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "gameplay",
+      "message": "Término en inglés para referirse a la jugabilidad o experiencia de interacción. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "gameplay"
+      ],
+      "offset": 338,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "gameplay",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a la jugabilidad o experiencia de interacción.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "gameplay",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "design thinking",
+      "message": "Metodología para generar ideas innovadoras centrada en entender las necesidades del usuario. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "design thinking"
+      ],
+      "offset": 400,
+      "length": 15,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "design thinking",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Metodología para generar ideas innovadoras centrada en entender las necesidades del usuario.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "design thinking",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "scrum",
+      "message": "Marco de trabajo ágil para el desarrollo de productos. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "scrum"
+      ],
+      "offset": 417,
+      "length": 5,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "scrum",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Marco de trabajo ágil para el desarrollo de productos.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "scrum",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "kanban",
+      "message": "Método visual para gestionar el trabajo a medida que avanza a través de un proceso. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "kanban"
+      ],
+      "offset": 425,
+      "length": 6,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "kanban",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Método visual para gestionar el trabajo a medida que avanza a través de un proceso.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "kanban",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "gameplay",
+      "message": "Término en inglés para referirse a la jugabilidad o experiencia de interacción. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "gameplay"
+      ],
+      "offset": 803,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "gameplay",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a la jugabilidad o experiencia de interacción.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "gameplay",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "respawn",
+      "message": "Proceso de reaparición de un personaje u objeto en el mundo del juego tras haber sido eliminado o consumido. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "respawn"
+      ],
+      "offset": 813,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "respawn",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Proceso de reaparición de un personaje u objeto en el mundo del juego tras haber sido eliminado o consumido.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "respawn",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "loot",
+      "message": "Botín o recompensas que el jugador obtiene tras realizar una acción. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "loot"
+      ],
+      "offset": 822,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "loot",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Botín o recompensas que el jugador obtiene tras realizar una acción.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "loot",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "feedback",
+      "message": "Retroalimentación o información de retorno sobre un proceso. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "feedback"
+      ],
+      "offset": 828,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "feedback",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Retroalimentación o información de retorno sobre un proceso.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "feedback",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "streaming",
+      "message": "Transmisión de contenido multimedia en tiempo real. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "streaming"
+      ],
+      "offset": 838,
+      "length": 9,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "streaming",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Transmisión de contenido multimedia en tiempo real.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "streaming",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "briefing",
+      "message": "Reunión informativa o conjunto de instrucciones previas a una tarea. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "briefing"
+      ],
+      "offset": 850,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "briefing",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Reunión informativa o conjunto de instrucciones previas a una tarea.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "briefing",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Software",
+      "text": "ZBrush",
+      "message": "Software de escultura digital y pintura 3D. | Los nombres de marcas y software se escriben en redonda y respetan su grafía original.",
+      "suggestions": [
+        "ZBrush"
+      ],
+      "offset": 1009,
+      "length": 6,
+      "rule_id": "GEMINI_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "ZBrush",
+        "category": "Software",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Software de escultura digital y pintura 3D.",
+        "rae_rule": "Los nombres de marcas y software se escriben en redonda y respetan su grafía original.",
+        "recommended": "ZBrush",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Software",
+      "text": "ZBrush",
+      "message": "Software de escultura digital y pintura 3D. | Los nombres de marcas y software se escriben en redonda y respetan su grafía original.",
+      "suggestions": [
+        "ZBrush"
+      ],
+      "offset": 1041,
+      "length": 6,
+      "rule_id": "GEMINI_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "ZBrush",
+        "category": "Software",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Software de escultura digital y pintura 3D.",
+        "rae_rule": "Los nombres de marcas y software se escriben en redonda y respetan su grafía original.",
+        "recommended": "ZBrush",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Move",
+      "message": "Herramienta de transformación dentro del software ZBrush. | Los elementos de interfaz (botones, menús) se escriben en redonda y con mayúscula inicial si es el nombre propio del botón.",
+      "suggestions": [
+        "Move"
+      ],
+      "offset": 1093,
+      "length": 4,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Move",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Herramienta de transformación dentro del software ZBrush.",
+        "rae_rule": "Los elementos de interfaz (botones, menús) se escriben en redonda y con mayúscula inicial si es el nombre propio del botón.",
+        "recommended": "Move",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Smooth",
+      "message": "Herramienta o pincel de suavizado en ZBrush. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "Smooth"
+      ],
+      "offset": 1160,
+      "length": 6,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Smooth",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Herramienta o pincel de suavizado en ZBrush.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "Smooth",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Geometry",
+      "message": "Menú o pestaña dentro de la interfaz de ZBrush. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "Geometry"
+      ],
+      "offset": 1227,
+      "length": 8,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Geometry",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Menú o pestaña dentro de la interfaz de ZBrush.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "Geometry",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "SubTool",
+      "message": "Menú o componente de gestión de mallas en ZBrush. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "SubTool"
+      ],
+      "offset": 1288,
+      "length": 7,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "SubTool",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Menú o componente de gestión de mallas en ZBrush.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "SubTool",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Dynamesh",
+      "message": "Función o herramienta de generación de topología en ZBrush. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "Dynamesh"
+      ],
+      "offset": 1401,
+      "length": 8,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Dynamesh",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Función o herramienta de generación de topología en ZBrush.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "Dynamesh",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "asset",
+      "message": "Recurso digital (modelo 3D, textura, audio) utilizado en un videojuego. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "asset"
+      ],
+      "offset": 1591,
+      "length": 5,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "asset",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Recurso digital (modelo 3D, textura, audio) utilizado en un videojuego.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "asset",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Software",
+      "text": "Unity",
+      "message": "Motor de videojuego. | Los nombres de marcas y plataformas se escriben en redonda.",
+      "suggestions": [
+        "Unity"
+      ],
+      "offset": 1616,
+      "length": 5,
+      "rule_id": "GEMINI_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Unity",
+        "category": "Software",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Motor de videojuego.",
+        "rae_rule": "Los nombres de marcas y plataformas se escriben en redonda.",
+        "recommended": "Unity",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Inspector",
+      "message": "Panel dentro del editor de Unity. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "Inspector"
+      ],
+      "offset": 1673,
+      "length": 9,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Inspector",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Panel dentro del editor de Unity.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "Inspector",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Transform",
+      "message": "Componente de modificación de posición, rotación y escala en Unity. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "Transform"
+      ],
+      "offset": 1697,
+      "length": 9,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Transform",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Componente de modificación de posición, rotación y escala en Unity.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "Transform",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Elemento de software",
+      "text": "Hierarchy",
+      "message": "Panel de jerarquía en el editor de Unity. | Los elementos de interfaz se escriben en redonda.",
+      "suggestions": [
+        "Hierarchy"
+      ],
+      "offset": 1741,
+      "length": 9,
+      "rule_id": "GEMINI_ELEMENTO_DE_SOFTWARE",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Hierarchy",
+        "category": "Elemento de software",
+        "rule_name": "Elementos de interfaz",
+        "is_italic": false,
+        "definition": "Panel de jerarquía en el editor de Unity.",
+        "rae_rule": "Los elementos de interfaz se escriben en redonda.",
+        "recommended": "Hierarchy",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Lenguaje de programación",
+      "text": "C#",
+      "message": "Lenguaje de programación orientado a objetos. | Los lenguajes de programación se consideran nombres propios de marcas/tecnologías y se escriben en redonda.",
+      "suggestions": [
+        "C#"
+      ],
+      "offset": 1834,
+      "length": 2,
+      "rule_id": "GEMINI_LENGUAJE_DE_PROGRAMACIÓN",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "C#",
+        "category": "Lenguaje de programación",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Lenguaje de programación orientado a objetos.",
+        "rae_rule": "Los lenguajes de programación se consideran nombres propios de marcas/tecnologías y se escriben en redonda.",
+        "recommended": "C#",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "API",
+      "message": "Interfaz de programación de aplicaciones. | Las siglas se escriben en mayúsculas y en redonda.",
+      "suggestions": [
+        "API"
+      ],
+      "offset": 1852,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "API",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz de programación de aplicaciones.",
+        "rae_rule": "Las siglas se escriben en mayúsculas y en redonda.",
+        "recommended": "API",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Personaje no jugable. | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 1902,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Personaje no jugable.",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "NPC",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Interfaz visual de datos en pantalla (Heads-Up Display). | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 1965,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz visual de datos en pantalla (Heads-Up Display).",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "HUD",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "health",
+      "message": "Barra de vida o salud del personaje. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "health"
+      ],
+      "offset": 2001,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "health",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Barra de vida o salud del personaje.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "health",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "stamina",
+      "message": "Resistencia o energía del personaje. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "stamina"
+      ],
+      "offset": 2009,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "stamina",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Resistencia o energía del personaje.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "stamina",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "fast travel",
+      "message": "Mecánica para desplazarse instantáneamente entre zonas del mapa. | Expresiones pluriverbales extranjeras van en cursiva.",
+      "suggestions": [
+        "fast travel"
+      ],
+      "offset": 2096,
+      "length": 11,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "fast travel",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Mecánica para desplazarse instantáneamente entre zonas del mapa.",
+        "rae_rule": "Expresiones pluriverbales extranjeras van en cursiva.",
+        "recommended": "fast travel",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "battle royale",
+      "message": "Género de juego multijugador masivo basado en la supervivencia. | Expresiones pluriverbales extranjeras van en cursiva.",
+      "suggestions": [
+        "battle royale"
+      ],
+      "offset": 2212,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "battle royale",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Género de juego multijugador masivo basado en la supervivencia.",
+        "rae_rule": "Expresiones pluriverbales extranjeras van en cursiva.",
+        "recommended": "battle royale",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "machine learning",
+      "message": "Disciplina científica del ámbito de la IA que crea sistemas que aprenden automáticamente. | Expresiones pluriverbales extranjeras van en cursiva.",
+      "suggestions": [
+        "machine learning"
+      ],
+      "offset": 2227,
+      "length": 16,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "machine learning",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Disciplina científica del ámbito de la IA que crea sistemas que aprenden automáticamente.",
+        "rae_rule": "Expresiones pluriverbales extranjeras van en cursiva.",
+        "recommended": "machine learning",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "cloud gaming",
+      "message": "Juego en la nube. | Expresiones pluriverbales extranjeras van en cursiva.",
+      "suggestions": [
+        "cloud gaming"
+      ],
+      "offset": 2246,
+      "length": 12,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "cloud gaming",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Juego en la nube.",
+        "rae_rule": "Expresiones pluriverbales extranjeras van en cursiva.",
+        "recommended": "cloud gaming",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "DLC",
+      "message": "Contenido descargable adicional. | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "DLC"
+      ],
+      "offset": 2379,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "DLC",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Contenido descargable adicional.",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "DLC",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "RPG",
+      "message": "Juego de rol (Role Playing Game). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "RPG"
+      ],
+      "offset": 2388,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "RPG",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Juego de rol (Role Playing Game).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "RPG",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "quests",
+      "message": "Misiones o tareas encomendadas al jugador. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "quests"
+      ],
+      "offset": 2456,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "quests",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Misiones o tareas encomendadas al jugador.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "quests",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "feature",
+      "message": "Funcionalidad o característica del software. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "feature"
+      ],
+      "offset": 2539,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "feature",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Funcionalidad o característica del software.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "feature",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "QA",
+      "message": "Garantía de calidad (Quality Assurance). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "QA"
+      ],
+      "offset": 2561,
+      "length": 2,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "QA",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Garantía de calidad (Quality Assurance).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "QA",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "bugs",
+      "message": "Error o fallo de programación. Aunque es muy común, se recomienda la cursiva al ser un extranjerismo no adaptado. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "bug"
+      ],
+      "offset": 2607,
+      "length": 4,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "bugs",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Error o fallo de programación. Aunque es muy común, se recomienda la cursiva al ser un extranjerismo no adaptado.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "bug",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "testing",
+      "message": "Término en inglés para referirse a la fase de pruebas de software o validación de calidad. | Los extranjerismos crudos deben escribirse en cursiva y minúscula.",
+      "suggestions": [
+        "testing"
+      ],
+      "offset": 2675,
+      "length": 7,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "testing",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Término en inglés para referirse a la fase de pruebas de software o validación de calidad.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva y minúscula.",
+        "recommended": "testing",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/extranjerismos-cursiva/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "issue",
+      "message": "Incidencia o problema detectado. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "issue"
+      ],
+      "offset": 2721,
+      "length": 5,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "issue",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Incidencia o problema detectado.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "issue",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "smoke test",
+      "message": "Pruebas iniciales superficiales para ver si el software es estable. | Expresiones pluriverbales extranjeras van en cursiva.",
+      "suggestions": [
+        "smoke test"
+      ],
+      "offset": 2790,
+      "length": 10,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "smoke test",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Pruebas iniciales superficiales para ver si el software es estable.",
+        "rae_rule": "Expresiones pluriverbales extranjeras van en cursiva.",
+        "recommended": "smoke test",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "regression test",
+      "message": "Pruebas para verificar que cambios nuevos no rompen funcionalidades existentes. | Expresiones pluriverbales extranjeras van en cursiva.",
+      "suggestions": [
+        "regression test"
+      ],
+      "offset": 2854,
+      "length": 15,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "regression test",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Términos genéricos en inglés de varias palabras",
+        "is_italic": true,
+        "definition": "Pruebas para verificar que cambios nuevos no rompen funcionalidades existentes.",
+        "rae_rule": "Expresiones pluriverbales extranjeras van en cursiva.",
+        "recommended": "regression test",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "build",
+      "message": "Versión compilada o ejecutable del software. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "build"
+      ],
+      "offset": 2908,
+      "length": 5,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "build",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Versión compilada o ejecutable del software.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "build",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "lean six sigma",
+      "message": "Metodología de mejora de procesos. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "lean six sigma"
+      ],
+      "offset": 3033,
+      "length": 14,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "lean six sigma",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Metodología de mejora de procesos.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "lean six sigma",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "kanban",
+      "message": "Método visual para gestionar el trabajo a medida que avanza a través de un proceso. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "kanban"
+      ],
+      "offset": 3049,
+      "length": 6,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "kanban",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Método visual para gestionar el trabajo a medida que avanza a través de un proceso.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "kanban",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "agile",
+      "message": "Metodologías ágiles de gestión. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "agile"
+      ],
+      "offset": 3057,
+      "length": 5,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "agile",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Metodologías ágiles de gestión.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "agile",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "waterfall",
+      "message": "Metodología de desarrollo en cascada. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "waterfall"
+      ],
+      "offset": 3064,
+      "length": 9,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "waterfall",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Metodología de desarrollo en cascada.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "waterfall",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "kaizen",
+      "message": "Filosofía japonesa de mejora continua. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "kaizen"
+      ],
+      "offset": 3075,
+      "length": 6,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "kaizen",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Filosofía japonesa de mejora continua.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "kaizen",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Método",
+      "text": "poka-yoke",
+      "message": "Técnica de calidad orientada a evitar errores. | Los métodos y metodologías extranjeras se escriben en cursiva.",
+      "suggestions": [
+        "poka-yoke"
+      ],
+      "offset": 3084,
+      "length": 9,
+      "rule_id": "GEMINI_MÉTODO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "poka-yoke",
+        "category": "Método",
+        "rule_name": "Denominaciones de métodos",
+        "is_italic": true,
+        "definition": "Técnica de calidad orientada a evitar errores.",
+        "rae_rule": "Los métodos y metodologías extranjeras se escriben en cursiva.",
+        "recommended": "poka-yoke",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Corrección",
+      "text": "mini-falda",
+      "message": "El prefijo 'mini-' debe ir soldado a la base sin guion. | Los prefijos se escriben soldados a la palabra base.",
+      "suggestions": [
+        "minifalda"
+      ],
+      "offset": 3316,
+      "length": 10,
+      "rule_id": "GEMINI_CORRECCIÓN",
+      "source": "RAE - Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "mini-falda",
+        "category": "Corrección",
+        "rule_name": "Prefijos sin guion",
+        "is_italic": false,
+        "definition": "El prefijo 'mini-' debe ir soldado a la base sin guion.",
+        "rae_rule": "Los prefijos se escriben soldados a la palabra base.",
+        "recommended": "minifalda",
+        "source": "RAE - Diccionario panhispánico de dudas",
+        "source_url": "https://www.rae.es/dpd/prefijos",
+        "found": true
+      }
+    },
+    {
+      "category": "Corrección",
+      "text": "ex-presidente",
+      "message": "El prefijo 'ex-' debe ir soldado a la base sin guion. | Los prefijos se escriben soldados a la palabra base.",
+      "suggestions": [
+        "expresidente"
+      ],
+      "offset": 3328,
+      "length": 13,
+      "rule_id": "GEMINI_CORRECCIÓN",
+      "source": "RAE - Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "ex-presidente",
+        "category": "Corrección",
+        "rule_name": "Prefijos sin guion",
+        "is_italic": false,
+        "definition": "El prefijo 'ex-' debe ir soldado a la base sin guion.",
+        "rae_rule": "Los prefijos se escriben soldados a la palabra base.",
+        "recommended": "expresidente",
+        "source": "RAE - Diccionario panhispánico de dudas",
+        "source_url": "https://www.rae.es/dpd/prefijos",
+        "found": true
+      }
+    },
+    {
+      "category": "Corrección",
+      "text": "super héroe",
+      "message": "El prefijo 'super-' debe ir soldado a la base. | Los prefijos se escriben soldados a la palabra base.",
+      "suggestions": [
+        "superhéroe"
+      ],
+      "offset": 3343,
+      "length": 11,
+      "rule_id": "GEMINI_CORRECCIÓN",
+      "source": "RAE - Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "super héroe",
+        "category": "Corrección",
+        "rule_name": "Prefijos sin guion",
+        "is_italic": false,
+        "definition": "El prefijo 'super-' debe ir soldado a la base.",
+        "rae_rule": "Los prefijos se escriben soldados a la palabra base.",
+        "recommended": "superhéroe",
+        "source": "RAE - Diccionario panhispánico de dudas",
+        "source_url": "https://www.rae.es/dpd/prefijos",
+        "found": true
+      }
+    },
+    {
+      "category": "Corrección",
+      "text": "anti-virus",
+      "message": "El prefijo 'anti-' debe ir soldado a la base. | Los prefijos se escriben soldados a la palabra base.",
+      "suggestions": [
+        "antivirus"
+      ],
+      "offset": 3356,
+      "length": 10,
+      "rule_id": "GEMINI_CORRECCIÓN",
+      "source": "RAE - Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "anti-virus",
+        "category": "Corrección",
+        "rule_name": "Prefijos sin guion",
+        "is_italic": false,
+        "definition": "El prefijo 'anti-' debe ir soldado a la base.",
+        "rae_rule": "Los prefijos se escriben soldados a la palabra base.",
+        "recommended": "antivirus",
+        "source": "RAE - Diccionario panhispánico de dudas",
+        "source_url": "https://www.rae.es/dpd/prefijos",
+        "found": true
+      }
+    },
+    {
+      "category": "Corrección",
+      "text": "multi nivel",
+      "message": "El prefijo 'multi-' debe ir soldado a la base. | Los prefijos se escriben soldados a la palabra base.",
+      "suggestions": [
+        "multinivel"
+      ],
+      "offset": 3369,
+      "length": 11,
+      "rule_id": "GEMINI_CORRECCIÓN",
+      "source": "RAE - Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "multi nivel",
+        "category": "Corrección",
+        "rule_name": "Prefijos sin guion",
+        "is_italic": false,
+        "definition": "El prefijo 'multi-' debe ir soldado a la base.",
+        "rae_rule": "Los prefijos se escriben soldados a la palabra base.",
+        "recommended": "multinivel",
+        "source": "RAE - Diccionario panhispánico de dudas",
+        "source_url": "https://www.rae.es/dpd/prefijos",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca",
+      "text": "Steam",
+      "message": "Plataforma de distribución digital de videojuegos. | Los nombres de marcas y plataformas se escriben en redonda.",
+      "suggestions": [
+        "Steam"
+      ],
+      "offset": 3524,
+      "length": 5,
+      "rule_id": "GEMINI_MARCA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Steam",
+        "category": "Marca",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Plataforma de distribución digital de videojuegos.",
+        "rae_rule": "Los nombres de marcas y plataformas se escriben en redonda.",
+        "recommended": "Steam",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca",
+      "text": "PlayStation",
+      "message": "Marca de consolas de Sony. | Los nombres de marcas y plataformas se escriben en redonda.",
+      "suggestions": [
+        "PlayStation"
+      ],
+      "offset": 3531,
+      "length": 11,
+      "rule_id": "GEMINI_MARCA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "PlayStation",
+        "category": "Marca",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Marca de consolas de Sony.",
+        "rae_rule": "Los nombres de marcas y plataformas se escriben en redonda.",
+        "recommended": "PlayStation",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Marca",
+      "text": "Xbox",
+      "message": "Marca de consolas de Microsoft. | Los nombres de marcas y plataformas se escriben en redonda.",
+      "suggestions": [
+        "Xbox"
+      ],
+      "offset": 3544,
+      "length": 4,
+      "rule_id": "GEMINI_MARCA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Xbox",
+        "category": "Marca",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Marca de consolas de Microsoft.",
+        "rae_rule": "Los nombres de marcas y plataformas se escriben en redonda.",
+        "recommended": "Xbox",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Empresa",
+      "text": "Nintendo",
+      "message": "Empresa de videojuegos. | Los nombres de empresas se escriben en redonda.",
+      "suggestions": [
+        "Nintendo"
+      ],
+      "offset": 3551,
+      "length": 8,
+      "rule_id": "GEMINI_EMPRESA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Nintendo",
+        "category": "Empresa",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Empresa de videojuegos.",
+        "rae_rule": "Los nombres de empresas se escriben en redonda.",
+        "recommended": "Nintendo",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Empresa",
+      "text": "Sony Interactive Entertainment",
+      "message": "Nombre oficial de la empresa. | Las entidades se escriben en redonda.",
+      "suggestions": [
+        "Sony Interactive Entertainment"
+      ],
+      "offset": 3639,
+      "length": 30,
+      "rule_id": "GEMINI_EMPRESA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Sony Interactive Entertainment",
+        "category": "Empresa",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Nombre oficial de la empresa.",
+        "rae_rule": "Las entidades se escriben en redonda.",
+        "recommended": "Sony Interactive Entertainment",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Empresa",
+      "text": "Square Enix",
+      "message": "Nombre oficial de la empresa. | Las entidades se escriben en redonda.",
+      "suggestions": [
+        "Square Enix"
+      ],
+      "offset": 3757,
+      "length": 11,
+      "rule_id": "GEMINI_EMPRESA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Square Enix",
+        "category": "Empresa",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Nombre oficial de la empresa.",
+        "rae_rule": "Las entidades se escriben en redonda.",
+        "recommended": "Square Enix",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Empresa",
+      "text": "Warner Bros.",
+      "message": "Nombre oficial de la empresa. | Las entidades se escriben en redonda.",
+      "suggestions": [
+        "Warner Bros."
+      ],
+      "offset": 3770,
+      "length": 12,
+      "rule_id": "GEMINI_EMPRESA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Warner Bros.",
+        "category": "Empresa",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Nombre oficial de la empresa.",
+        "rae_rule": "Las entidades se escriben en redonda.",
+        "recommended": "Warner Bros.",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Empresa",
+      "text": "Guerrilla Games",
+      "message": "Nombre oficial de la empresa. | Las entidades se escriben en redonda.",
+      "suggestions": [
+        "Guerrilla Games"
+      ],
+      "offset": 3785,
+      "length": 15,
+      "rule_id": "GEMINI_EMPRESA",
+      "source": "Normas de la RAE",
+      "lookup": {
+        "term": "Guerrilla Games",
+        "category": "Empresa",
+        "rule_name": "Empresas, plataformas, marcas",
+        "is_italic": false,
+        "definition": "Nombre oficial de la empresa.",
+        "rae_rule": "Las entidades se escriben en redonda.",
+        "recommended": "Guerrilla Games",
+        "source": "Normas de la RAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "CEO",
+      "message": "Director ejecutivo (Chief Executive Officer). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "CEO"
+      ],
+      "offset": 3951,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "CEO",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Director ejecutivo (Chief Executive Officer).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "CEO",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HTML",
+      "message": "Lenguaje de marcado de hipertexto. | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "HTML"
+      ],
+      "offset": 3956,
+      "length": 4,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "HTML",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Lenguaje de marcado de hipertexto.",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "HTML",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Empresa/Sigla",
+      "text": "IBM",
+      "message": "Nombre de empresa (International Business Machines). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "IBM"
+      ],
+      "offset": 3962,
+      "length": 3,
+      "rule_id": "GEMINI_EMPRESA/SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "IBM",
+        "category": "Empresa/Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Nombre de empresa (International Business Machines).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "IBM",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Personaje no jugable. | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 3967,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Personaje no jugable.",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "NPC",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Interfaz visual de datos en pantalla (Heads-Up Display). | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 3972,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz visual de datos en pantalla (Heads-Up Display).",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "HUD",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "RPG",
+      "message": "Juego de rol (Role Playing Game). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "RPG"
+      ],
+      "offset": 3977,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "RPG",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Juego de rol (Role Playing Game).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "RPG",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "DLC",
+      "message": "Contenido descargable adicional. | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "DLC"
+      ],
+      "offset": 3982,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "DLC",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Contenido descargable adicional.",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "DLC",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "QA",
+      "message": "Garantía de calidad (Quality Assurance). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "QA"
+      ],
+      "offset": 3987,
+      "length": 2,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "QA",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Garantía de calidad (Quality Assurance).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "QA",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "API",
+      "message": "Interfaz de programación de aplicaciones. | Las siglas se escriben en mayúsculas y en redonda.",
+      "suggestions": [
+        "API"
+      ],
+      "offset": 3992,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "API",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz de programación de aplicaciones.",
+        "rae_rule": "Las siglas se escriben en mayúsculas y en redonda.",
+        "recommended": "API",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "CEO",
+      "message": "Director ejecutivo (Chief Executive Officer). | Las siglas se escriben en mayúsculas.",
+      "suggestions": [
+        "CEO"
+      ],
+      "offset": 4075,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "CEO",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Director ejecutivo (Chief Executive Officer).",
+        "rae_rule": "Las siglas se escriben en mayúsculas.",
+        "recommended": "CEO",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "NPC",
+      "message": "Personaje no jugable. | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "NPC"
+      ],
+      "offset": 4084,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "NPC",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Personaje no jugable.",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "NPC",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Interfaz visual de datos en pantalla (Heads-Up Display). | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 4093,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz visual de datos en pantalla (Heads-Up Display).",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "HUD",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "API",
+      "message": "Interfaz de programación de aplicaciones. | Las siglas se escriben en mayúsculas y en redonda.",
+      "suggestions": [
+        "API"
+      ],
+      "offset": 4103,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "API",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz de programación de aplicaciones.",
+        "rae_rule": "Las siglas se escriben en mayúsculas y en redonda.",
+        "recommended": "API",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "HUD",
+      "message": "Interfaz visual de datos en pantalla (Heads-Up Display). | Las siglas no llevan 's' en el plural.",
+      "suggestions": [
+        "HUD"
+      ],
+      "offset": 4154,
+      "length": 3,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "HUD",
+        "category": "Sigla",
+        "rule_name": "Siglas extranjeras",
+        "is_italic": false,
+        "definition": "Interfaz visual de datos en pantalla (Heads-Up Display).",
+        "rae_rule": "Las siglas no llevan 's' en el plural.",
+        "recommended": "HUD",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/las-siglas-son-invariables-cuando-se-pluralizan/",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "shader",
+      "message": "Programa pequeño que se ejecuta en la tarjeta gráfica para calcular efectos visuales. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "shader"
+      ],
+      "offset": 4347,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "shader",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Programa pequeño que se ejecuta en la tarjeta gráfica para calcular efectos visuales.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "shader",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo crudo",
+      "text": "shader",
+      "message": "Programa pequeño que se ejecuta en la tarjeta gráfica para calcular efectos visuales. | Extranjerismos crudos se escriben en cursiva.",
+      "suggestions": [
+        "shader"
+      ],
+      "offset": 4508,
+      "length": 6,
+      "rule_id": "GEMINI_EXTRANJERISMO_CRUDO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "shader",
+        "category": "Extranjerismo crudo",
+        "rule_name": "Extranjerismos crudos",
+        "is_italic": true,
+        "definition": "Programa pequeño que se ejecuta en la tarjeta gráfica para calcular efectos visuales.",
+        "rae_rule": "Extranjerismos crudos se escriben en cursiva.",
+        "recommended": "shader",
+        "source": "FundéuRAE",
+        "source_url": "",
+        "found": true
+      }
+    }
   ]
 }

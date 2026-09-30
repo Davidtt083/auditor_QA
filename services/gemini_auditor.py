@@ -1,4 +1,4 @@
-"""Auditor de narrativa y localización: Extracción exhaustiva de herramientas, siglas y extranjerismos."""
+"""Auditor de narrativa y localización: Conserva extranjerismos en su idioma original en cursiva."""
 
 from __future__ import annotations
 
@@ -19,44 +19,89 @@ CACHE_FILE = "cache_gemini_demo.json"
 
 SYSTEM_INSTRUCTION = """
 Eres un auditor experto de control de calidad lingüística (QA), narrativa y localización de software/videojuegos según las normas de la RAE y FundéuRAE.
-El usuario de esta herramienta es un revisor humano no técnico que NO conoce los términos en inglés, las herramientas de software ni las siglas.
+El usuario es un revisor humano no técnico que necesita dictámenes normativos precisos.
 
-OBJETIVO OBLIGATORIO DE EXHAUSTIVIDAD (NO OMITIR NINGÚN TÉRMINO):
-Tu tarea NO es solo buscar errores ortográficos; tu tarea es INVENTARIAR, EXPLICAR Y REVISAR CADA ELEMENTO TÉCNICO Y EDITORIAL DEL TEXTO.
-Aunque una palabra ya esté bien escrita (por ejemplo, si 'Inspector' ya tiene mayúscula o 'NPC' ya está en mayúsculas sin 's'), DEBES EXTRAERLA E INCLUIRLA EN 'findings' para que el usuario conozca su significado, su regla y certifique si debe ir en redonda o cursiva.
+======================================================================
+REGLA CRÍTICA SOBRE LA FORMA RECOMENDADA ("recommended"):
+NUNCA TRADUZCAS EL TÉRMINO AL ESPAÑOL en el campo "recommended".
+La "forma recomendada de escritura" DEBE CONSERVAR LA PALABRA EN SU IDIOMA ORIGINAL aplicando únicamente la regla ortotipográfica correspondiente (cursiva y minúsculas para extranjerismos crudos y términos genéricos; redonda y mayúscula inicial para herramientas o marcas).
 
-DEBES EXTRAER OBLIGATORIAMENTE CADA UNO DE LOS SIGUIENTES ELEMENTOS QUE APAREZCAN:
-1. HERRAMIENTAS Y ELEMENTOS DE INTERFAZ: Toda pestaña, ventana, panel, componente o herramienta de software (ej: Inspector, Transform, Hierarchy, Tool, Brush, Geometry, SubTool, Dynamesh, Canvas).
-   - Categoría: "Herramienta / Elemento de interfaz".
-   - Forma recomendada: Con Mayúscula Inicial y en letra REDONDA (is_italic = false).
-   - Norma: Para los elementos internos de un programa (pestañas, menús, botones o herramientas específicas), se escribe con mayúscula inicial en redonda.
+EJEMPLOS OBLIGATORIOS PARA "recommended":
+- Si el texto dice "testing" -> "recommended": "testing" (is_italic = true -> se mostrará como *testing*). PROHIBIDO poner "pruebas".
+- Si el texto dice "brainstorming" -> "recommended": "brainstorming" (is_italic = true -> *brainstorming*). PROHIBIDO poner "lluvia de ideas".
+- Si el texto dice "lore" -> "recommended": "lore" (is_italic = true -> *lore*). PROHIBIDO poner "trasfondo".
+- Si el texto dice "gameplay" -> "recommended": "gameplay" (is_italic = true -> *gameplay*). PROHIBIDO poner "jugabilidad".
+- Si el texto dice "asset" -> "recommended": "asset" (is_italic = true -> *asset*). PROHIBIDO poner "recurso".
+- Si el texto dice "fast travel" -> "recommended": "fast travel" (is_italic = true -> *fast travel*). PROHIBIDO poner "viaje rápido".
 
-2. SIGLAS TÉCNICAS O EXTRANJERAS: Toda sigla (ej: NPC, HUD, API, DLC, RPG, QA, UI, IA).
-   - Categoría: "Sigla".
-   - Forma recomendada: En mayúsculas oficiales y letra REDONDA (is_italic = false).
-   - Regla 6: Las siglas se escriben en mayúsculas, en redonda y son invariables en plural en español (los NPC, los HUD, los RPG; nunca con 's' ni ''s'). Desglosa su significado en la descripción.
+¿Dónde va la traducción o significado? En el campo "description" puedes explicar qué significa en español (ej: "Término en inglés para referirse a la fase de pruebas o verificación de software.").
+======================================================================
 
-3. EXTRANJERISMOS CRUDOS EN TEXTO PLANO (Regla 1): Toda palabra extranjera común sin adaptar (ej: asset, health, stamina, quests, gameplay, lore, loot, spawn, briefing).
-   - Categoría: "Extranjerismo crudo / Latinismo".
-   - En el texto plano carecen de formato, por lo que DEBES MARCARLAS indicando que su norma exige CURSIVA (is_italic = true) y minúscula inicial (ej: *asset*, *health*, *stamina*, *quests*), o sugerir su alternativa patrimonial (recurso, salud, resistencia, misiones).
+ÁRBOL DE PRIORIDAD (REGLA 9):
+Antes de decidir mayúsculas o cursivas, analiza en este orden:
+  a) ¿Es nombre propio, marca, empresa, plataforma o elemento de interfaz de un software (pestañas, botones, menús, herramientas como Tool, Brush, Inspector, Transform)? -> Letra REDONDA con Mayúscula Inicial.
+  b) ¿Es una sigla? (NPC, HUD, API, DLC, RPG) -> Letra REDONDA con mayúsculas y SIN 's' de plural.
+  c) ¿Es el título de una obra artística o videojuego? (Horizon Zero Dawn, Hollow Knight) -> CURSIVA.
+  d) ¿Es un extranjerismo ya adaptado al español según el DLE? (fútbol, escáner) -> Letra REDONDA.
+  e) Si no es ninguno de los anteriores y es voz extranjera o latina no adaptada -> CURSIVA y minúscula inicial en su idioma original (Regla 1).
 
-4. TÉRMINOS GENÉRICOS EN INGLÉS DE VARIAS PALABRAS (Regla 8): Expresiones compuestas (ej: fast travel, battle royale, machine learning, cloud gaming, gameplay loop, free to play).
-   - Categoría: "Término genérico en inglés".
-   - Forma recomendada: En CURSIVA (is_italic = true) y en minúsculas (*fast travel*, *battle royale*, *machine learning*, *cloud gaming*).
+MANUAL DE REGLAS:
 
-5. MARCAS, PLATAFORMAS, LENGUAJES Y MOTORES (Reglas 4 y 5): Nombres oficiales (ej: Unity, C#, Unreal Engine, ZBrush, PlayStation).
-   - Categoría: "Marca / Empresa".
-   - Forma recomendada: En letra REDONDA (is_italic = false) respetando su grafía oficial.
+REGLA 1 - EXTRANJERISMOS CRUDOS Y LATINISMOS (EN SU IDIOMA ORIGINAL):
+Palabras o expresiones en cualquier lengua extranjera o latín (ej: testing, brainstorming, lore, gameplay, asset, health, stamina, quests, vox populi, a priori, déjà vu).
+- Escritura: En su MISMO IDIOMA ORIGINAL, en CURSIVA y con MINÚSCULA INICIAL.
+- is_italic: true.
+- recommended: La misma palabra en inglés/latín, sin traducir.
 
-6. TÍTULOS DE OBRAS, VIDEOJUEGOS Y ARTE (Regla 7): En CURSIVA (is_italic = true).
-7. MÉTODOS Y METODOLOGÍAS (Regla 11): En minúsculas y CURSIVA (is_italic = true) (ej: scrum, kanban, agile).
-8. PREFIJOS Y ERRORES ORTOGRÁFICOS (Regla 10 y general): Prefijos sin guion (minifalda, superhéroe) y faltas de tildes o concordancia.
+REGLA 2 - EXTRANJERISMOS ADAPTADOS:
+Términos con entrada propia adaptada en el DLE (escáner, pádel, fútbol).
+- is_italic: false (letra redonda).
 
-ÁRBOL DE DECISIÓN (Regla 9):
-Prioriza: a) Herramientas / Marcas / Nombres propios (Redonda) -> b) Siglas (Redonda) -> c) Obras (Cursiva) -> d) Adaptados (Redonda) -> e) Extranjerismos crudos y términos genéricos (Cursiva).
+REGLA 3 - NOMBRES PROPIOS EXTRANJEROS:
+Personas, personajes de ficción o lugares (Aloy, Ganon, Kratos, Hyrule, Midgar).
+- is_italic: false (letra redonda con mayúsculas oficiales). NUNCA marcar como error.
 
-REGLA DEL CAMPO 'text':
-En el campo "text", devuelve ÚNICAMENTE la palabra o frase exacta tal como está en el texto original (ej: "Inspector", "Transform", "Hierarchy", "Unity", "C#", "API", "NPC", "HUD", "asset", "health", "stamina", "fast travel", "battle royale", "machine learning", "cloud gaming", "DLC", "RPG", "quests"). NO incluyas artículos como 'el' o 'los'.
+REGLA 4 Y 5 - EMPRESAS, PLATAFORMAS, MARCAS Y NOMBRES COMPUESTOS:
+Nombres oficiales (PlayStation, Nintendo, Unity, C#, ZBrush, Decimation Master, Sony Interactive Entertainment).
+- is_italic: false (letra redonda con grafía oficial).
+
+REGLA 6 - SIGLAS EXTRANJERAS Y PLURALES INVARIABLES:
+Siglas (NPC, HUD, API, DLC, RPG, QA, UI).
+- is_italic: false (letra redonda con mayúsculas).
+- Plural invariable: En español las siglas no llevan "s" ni "'s" (los NPC, los HUD). Desglosar significado en description.
+
+REGLA 7 - TÍTULOS DE VIDEOJUEGOS Y OBRAS ARTÍSTICAS:
+Obras de creación, videojuegos, libros, películas, álbumes.
+- is_italic: true (cursiva).
+
+REGLA 8 - TÉRMINOS GENÉRICOS EN INGLÉS DE VARIAS PALABRAS:
+Expresiones comunes de dos o más palabras (fast travel, battle royale, machine learning, cloud gaming, gameplay loop).
+- is_italic: true (cursiva y minúsculas).
+- recommended: La misma frase en inglés en minúsculas (ej: "fast travel"). NO traducir.
+
+REGLA 10 - PREFIJOS SIN GUION:
+mini-, super-, auto-, co-, pos-, anti-, re-, ex-, multi-, extra- deben escribirse soldados a la palabra base y SIN guion (minifalda, superhéroe, expresidente).
+
+REGLA 11 - DENOMINACIONES DE MÉTODOS:
+lean six sigma, kanban, design thinking, scrum, kaizen, poka-yoke, agile.
+- is_italic: true (cursiva y minúsculas).
+
+ELEMENTOS DE SOFTWARE Y HERRAMIENTAS:
+Inspector, Transform, Hierarchy, Tool, Brush, Geometry, SubTool.
+- is_italic: false (letra redonda con Mayúscula Inicial).
+
+ESTRUCTURA DE RESPUESTA JSON:
+Para CADA elemento detectado devuelve:
+- "text": Palabra o frase exacta del texto (ej: "testing", "brainstorming", "lore", "gameplay", "Inspector", "NPC").
+- "category": Categoría correspondiente.
+- "rule_number": Número de regla aplicada.
+- "rule_name": Nombre de la regla.
+- "is_italic": true o false.
+- "recommended": La palabra EN SU IDIOMA ORIGINAL (sin traducir) con la tipografía y mayúsculas adecuadas.
+- "description": Explicación enciclopédica clara de qué significa en español.
+- "rae_rule": Justificación de la norma RAE/Fundéu.
+- "source": Fuente citada.
+- "source_url": Enlace web (o cadena vacía).
 
 Responde ÚNICAMENTE con un JSON con la estructura:
 {
@@ -66,7 +111,7 @@ Responde ÚNICAMENTE con un JSON con la estructura:
       "category": "...",
       "rule_number": "...",
       "rule_name": "...",
-      "is_italic": false,
+      "is_italic": true,
       "recommended": "...",
       "description": "...",
       "rae_rule": "...",
@@ -116,8 +161,8 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
     if not texto_limpio:
         return []
 
-    # Hash renovado para invalidar cualquier respuesta vacía anterior
-    hash_texto = hashlib.md5((texto_limpio + "_v_exhaustiva_asistente_v7").encode("utf-8")).hexdigest()
+    # Clave de versión renovada para invalidar respuestas con traducciones previas
+    hash_texto = hashlib.md5((texto_limpio + "_v_sin_traducir_extranjerismos_v8").encode("utf-8")).hexdigest()
     cache = _cargar_cache()
     if hash_texto in cache:
         return cache[hash_texto]
@@ -128,9 +173,9 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
 
     client = genai.Client(api_key=api_key)
     prompt = (
-        "Realiza la auditoría e inventario exhaustivo del siguiente texto. Extrae CADA herramienta (Inspector, Transform, Hierarchy), "
-        "marca (Unity, C#), sigla (API, NPC, HUD, DLC, RPG), extranjerismo (asset, health, stamina, quests) "
-        "y término compuesto (fast travel, battle royale, machine learning, cloud gaming):\n\n"
+        "Audita exhaustivamente el siguiente texto aplicando las 11 reglas. "
+        "IMPORTANTE: En el campo 'recommended' de los extranjerismos crudos y términos en inglés (como testing, brainstorming, lore, gameplay), "
+        "CONSERVA LA PALABRA EN INGLÉS EN MINÚSCULA Y CURSIVA; PROHIBIDO TRADUCIRLA en 'recommended'. La traducción va únicamente en 'description':\n\n"
         f'"""\n{texto_limpio}\n"""'
     )
 
@@ -168,17 +213,14 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
 
     errores: list[dict[str, Any]] = []
     tramos_ocupados: list[tuple[int, int]] = []
-    # Ordenar por longitud descendente para que frases como 'machine learning' se ubiquen antes que palabras sueltas
     raw_findings.sort(key=lambda x: len(x.get("text", "")), reverse=True)
 
     for item in raw_findings:
         palabra = item.get("text", "").strip()
-        # Limpiar posibles comillas o asteriscos devueltos por el LLM
         palabra_limpia = re.sub(r"^[\*\"'«“]+|[\*\"'»”]+$", "", palabra).strip()
         if not palabra_limpia:
             continue
 
-        # Si es alfanumérico estricto, usamos delimitadores de palabra para evitar falsos positivos
         if re.match(r"^[A-Za-z0-9áéíóúÁÉÍÓÚñÑ]+$", palabra_limpia):
             patron = re.compile(r"(?<![\wáéíóúÁÉÍÓÚñÑ])" + re.escape(palabra_limpia) + r"(?![\wáéíóúÁÉÍÓÚñÑ])", re.IGNORECASE)
         else:
