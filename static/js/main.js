@@ -15,15 +15,17 @@ let latestReport = null;
 let lookupIndex = {};
 
 const CAT = {
-  'Título de videojuego': { clave: 'videojuego', etiqueta: 'Título de obra / Videojuego' },
-  'Personaje / Entidad de ficción': { clave: 'personaje', etiqueta: 'Personaje de ficción' },
-  'Lugar / Universo de ficción': { clave: 'lugar', etiqueta: 'Lugar / Reino' },
+  'Título de obra': { clave: 'obra', etiqueta: 'Título de obra' },
+  'Nombre propio': { clave: 'nombre', etiqueta: 'Nombre propio' },
   'Marca / Empresa': { clave: 'marca', etiqueta: 'Marca / Plataforma' },
-  'Sigla': { clave: 'sigla', etiqueta: 'Sigla extranjera' },
-  'Jerga de videojuegos': { clave: 'jerga', etiqueta: 'Jerga / Término genérico' },
-  'Ortografia': { clave: 'ortografia', etiqueta: 'Ortografía' },
-  'Gramatica / Puntuacion': { clave: 'gramatica', etiqueta: 'Gramática' },
+  'Sigla': { clave: 'sigla', etiqueta: 'Sigla' },
   'Extranjerismo no adaptado': { clave: 'extranjerismo', etiqueta: 'Extranjerismo crudo' },
+  'Latinismo': { clave: 'extranjerismo', etiqueta: 'Latinismo' },
+  'Método / Metodología': { clave: 'metodo', etiqueta: 'Método / Metodología' },
+  'Herramienta / Interfaz': { clave: 'herramienta', etiqueta: 'Herramienta / Interfaz' },
+  'Ortografia': { clave: 'ortografia', etiqueta: 'Ortografía' },
+  'Prefijación': { clave: 'ortografia', etiqueta: 'Prefijación' },
+  'Gramatica / Puntuacion': { clave: 'gramatica', etiqueta: 'Gramática' },
 };
 
 const normaliza = valor => String(valor || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -176,9 +178,9 @@ function tarjeta(error) {
 function renderDashboard(report) {
   const counterData = [
     ['total', 'Total hallazgos'],
-    ['Videojuegos', 'Obras / Juegos (R7)'],
-    ['Personajes / Ficción', 'Nombres / Marcas (R3-5)'],
-    ['Jerga gaming', 'Métodos y Jerga (R8/11)'],
+    ['Obras', 'Títulos de obras (R7)'],
+    ['Nombres y marcas', 'Nombres / Marcas (R3-5)'],
+    ['Extranjerismos', 'Extranjerismos (R1/8)'],
     ['Ortografia', 'Ortografía / Prefijos'],
     ['Gramatica / Puntuacion', 'Gramática']
   ];
@@ -189,13 +191,13 @@ function renderDashboard(report) {
   const obras = report.errors.filter(e => e.category.includes('Título') || e.category.includes('obra'));
   const metodos = report.errors.filter(e => e.category.includes('Método') || e.category.includes('Metodología'));
   const herramientas = report.errors.filter(e => e.category.includes('Herramienta') || e.category.includes('interfaz'));
-  const nombresYMarcas = report.errors.filter(e => ['Personaje / Entidad de ficción', 'Lugar / Universo de ficción', 'Marca / Empresa'].includes(e.category));
+  const nombresYMarcas = report.errors.filter(e => ['Nombre propio', 'Marca / Empresa'].includes(e.category));
   const siglas = report.errors.filter(e => e.category === 'Sigla');
-  const extranjerismos = report.errors.filter(e => e.category.includes('Extranjerismo') || e.category.includes('Latinismo') || e.category.includes('Jerga'));
+  const extranjerismos = report.errors.filter(e => e.category.includes('Extranjerismo') || e.category.includes('Latinismo'));
   const ortografiaYPrefijos = report.errors.filter(e => e.category.includes('Ortografia') || e.category.includes('Prefijación') || e.category.includes('Gramatica'));
 
   let html = '';
-  if (obras.length) html += `<h3 class="grupo-titulo">🎨 Títulos de obras artísticas y videojuegos (Regla 7 - Cursiva) (${obras.length})</h3>` + obras.map(tarjeta).join('');
+  if (obras.length) html += `<h3 class="grupo-titulo">🎨 Títulos de obras (Regla 7 - Cursiva) (${obras.length})</h3>` + obras.map(tarjeta).join('');
   if (metodos.length) html += `<h3 class="grupo-titulo">📊 Métodos y metodologías de gestión (Regla 11 - Minúsculas y Cursiva) (${metodos.length})</h3>` + metodos.map(tarjeta).join('');
   if (herramientas.length) html += `<h3 class="grupo-titulo">🛠️ Herramientas y elementos de interfaz (Mayúscula inicial - Redonda) (${herramientas.length})</h3>` + herramientas.map(tarjeta).join('');
   if (siglas.length) html += `<h3 class="grupo-titulo">🔤 Siglas y plurales invariables (Regla 6 - Redonda sin 's') (${siglas.length})</h3>` + siglas.map(tarjeta).join('');
@@ -226,7 +228,7 @@ function generarPDF(report) {
   doc.setTextColor(255, 255, 255);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(14);
-  doc.text('REPORTE QA: AUDITORÍA NARRATIVA Y ORTOTIPOGRÁFICA', 14, 15);
+  doc.text('REPORTE QA: AUDITORÍA ORTOTIPOGRÁFICA', 14, 15);
 
   const rows = report.errors.map(err => {
     const meta = CAT[err.category] || { etiqueta: err.category };
@@ -276,7 +278,7 @@ function generarPDF(report) {
 // ---------------------------------------------------------------------------
 analyzeButton.addEventListener('click', async () => {
   analyzeButton.disabled = true;
-  resultState.textContent = 'Aplicando las 8 normas con Gemini...';
+  resultState.textContent = 'Aplicando las normas RAE con Gemini...';
 
   emptyState.classList.add('hidden');
   if (overloadedState) overloadedState.classList.add('hidden');

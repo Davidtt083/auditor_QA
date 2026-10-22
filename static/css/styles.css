@@ -57,10 +57,10 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: 'DM 
 .legend-chips { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; font-size: 12px; font-weight: 500; border-radius: 20px; background: var(--paper); border: 1px solid var(--line); color: var(--ink); }
 .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
-.dot-videojuego { background: var(--game-title); }
-.dot-personaje { background: var(--character); }
+.dot-obra { background: var(--game-title); }
+.dot-nombre { background: var(--character); }
 .dot-lugar { background: var(--realm); }
-.dot-jerga { background: var(--jargon); }
+.dot-metodo { background: var(--jargon); }
 .dot-ortografia { background: var(--coral); }
 .dot-gramatica { background: var(--navy); }
 .dot-extranjerismo { background: var(--azul); }
@@ -101,10 +101,10 @@ textarea { width: 100%; min-height: 250px; padding: 16px; resize: vertical; bord
 /* Marcas / Resaltados en el texto */
 .mark { padding: 2px 6px; cursor: pointer; border: 1px solid; border-radius: 3px; font-family: inherit; font-size: inherit; background: transparent; transition: all .15s; }
 .mark:hover { filter: brightness(0.92); transform: translateY(-1px); }
-.mark.cat-videojuego { border-color: var(--game-title); background: #e6f6ee; color: #085a37; font-weight: 600; }
-.mark.cat-personaje { border-color: var(--character); background: #eaf3ff; color: #104baa; font-weight: 600; }
+.mark.cat-obra { border-color: var(--game-title); background: #e6f6ee; color: #085a37; font-weight: 600; }
+.mark.cat-nombre { border-color: var(--character); background: #eaf3ff; color: #104baa; font-weight: 600; }
 .mark.cat-lugar { border-color: var(--realm); background: #f4efff; color: #532d99; font-weight: 600; }
-.mark.cat-jerga { border-color: var(--jargon); background: #fef7ea; color: #9c5100; font-weight: 500; }
+.mark.cat-metodo { border-color: var(--jargon); background: #fef7ea; color: #9c5100; font-weight: 500; }
 .mark.cat-ortografia { border-color: var(--coral); background: #fff0eb; color: #be3920; }
 .mark.cat-gramatica { border-color: var(--navy); background: #eef3f6; color: var(--navy); }
 .mark.cat-extranjerismo { border-color: var(--azul); background: #eaf2fa; color: var(--azul); }
@@ -128,10 +128,10 @@ textarea { width: 100%; min-height: 250px; padding: 16px; resize: vertical; bord
 .error-card:hover { border-color: var(--green); }
 .error-dot { width: 8px; height: 8px; margin-top: 6px; border-radius: 50%; }
 
-.error-card.cat-videojuego .error-dot { background: var(--game-title); }
-.error-card.cat-personaje .error-dot { background: var(--character); }
+.error-card.cat-obra .error-dot { background: var(--game-title); }
+.error-card.cat-nombre .error-dot { background: var(--character); }
 .error-card.cat-lugar .error-dot { background: var(--realm); }
-.error-card.cat-jerga .error-dot { background: var(--jargon); }
+.error-card.cat-metodo .error-dot { background: var(--jargon); }
 .error-card.cat-ortografia .error-dot { background: var(--coral); }
 .error-card.cat-gramatica .error-dot { background: var(--navy); }
 .error-card.cat-extranjerismo .error-dot { background: var(--azul); }
@@ -139,10 +139,10 @@ textarea { width: 100%; min-height: 250px; padding: 16px; resize: vertical; bord
 .card-topline { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; gap: 10px; }
 .card-topline h3 { margin: 0; font: 600 15px 'Space Grotesk'; }
 .card-category-tag { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; white-space: nowrap; }
-.tag-videojuego { background: #e6f6ee; color: var(--game-title); }
-.tag-personaje { background: #eaf3ff; color: var(--character); }
+.tag-obra { background: #e6f6ee; color: var(--game-title); }
+.tag-nombre { background: #eaf3ff; color: var(--character); }
 .tag-lugar { background: #f4efff; color: var(--realm); }
-.tag-jerga { background: #fef7ea; color: var(--jargon); }
+.tag-metodo { background: #fef7ea; color: var(--jargon); }
 .tag-ortografia { background: #feebe8; color: var(--coral); }
 .tag-gramatica { background: #eef3f6; color: var(--navy); }
 .tag-extranjerismo { background: #eaf2fa; color: var(--azul); }
@@ -154,10 +154,10 @@ textarea { width: 100%; min-height: 250px; padding: 16px; resize: vertical; bord
 /* Panel de detalle lateral */
 .term-detail { position: sticky; top: 20px; align-self: start; }
 .aside-label { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; display: inline-block; padding: 3px 8px; border-radius: 3px; }
-.badge-videojuego { background: #e6f6ee; color: var(--game-title); }
-.badge-personaje { background: #eaf3ff; color: var(--character); }
+.badge-obra { background: #e6f6ee; color: var(--game-title); }
+.badge-nombre { background: #eaf3ff; color: var(--character); }
 .badge-lugar { background: #f4efff; color: var(--realm); }
-.badge-jerga { background: #fef7ea; color: var(--jargon); }
+.badge-metodo { background: #fef7ea; color: var(--jargon); }
 .badge-ortografia { background: #feebe8; color: var(--coral); }
 
 .term-detail h3 { margin: 14px 0 8px; font: 600 20px 'Space Grotesk'; }

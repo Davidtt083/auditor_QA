@@ -7436,5 +7436,127 @@
         "found": true
       }
     }
+  ],
+  "9ac70e23b14cefeff977b73cc11bb515": [
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "brainstorming",
+      "message": "Término en inglés que se refiere a una técnica creativa de trabajo en grupo para facilitar la generación de ideas originales; en español puede traducirse como 'lluvia de ideas' o 'tormenta de ideas'. | Los extranjerismos crudos deben escribirse en cursiva según la norma de la RAE.",
+      "suggestions": [
+        "brainstorming"
+      ],
+      "offset": 18,
+      "length": 13,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "brainstorming",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Extranjerismos crudos y latinismos",
+        "is_italic": true,
+        "definition": "Término en inglés que se refiere a una técnica creativa de trabajo en grupo para facilitar la generación de ideas originales; en español puede traducirse como 'lluvia de ideas' o 'tormenta de ideas'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva según la norma de la RAE.",
+        "recommended": "brainstorming",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/brainstorming-mejor-que-tormenta-de-ideas/",
+        "found": true
+      }
+    },
+    {
+      "category": "Título de obra",
+      "text": "Cien años de soledad",
+      "message": "Título de la novela emblemática del escritor colombiano Gabriel García Márquez. | Los títulos de obras de creación (libros, películas, etc.) deben escribirse en cursiva.",
+      "suggestions": [
+        "Cien años de soledad"
+      ],
+      "offset": 104,
+      "length": 20,
+      "rule_id": "GEMINI_TÍTULO_DE_OBRA",
+      "source": "RAE - Ortografía de la lengua española",
+      "lookup": {
+        "term": "Cien años de soledad",
+        "category": "Título de obra",
+        "rule_name": "Títulos de obras",
+        "is_italic": true,
+        "definition": "Título de la novela emblemática del escritor colombiano Gabriel García Márquez.",
+        "rae_rule": "Los títulos de obras de creación (libros, películas, etc.) deben escribirse en cursiva.",
+        "recommended": "Cien años de soledad",
+        "source": "RAE - Ortografía de la lengua española",
+        "source_url": "https://www.rae.es/ortografia/la-escritura-de-los-titulos",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "feedback",
+      "message": "Término en inglés que significa 'retroalimentación', 'reacción' o 'comentarios' sobre una actividad o producto. | Los extranjerismos no adaptados deben escribirse en cursiva.",
+      "suggestions": [
+        "feedback"
+      ],
+      "offset": 158,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "feedback",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Extranjerismos crudos y latinismos",
+        "is_italic": true,
+        "definition": "Término en inglés que significa 'retroalimentación', 'reacción' o 'comentarios' sobre una actividad o producto.",
+        "rae_rule": "Los extranjerismos no adaptados deben escribirse en cursiva.",
+        "recommended": "feedback",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/recomendacion/feedback-mejor-que-retroalimentacion/",
+        "found": true
+      }
+    },
+    {
+      "category": "Sigla",
+      "text": "QA",
+      "message": "Sigla de 'Quality Assurance', que en español se refiere al 'aseguramiento de la calidad'. Las siglas se escriben en mayúsculas y sin puntos. | Las siglas se escriben en mayúsculas y no llevan tilde, aunque la sigla se pronuncie como palabra. Son invariables en plural.",
+      "suggestions": [
+        "QA"
+      ],
+      "offset": 178,
+      "length": 2,
+      "rule_id": "GEMINI_SIGLA",
+      "source": "RAE - Diccionario panhispánico de dudas",
+      "lookup": {
+        "term": "QA",
+        "category": "Sigla",
+        "rule_name": "Siglas y plurales invariables",
+        "is_italic": false,
+        "definition": "Sigla de 'Quality Assurance', que en español se refiere al 'aseguramiento de la calidad'. Las siglas se escriben en mayúsculas y sin puntos.",
+        "rae_rule": "Las siglas se escriben en mayúsculas y no llevan tilde, aunque la sigla se pronuncie como palabra. Son invariables en plural.",
+        "recommended": "QA",
+        "source": "RAE - Diccionario panhispánico de dudas",
+        "source_url": "https://www.rae.es/dpd/sigla",
+        "found": true
+      }
+    },
+    {
+      "category": "Extranjerismo no adaptado",
+      "text": "deadline",
+      "message": "Término en inglés que significa 'fecha límite', 'plazo' o 'hora de entrega'. | Los extranjerismos crudos deben escribirse en cursiva.",
+      "suggestions": [
+        "deadline"
+      ],
+      "offset": 191,
+      "length": 8,
+      "rule_id": "GEMINI_EXTRANJERISMO_NO_ADAPTADO",
+      "source": "FundéuRAE",
+      "lookup": {
+        "term": "deadline",
+        "category": "Extranjerismo no adaptado",
+        "rule_name": "Extranjerismos crudos y latinismos",
+        "is_italic": true,
+        "definition": "Término en inglés que significa 'fecha límite', 'plazo' o 'hora de entrega'.",
+        "rae_rule": "Los extranjerismos crudos deben escribirse en cursiva.",
+        "recommended": "deadline",
+        "source": "FundéuRAE",
+        "source_url": "https://www.fundeu.es/consulta/deadline/",
+        "found": true
+      }
+    }
   ]
 }

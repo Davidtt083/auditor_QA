@@ -1,4 +1,4 @@
-"""Aplicación Flask para auditoría de textos y narrativa con Google Gemini."""
+"""Aplicación Flask para auditoría ortotipográfica de textos en español con Google Gemini."""
 
 from __future__ import annotations
 
@@ -76,12 +76,12 @@ def analyze():
         "errors": errors,
         "annotations": _annotations(errors),
         "counts": {
-            "Videojuegos": counts.get("Título de videojuego", 0),
-            "Personajes / Ficción": counts.get("Personaje / Entidad de ficción", 0) + counts.get("Lugar / Universo de ficción", 0),
-            "Jerga gaming": counts.get("Jerga de videojuegos", 0),
-            "Ortografia": counts.get("Ortografia", 0),
+            "Obras": counts.get("Título de obra", 0),
+            "Nombres y marcas": counts.get("Nombre propio", 0) + counts.get("Marca / Empresa", 0),
+            "Extranjerismos": counts.get("Extranjerismo no adaptado", 0) + counts.get("Latinismo", 0),
+            "Siglas": counts.get("Sigla", 0),
+            "Ortografia": counts.get("Ortografia", 0) + counts.get("Prefijación", 0),
             "Gramatica / Puntuacion": counts.get("Gramatica / Puntuacion", 0),
-            "Extranjerismos": counts.get("Extranjerismo no adaptado", 0),
             "total": len(errors),
         },
     })

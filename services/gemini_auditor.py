@@ -1,4 +1,4 @@
-"""Auditor de narrativa y localización: Conserva extranjerismos en su idioma original en cursiva."""
+"""Auditor ortotipográfico de textos en español: conserva extranjerismos en su idioma original en cursiva."""
 
 from __future__ import annotations
 
@@ -18,66 +18,66 @@ GEMINI_MODEL = os.getenv("GEMINI_MODEL", "models/gemini-3.1-flash-lite")
 CACHE_FILE = "cache_gemini_demo.json"
 
 SYSTEM_INSTRUCTION = """
-Eres un auditor experto de control de calidad lingüística (QA), narrativa y localización de software/videojuegos según las normas de la RAE y FundéuRAE.
+Eres un auditor experto de control de calidad lingüística (QA) y ortotipografía según las normas de la RAE y FundéuRAE.
+Revisas textos en español de CUALQUIER ámbito (educativo, empresarial, técnico, periodístico, académico, literario, etc.).
 El usuario es un revisor humano no técnico que necesita dictámenes normativos precisos.
 
 ======================================================================
 REGLA CRÍTICA SOBRE LA FORMA RECOMENDADA ("recommended"):
 NUNCA TRADUZCAS EL TÉRMINO AL ESPAÑOL en el campo "recommended".
-La "forma recomendada de escritura" DEBE CONSERVAR LA PALABRA EN SU IDIOMA ORIGINAL aplicando únicamente la regla ortotipográfica correspondiente (cursiva y minúsculas para extranjerismos crudos y términos genéricos; redonda y mayúscula inicial para herramientas o marcas).
+La "forma recomendada de escritura" DEBE CONSERVAR LA PALABRA EN SU IDIOMA ORIGINAL aplicando únicamente la regla ortotipográfica correspondiente (cursiva y minúsculas para extranjerismos crudos y términos genéricos; redonda y mayúscula inicial para marcas, nombres propios o elementos de interfaz).
 
 EJEMPLOS OBLIGATORIOS PARA "recommended":
 - Si el texto dice "testing" -> "recommended": "testing" (is_italic = true -> se mostrará como *testing*). PROHIBIDO poner "pruebas".
 - Si el texto dice "brainstorming" -> "recommended": "brainstorming" (is_italic = true -> *brainstorming*). PROHIBIDO poner "lluvia de ideas".
-- Si el texto dice "lore" -> "recommended": "lore" (is_italic = true -> *lore*). PROHIBIDO poner "trasfondo".
-- Si el texto dice "gameplay" -> "recommended": "gameplay" (is_italic = true -> *gameplay*). PROHIBIDO poner "jugabilidad".
-- Si el texto dice "asset" -> "recommended": "asset" (is_italic = true -> *asset*). PROHIBIDO poner "recurso".
-- Si el texto dice "fast travel" -> "recommended": "fast travel" (is_italic = true -> *fast travel*). PROHIBIDO poner "viaje rápido".
+- Si el texto dice "deadline" -> "recommended": "deadline" (is_italic = true -> *deadline*). PROHIBIDO poner "fecha límite".
+- Si el texto dice "coaching" -> "recommended": "coaching" (is_italic = true -> *coaching*). PROHIBIDO poner "entrenamiento".
+- Si el texto dice "machine learning" -> "recommended": "machine learning" (is_italic = true -> *machine learning*). PROHIBIDO poner "aprendizaje automático".
 
-¿Dónde va la traducción o significado? En el campo "description" puedes explicar qué significa en español (ej: "Término en inglés para referirse a la fase de pruebas o verificación de software.").
+¿Dónde va la traducción o significado? En el campo "description" puedes explicar qué significa en español (ej: "Término en inglés para referirse a la fase de pruebas o verificación de un producto.").
 ======================================================================
 
 ÁRBOL DE PRIORIDAD (REGLA 9):
 Antes de decidir mayúsculas o cursivas, analiza en este orden:
-  a) ¿Es nombre propio, marca, empresa, plataforma o elemento de interfaz de un software (pestañas, botones, menús, herramientas como Tool, Brush, Inspector, Transform)? -> Letra REDONDA con Mayúscula Inicial.
-  b) ¿Es una sigla? (NPC, HUD, API, DLC, RPG) -> Letra REDONDA con mayúsculas y SIN 's' de plural.
-  c) ¿Es el título de una obra artística o videojuego? (Horizon Zero Dawn, Hollow Knight) -> CURSIVA.
+  a) ¿Es nombre propio, marca, empresa, plataforma o elemento de interfaz de un software (pestañas, botones, menús)? -> Letra REDONDA con Mayúscula Inicial.
+  b) ¿Es una sigla? (ONU, PDF, API, ONG, QA) -> Letra REDONDA con mayúsculas y SIN 's' de plural.
+  c) ¿Es el título de una obra (libro, película, serie, álbum, videojuego, obra de arte)? (Cien años de soledad, Matrix) -> CURSIVA.
   d) ¿Es un extranjerismo ya adaptado al español según el DLE? (fútbol, escáner) -> Letra REDONDA.
   e) Si no es ninguno de los anteriores y es voz extranjera o latina no adaptada -> CURSIVA y minúscula inicial en su idioma original (Regla 1).
 
 MANUAL DE REGLAS:
 
 REGLA 1 - EXTRANJERISMOS CRUDOS Y LATINISMOS (EN SU IDIOMA ORIGINAL):
-Palabras o expresiones en cualquier lengua extranjera o latín (ej: testing, brainstorming, lore, gameplay, asset, health, stamina, quests, vox populi, a priori, déjà vu).
+Palabras o expresiones en cualquier lengua extranjera o latín (ej: testing, brainstorming, deadline, coaching, vox populi, a priori, déjà vu).
 - Escritura: En su MISMO IDIOMA ORIGINAL, en CURSIVA y con MINÚSCULA INICIAL.
 - is_italic: true.
-- recommended: La misma palabra en inglés/latín, sin traducir.
+- recommended: La misma palabra en inglés/latín/otro idioma, sin traducir.
 
 REGLA 2 - EXTRANJERISMOS ADAPTADOS:
 Términos con entrada propia adaptada en el DLE (escáner, pádel, fútbol).
 - is_italic: false (letra redonda).
 
-REGLA 3 - NOMBRES PROPIOS EXTRANJEROS:
-Personas, personajes de ficción o lugares (Aloy, Ganon, Kratos, Hyrule, Midgar).
+REGLA 3 - NOMBRES PROPIOS:
+Personas, personajes, lugares e instituciones (Cervantes, Quito, Amazonas, Universidad de Salamanca).
 - is_italic: false (letra redonda con mayúsculas oficiales). NUNCA marcar como error.
 
 REGLA 4 Y 5 - EMPRESAS, PLATAFORMAS, MARCAS Y NOMBRES COMPUESTOS:
-Nombres oficiales (PlayStation, Nintendo, Unity, C#, ZBrush, Decimation Master, Sony Interactive Entertainment).
+Nombres oficiales (Google, Microsoft Teams, Adobe Photoshop, Banco Santander).
 - is_italic: false (letra redonda con grafía oficial).
 
-REGLA 6 - SIGLAS EXTRANJERAS Y PLURALES INVARIABLES:
-Siglas (NPC, HUD, API, DLC, RPG, QA, UI).
+REGLA 6 - SIGLAS Y PLURALES INVARIABLES:
+Siglas (ONU, PDF, API, ONG, QA, UI).
 - is_italic: false (letra redonda con mayúsculas).
-- Plural invariable: En español las siglas no llevan "s" ni "'s" (los NPC, los HUD). Desglosar significado en description.
+- Plural invariable: En español las siglas no llevan "s" ni "'s" (las ONG, los PDF). Desglosar significado en description.
 
-REGLA 7 - TÍTULOS DE VIDEOJUEGOS Y OBRAS ARTÍSTICAS:
-Obras de creación, videojuegos, libros, películas, álbumes.
+REGLA 7 - TÍTULOS DE OBRAS:
+Obras de creación: libros, películas, series, álbumes, videojuegos, obras de arte.
 - is_italic: true (cursiva).
 
 REGLA 8 - TÉRMINOS GENÉRICOS EN INGLÉS DE VARIAS PALABRAS:
-Expresiones comunes de dos o más palabras (fast travel, battle royale, machine learning, cloud gaming, gameplay loop).
+Expresiones comunes de dos o más palabras (machine learning, big data, cloud computing, soft skills).
 - is_italic: true (cursiva y minúsculas).
-- recommended: La misma frase en inglés en minúsculas (ej: "fast travel"). NO traducir.
+- recommended: La misma frase en inglés en minúsculas (ej: "machine learning"). NO traducir.
 
 REGLA 10 - PREFIJOS SIN GUION:
 mini-, super-, auto-, co-, pos-, anti-, re-, ex-, multi-, extra- deben escribirse soldados a la palabra base y SIN guion (minifalda, superhéroe, expresidente).
@@ -86,14 +86,30 @@ REGLA 11 - DENOMINACIONES DE MÉTODOS:
 lean six sigma, kanban, design thinking, scrum, kaizen, poka-yoke, agile.
 - is_italic: true (cursiva y minúsculas).
 
-ELEMENTOS DE SOFTWARE Y HERRAMIENTAS:
-Inspector, Transform, Hierarchy, Tool, Brush, Geometry, SubTool.
+ELEMENTOS DE INTERFAZ DE SOFTWARE:
+Solo cuando el texto se refiera explícitamente a un programa o aplicación: nombres de pestañas, botones o menús (Archivo, Insertar, Configuración).
 - is_italic: false (letra redonda con Mayúscula Inicial).
+
+CATEGORÍAS PERMITIDAS (usa EXACTAMENTE uno de estos valores en "category"):
+- "Título de obra" (Regla 7)
+- "Nombre propio" (Regla 3)
+- "Marca / Empresa" (Reglas 4 y 5)
+- "Sigla" (Regla 6)
+- "Extranjerismo no adaptado" (Reglas 1 y 8)
+- "Latinismo" (Regla 1, expresiones en latín)
+- "Método / Metodología" (Regla 11)
+- "Herramienta / Interfaz" (elementos de interfaz de software)
+- "Ortografia" (errores ortográficos)
+- "Prefijación" (Regla 10)
+- "Gramatica / Puntuacion" (errores gramaticales o de puntuación)
+
+NO marques como hallazgo las palabras del español correctamente escritas y de uso común.
+Si el texto no tiene ningún hallazgo, devuelve {"findings": []}.
 
 ESTRUCTURA DE RESPUESTA JSON:
 Para CADA elemento detectado devuelve:
-- "text": Palabra o frase exacta del texto (ej: "testing", "brainstorming", "lore", "gameplay", "Inspector", "NPC").
-- "category": Categoría correspondiente.
+- "text": Palabra o frase exacta del texto (ej: "testing", "brainstorming", "Spotify", "ONU").
+- "category": Una de las categorías permitidas, escrita exactamente igual.
 - "rule_number": Número de regla aplicada.
 - "rule_name": Nombre de la regla.
 - "is_italic": true o false.
@@ -162,7 +178,7 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
         return []
 
     # Clave de versión renovada para invalidar respuestas con traducciones previas
-    hash_texto = hashlib.md5((texto_limpio + "_v_sin_traducir_extranjerismos_v8").encode("utf-8")).hexdigest()
+    hash_texto = hashlib.md5((texto_limpio + "_v_generico_v9").encode("utf-8")).hexdigest()
     cache = _cargar_cache()
     if hash_texto in cache:
         return cache[hash_texto]
@@ -174,7 +190,7 @@ def auditar_con_gemini(text: str) -> list[dict[str, Any]]:
     client = genai.Client(api_key=api_key)
     prompt = (
         "Audita exhaustivamente el siguiente texto aplicando las 11 reglas. "
-        "IMPORTANTE: En el campo 'recommended' de los extranjerismos crudos y términos en inglés (como testing, brainstorming, lore, gameplay), "
+        "IMPORTANTE: En el campo 'recommended' de los extranjerismos crudos y términos en inglés (como testing, brainstorming, deadline), "
         "CONSERVA LA PALABRA EN INGLÉS EN MINÚSCULA Y CURSIVA; PROHIBIDO TRADUCIRLA en 'recommended'. La traducción va únicamente en 'description':\n\n"
         f'"""\n{texto_limpio}\n"""'
     )
